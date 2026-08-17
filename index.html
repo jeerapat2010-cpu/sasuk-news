@@ -44,6 +44,31 @@
     line-height: 1.65;
   }
 
+  /* ---------- Top credit bar ---------- */
+  .topbar {
+    background: var(--ink-900);
+    color: rgba(255,255,255,0.85);
+    padding: 8px 1.5rem;
+    text-align: center;
+  }
+  .topbar-inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .topbar-inner .sep {
+    opacity: 0.4;
+  }
+  .topbar-inner strong {
+    font-weight: 600;
+    color: #fff;
+  }
+
   /* ---------- Header ---------- */
   header {
     background:
@@ -134,39 +159,56 @@
     background: var(--bg-page);
     padding: 1.1rem 0 0.9rem;
   }
+  .controls-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 14px;
+    box-shadow: 0 6px 20px rgba(36, 59, 14, 0.06);
+  }
   .search-row {
-    display: flex;
-    gap: 8px;
-    margin-bottom: 10px;
+    position: relative;
+    margin-bottom: 12px;
+  }
+  .search-row svg {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 17px;
+    stroke: var(--text-muted);
+    pointer-events: none;
   }
   #search {
-    flex: 1;
-    padding: 11px 16px;
+    width: 100%;
+    padding: 11px 16px 11px 40px;
     border-radius: 12px;
     border: 1px solid var(--border);
     font-family: inherit;
     font-size: 0.95rem;
-    background: var(--surface);
+    background: var(--bg-page);
     color: var(--text-primary);
   }
   #search:focus {
     outline: none;
     border-color: var(--green-500);
     box-shadow: 0 0 0 3px var(--green-100);
+    background: var(--surface);
   }
   .chip-row {
     display: flex;
     gap: 8px;
     overflow-x: auto;
-    padding-bottom: 4px;
+    padding-bottom: 2px;
     scrollbar-width: thin;
   }
   .chip {
     flex: none;
-    padding: 7px 14px;
+    padding: 8px 15px;
     border-radius: 999px;
     border: 1px solid var(--border);
-    background: var(--surface);
+    background: var(--bg-page);
     color: var(--text-secondary);
     font-size: 0.82rem;
     font-weight: 500;
@@ -176,8 +218,9 @@
     display: inline-flex;
     align-items: center;
     gap: 7px;
-    transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+    transition: background 0.14s ease, color 0.14s ease, border-color 0.14s ease, transform 0.1s ease;
   }
+  .chip:active { transform: scale(0.97); }
   .chip .dot {
     width: 9px;
     height: 9px;
@@ -359,6 +402,14 @@
 </head>
 <body>
 
+<div class="topbar">
+  <div class="topbar-inner">
+    <span>จัดทำโดย <strong>ภก.จีรภัทร พลายงาม</strong></span>
+    <span class="sep">·</span>
+    <span>กลุ่มงานการแพทย์แผนไทยและการแพทย์ทางเลือก สสจ.สมุทรปราการ</span>
+  </div>
+</div>
+
 <header>
   <div class="header-inner">
     <span class="eyebrow">อัปเดตอัตโนมัติทุก 4 ชั่วโมง</span>
@@ -375,11 +426,17 @@
 
 <div class="container">
   <div class="controls">
-    <div class="search-row">
-      <input type="text" id="search" placeholder="ค้นหาข่าว เช่น กัญชา, ฝังเข็ม, สปา...">
-    </div>
-    <div class="chip-row" id="chip-row">
-      <button class="chip active" data-filter="all">ทั้งหมด</button>
+    <div class="controls-card">
+      <div class="search-row">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="search" placeholder="ค้นหาข่าว เช่น กัญชา, ฝังเข็ม, สปา...">
+      </div>
+      <div class="chip-row" id="chip-row">
+        <button class="chip active" data-filter="all">ทั้งหมด</button>
+      </div>
     </div>
   </div>
 
@@ -393,7 +450,6 @@
 
 <footer>
   <div>แสดงเฉพาะหัวข้อข่าวและลิงก์กลับไปต้นทาง เพื่อเคารพลิขสิทธิ์ของสำนักข่าวเจ้าของเนื้อหา</div>
-  <div style="margin-top:6px;">จัดทำโดย ภก.จีรภัทร พลายงาม · กลุ่มงานการแพทย์แผนไทยและการแพทย์ทางเลือก สสจ.สมุทรปราการ</div>
 </footer>
 
 <script>
