@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ข่าวแพทย์แผนไทย แผนจีน สมุนไพร เวลเนส</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green-50: #EAF3DE;
+    --green-100: #C0DD97;
+    --green-200: #97C459;
+    --green-400: #639922;
+    --green-600: #3B6D11;
+    --green-800: #27500A;
+    --green-900: #173404;
+    --bg-page: #F7F8F3;
+    --surface: #FFFFFF;
+    --text-primary: #1F2A17;
+    --text-secondary: #5A6350;
+    --text-muted: #8A9280;
+    --border: #E1E6D8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    background: var(--bg-page);
+    color: var(--text-primary);
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, var(--green-800), var(--green-600));
+    color: #fff;
+    padding: 2rem 1.5rem 1.5rem;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 4px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  header p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+  #updated-at {
+    margin-top: 8px;
+    font-size: 0.8rem;
+    opacity: 0.8;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.25rem 1rem 3rem;
+  }
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 1.25rem;
+    position: sticky;
+    top: 0;
+    background: var(--bg-page);
+    padding: 12px 0;
+    z-index: 5;
+  }
+  #search {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    font-family: inherit;
+    font-size: 0.95rem;
+    background: var(--surface);
+  }
+  .chip {
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    cursor: pointer;
+    white-space: nowrap;
+    font-family: inherit;
+  }
+  .chip.active {
+    background: var(--green-600);
+    border-color: var(--green-600);
+    color: #fff;
+  }
+  #status {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 2rem 0;
+    font-size: 0.9rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 1rem;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(39, 80, 10, 0.12);
+  }
+  .card .thumb {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    background: var(--green-50);
+  }
+  .card .thumb.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--green-400);
+    font-size: 0.8rem;
+  }
+  .card-body {
+    padding: 12px 14px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+  }
+  .tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .tag {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: var(--green-50);
+    color: var(--green-800);
+    font-weight: 500;
+  }
+  .card-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+  }
+  .card-meta {
+    margin-top: auto;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+  #empty {
+    display: none;
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ข่าวแพทย์แผนไทย แผนจีน สมุนไพร เทคโนโลยีการแพทย์ เวลเนส สปา</h1>
+  <p>รวมข่าวจาก Hfocus และแหล่งข่าวต่างประเทศ อัปเดตอัตโนมัติ</p>
+  <div id="updated-at">กำลังโหลด...</div>
+</header>
+
+<div class="container">
+  <div class="controls">
+    <input type="text" id="search" placeholder="ค้นหาข่าว...">
+    <button class="chip active" data-filter="all">ทั้งหมด</button>
+  </div>
+
+  <div id="status">กำลังโหลดข่าว...</div>
+  <div class="grid" id="grid"></div>
+  <div id="empty">ไม่พบข่าวที่ตรงกับคำค้นหานี้</div>
+</div>
+
+<script>
+let allItems = [];
+let currentFilter = 'all';
+let currentSearch = '';
+
+function formatDate(dateStr) {
+  if (!dateStr) return '';
+  const d = new Date(dateStr);
+  if (isNaN(d)) return dateStr;
+  return d.toLocaleDateString('th-TH', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+function buildFilterChips(items) {
+  const categories = Array.from(new Set(items.map(i => i.category).filter(Boolean)));
+  const controls = document.querySelector('.controls');
+  categories.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'chip';
+    btn.textContent = cat;
+    btn.dataset.filter = cat;
+    btn.addEventListener('click', () => {
+      currentFilter = cat;
+      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      render();
+    });
+    controls.appendChild(btn);
+  });
+  document.querySelector('[data-filter="all"]').addEventListener('click', function() {
+    currentFilter = 'all';
+    document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+    this.classList.add('active');
+    render();
+  });
+}
+
+function render() {
+  const grid = document.getElementById('grid');
+  const empty = document.getElementById('empty');
+  grid.innerHTML = '';
+
+  let filtered = allItems;
+  if (currentFilter !== 'all') {
+    filtered = filtered.filter(i => i.category === currentFilter);
+  }
+  if (currentSearch.trim()) {
+    const q = currentSearch.trim().toLowerCase();
+    filtered = filtered.filter(i => (i.title || '').toLowerCase().includes(q));
+  }
+
+  if (filtered.length === 0) {
+    empty.style.display = 'block';
+    return;
+  }
+  empty.style.display = 'none';
+
+  filtered.forEach(item => {
+    const card = document.createElement('a');
+    card.className = 'card';
+    card.href = item.link;
+    card.target = '_blank';
+    card.rel = 'noopener noreferrer';
+
+    let thumbHtml;
+    if (item.image) {
+      thumbHtml = `<img class="thumb" src="${item.image}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;thumb placeholder&quot;>ไม่มีรูปภาพ</div>'">`;
+    } else {
+      thumbHtml = `<div class="thumb placeholder">${item.source || 'ข่าว'}</div>`;
+    }
+
+    card.innerHTML = `
+      ${thumbHtml}
+      <div class="card-body">
+        <div class="tags">
+          ${item.category ? `<span class="tag">${item.category}</span>` : ''}
+          ${item.source ? `<span class="tag">${item.source}</span>` : ''}
+        </div>
+        <p class="card-title">${item.title}</p>
+        <div class="card-meta">${formatDate(item.date)}</div>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+document.getElementById('search').addEventListener('input', (e) => {
+  currentSearch = e.target.value;
+  render();
+});
+
+fetch('news.json?t=' + Date.now())
+  .then(res => res.json())
+  .then(data => {
+    allItems = data.items || [];
+    document.getElementById('status').style.display = 'none';
+
+    if (data.updated_at) {
+      const d = new Date(data.updated_at);
+      document.getElementById('updated-at').textContent =
+        'อัปเดตล่าสุด: ' + d.toLocaleString('th-TH', { dateStyle: 'medium', timeStyle: 'short' });
+    } else {
+      document.getElementById('updated-at').textContent = 'ยังไม่มีข้อมูล รอรอบอัปเดตแรก';
+    }
+
+    if (allItems.length === 0) {
+      document.getElementById('status').style.display = 'block';
+      document.getElementById('status').textContent =
+        'ยังไม่มีข่าว — GitHub Action จะดึงข่าวรอบแรกภายในไม่กี่ชั่วโมง หรือกด Run workflow เองในแท็บ Actions';
+      return;
+    }
+
+    buildFilterChips(allItems);
+    render();
+  })
+  .catch(err => {
+    document.getElementById('status').textContent = 'โหลดข่าวไม่สำเร็จ: ' + err.message;
+  });
+</script>
+
+</body>
+</html>
