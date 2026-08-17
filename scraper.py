@@ -1,19 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-scraper.py
+scraper.py (v2)
 ดึงข่าวด้านการแพทย์แผนไทย/แผนจีน/การแพทย์ทางเลือก/สมุนไพร/เทคโนโลยีการแพทย์/เวลเนส/สปา
-จาก 2 แหล่ง:
-  1. Hfocus.org  -> scrape หน้า topics โดยตรง แล้วกรองด้วย keyword
-  2. Google News RSS -> ดึงตาม keyword query ครอบคลุมทั้งข่าวไทยและต่างประเทศ
+จาก Hfocus.org และ Google News RSS แล้วจัดหมวดหมู่ตามเนื้อหาจริง (ไม่ใช่แค่ ในประเทศ/ต่างประเทศ)
+พร้อมดึงคำโปรยสั้นๆ (summary) มาด้วยถ้ามี
 
 ผลลัพธ์ถูกรวม dedupe จัดเรียงตามวันที่ แล้วเขียนเป็น news.json
-ให้หน้า index.html เอาไปแสดงผล
-
-หมายเหตุ: สคริปต์นี้ถูกออกแบบให้รันบน GitHub Actions (มีอินเทอร์เน็ตเต็มรูปแบบ)
-ถ้ารันแล้วได้ผลลัพธ์ว่างเปล่าจากฝั่ง Hfocus ให้ตรวจสอบว่าโครงสร้าง HTML
-ของเว็บเปลี่ยนไปหรือไม่ (ดู view-source แล้วปรับ selector ในฟังก์ชัน
-parse_hfocus_topic_page ตามความเหมาะสม)
 """
 
 import json
@@ -27,10 +20,6 @@ import requests
 from bs4 import BeautifulSoup
 import feedparser
 
-# -----------------------------------------------------------------------
-# ตั้งค่า
-# -----------------------------------------------------------------------
-
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (compatible; SasukNewsBot/1.0; "
@@ -38,10 +27,9 @@ HEADERS = {
     )
 }
 
-REQUEST_DELAY_SEC = 2  # หน่วงเวลาระหว่าง request แต่ละครั้ง เพื่อไม่ยิงถี่เกินไป
+REQUEST_DELAY_SEC = 2
 REQUEST_TIMEOUT = 15
 
-# หน้า topics ของ Hfocus ที่จะ scrape (หน้าไหนมีข่าวเยอะก็ยิ่งดี)
 HFOCUS_BASE = "https://www.hfocus.org"
 HFOCUS_TOPIC_PAGES = [
     ("/topics/%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A7", "ข่าว"),
@@ -50,28 +38,53 @@ HFOCUS_TOPIC_PAGES = [
     ("/community", "ชุมชนสุขภาพ"),
 ]
 
-# keyword ที่ใช้กรองข่าวจาก Hfocus (ต้องเจอคำใดคำหนึ่งในหัวข้อข่าว)
-KEYWORDS_TH = [
-    "แพทย์แผนไทย", "การแพทย์แผนไทย", "แผนไทย",
-    "แพทย์แผนจีน", "แผนจีน", "ฝังเข็ม",
-    "การแพทย์ทางเลือก", "แพทย์ทางเลือก",
-    "สมุนไพร", "กัญชา", "กัญชง",
-    "นวดไทย", "นวดแผนไทย",
-    "เวลเนส", "wellness",
-    "สปา", "spa",
-    "เทคโนโลยีทางการแพทย์", "เทคโนโลยีการแพทย์", "เมดเทค", "medtech",
-    "GACP", "GMP", "GDP สมุนไพร",
+# ---------------------------------------------------------------------
+# หมวดหมู่ย่อย (เรียงลำดับความสำคัญ — เฉพาะเจาะจงก่อน ทั่วไปทีหลัง)
+# ---------------------------------------------------------------------
+CATEGORY_RULES = [
+    ("ฝังเข็ม", [
+        "ฝังเข็ม", "acupuncture",
+    ]),
+    ("แพทย์แผนจีน", [
+        "แพทย์แผนจีน", "แผนจีน", "traditional chinese medicine", " tcm ", "tcm,", "tcm.",
+    ]),
+    ("นวดไทย", [
+        "นวดไทย", "นวดแผนไทย", "นวดแผนโบราณ",
+    ]),
+    ("แพทย์แผนไทย", [
+        "แพทย์แผนไทย", "การแพทย์แผนไทย", "แผนไทย", "หมอพื้นบ้าน",
+    ]),
+    ("กัญชา / กัญชง", [
+        "กัญชา", "กัญชง", "cannabis",
+    ]),
+    ("สมุนไพร", [
+        "สมุนไพร", "herbal", "พืชสมุนไพร", "gacp", "gmp สมุนไพร",
+    ]),
+    ("สปา", [
+        "สปา", "spa",
+    ]),
+    ("เวลเนส", [
+        "เวลเนส", "wellness", "ท่องเที่ยวเชิงสุขภาพ",
+    ]),
+    ("เทคโนโลยีการแพทย์", [
+        "เทคโนโลยีทางการแพทย์", "เทคโนโลยีการแพทย์", "เมดเทค", "medtech",
+        "integrative medicine", "การแพทย์บูรณาการ", "ai การแพทย์",
+    ]),
+    ("การแพทย์ทางเลือกอื่นๆ", [
+        "การแพทย์ทางเลือก", "แพทย์ทางเลือก",
+    ]),
 ]
 
-# คำค้นสำหรับ Google News RSS (ครอบคลุมทั้งไทยและต่างประเทศ)
+KEYWORDS_TH = [kw for _, kws in CATEGORY_RULES for kw in kws]
+
 GOOGLE_NEWS_QUERIES = [
-    # ภาษาไทย
     ("แพทย์แผนไทย", "th", "TH"),
+    ("นวดแผนไทย", "th", "TH"),
     ("สมุนไพรไทย", "th", "TH"),
-    ("แพทย์แผนจีน ฝังเข็ม", "th", "TH"),
+    ("แพทย์แผนจีน", "th", "TH"),
+    ("ฝังเข็ม รักษาโรค", "th", "TH"),
     ("กัญชาทางการแพทย์", "th", "TH"),
-    ("เวลเนส สปา ไทย", "th", "TH"),
-    # ภาษาอังกฤษ / ต่างประเทศ
+    ("สปา เวลเนส ไทย", "th", "TH"),
     ("traditional Chinese medicine research", "en", "US"),
     ("herbal medicine wellness industry", "en", "US"),
     ("acupuncture clinical study", "en", "US"),
@@ -83,13 +96,35 @@ OUTPUT_FILE = "news.json"
 MAX_ITEMS_PER_SOURCE = 15
 MAX_TOTAL_ITEMS = 150
 
+TAG_RE = re.compile(r"<[^>]+>")
 
-# -----------------------------------------------------------------------
+
+def clean_html(text):
+    if not text:
+        return ""
+    text = TAG_RE.sub("", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def categorize(title):
+    """คืนชื่อหมวดหมู่แรกที่ตรงกับ keyword ในหัวข้อข่าว"""
+    title_lower = title.lower()
+    for category_name, keywords in CATEGORY_RULES:
+        for kw in keywords:
+            if kw.lower().strip() in title_lower:
+                return category_name
+    return "ข่าวสุขภาพทั่วไป"
+
+
+def region_of(lang):
+    return "ต่างประเทศ" if lang == "en" else "ในประเทศ"
+
+
+# ---------------------------------------------------------------------
 # Hfocus scraper
-# -----------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
-def parse_hfocus_topic_page(path, category_label):
-    """ดึงและ parse ข่าวจากหน้า topic หนึ่งหน้าของ Hfocus"""
+def parse_hfocus_topic_page(path, topic_label):
     url = urljoin(HFOCUS_BASE, path)
     items = []
     try:
@@ -100,8 +135,6 @@ def parse_hfocus_topic_page(path, category_label):
         return items
 
     soup = BeautifulSoup(resp.text, "html.parser")
-
-    # การ์ดข่าวของ Hfocus เป็นลิงก์ไปที่ /content/YYYY/MM/NNNNN
     content_link_pattern = re.compile(r"^/content/\d{4}/\d{2}/\d+")
 
     seen_hrefs = set()
@@ -114,21 +147,14 @@ def parse_hfocus_topic_page(path, category_label):
 
         title_text = a_tag.get_text(strip=True)
         if not title_text:
-            # ลิงก์นี้อาจเป็นลิงก์รูปภาพ (ไม่มี text) ข้ามไป
             continue
 
         seen_hrefs.add(href)
-
         full_url = urljoin(HFOCUS_BASE, href)
 
-        # หาวันที่แบบคร่าวๆ จาก path (/content/YYYY/MM/...)
         date_match = re.search(r"/content/(\d{4})/(\d{2})/", href)
-        if date_match:
-            approx_date = f"{date_match.group(1)}-{date_match.group(2)}-01"
-        else:
-            approx_date = None
+        approx_date = f"{date_match.group(1)}-{date_match.group(2)}-01" if date_match else None
 
-        # พยายามหารูปภาพที่อยู่ใกล้ๆ ลิงก์นี้ (การ์ดเดียวกัน)
         image_url = None
         parent = a_tag.find_parent()
         if parent:
@@ -140,8 +166,11 @@ def parse_hfocus_topic_page(path, category_label):
             "title": title_text,
             "link": full_url,
             "source": "Hfocus",
-            "category": category_label,
+            "category": categorize(title_text),
+            "region": "ในประเทศ",
+            "topic_page": topic_label,
             "image": image_url,
+            "summary": "",
             "date": approx_date,
             "id": hashlib.md5(full_url.encode("utf-8")).hexdigest(),
         })
@@ -150,11 +179,10 @@ def parse_hfocus_topic_page(path, category_label):
 
 
 def filter_by_keywords(items, keywords):
-    """กรองเฉพาะข่าวที่หัวข้อมี keyword ที่สนใจ"""
     filtered = []
     for item in items:
         title_lower = item["title"].lower()
-        if any(kw.lower() in title_lower for kw in keywords):
+        if any(kw.lower().strip() in title_lower for kw in keywords):
             filtered.append(item)
     return filtered
 
@@ -173,12 +201,11 @@ def fetch_hfocus_news():
     return relevant
 
 
-# -----------------------------------------------------------------------
+# ---------------------------------------------------------------------
 # Google News RSS
-# -----------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 def fetch_google_news_rss(query, lang="th", country="TH"):
-    """ดึงข่าวจาก Google News RSS ตาม query ที่กำหนด"""
     encoded_query = quote(query)
     url = (
         f"https://news.google.com/rss/search?q={encoded_query}"
@@ -198,10 +225,10 @@ def fetch_google_news_rss(query, lang="th", country="TH"):
             continue
 
         published = entry.get("published_parsed")
-        if published:
-            date_str = datetime.datetime(*published[:6]).strftime("%Y-%m-%d")
-        else:
-            date_str = None
+        date_str = (
+            datetime.datetime(*published[:6]).strftime("%Y-%m-%d")
+            if published else None
+        )
 
         source_title = None
         if "source" in entry and hasattr(entry.source, "get"):
@@ -209,12 +236,21 @@ def fetch_google_news_rss(query, lang="th", country="TH"):
         elif "source" in entry:
             source_title = getattr(entry.source, "title", None)
 
+        summary_raw = entry.get("summary", "")
+        summary = clean_html(summary_raw)
+        # ตัด summary ให้สั้นกระชับ
+        if len(summary) > 140:
+            summary = summary[:140].rsplit(" ", 1)[0] + "…"
+
         items.append({
             "title": title,
             "link": link,
             "source": source_title or "Google News",
-            "category": "ต่างประเทศ" if lang == "en" else "ในประเทศ",
+            "category": categorize(title),
+            "region": region_of(lang),
+            "topic_page": None,
             "image": None,
+            "summary": summary,
             "date": date_str,
             "id": hashlib.md5(link.encode("utf-8")).hexdigest(),
         })
@@ -233,9 +269,9 @@ def fetch_all_google_news():
     return all_items
 
 
-# -----------------------------------------------------------------------
-# รวมผล / dedupe / เรียงลำดับ
-# -----------------------------------------------------------------------
+# ---------------------------------------------------------------------
+# รวมผล / dedupe / เรียงลำดับ / สถิติ
+# ---------------------------------------------------------------------
 
 def merge_and_dedupe(*item_lists):
     merged = {}
@@ -250,14 +286,16 @@ def merge_and_dedupe(*item_lists):
 def sort_and_trim(items, max_total=MAX_TOTAL_ITEMS):
     def sort_key(item):
         return item.get("date") or "0000-00-00"
-
-    items_sorted = sorted(items, key=sort_key, reverse=True)
-    return items_sorted[:max_total]
+    return sorted(items, key=sort_key, reverse=True)[:max_total]
 
 
-# -----------------------------------------------------------------------
-# main
-# -----------------------------------------------------------------------
+def build_category_counts(items):
+    counts = {}
+    for item in items:
+        cat = item.get("category", "ข่าวสุขภาพทั่วไป")
+        counts[cat] = counts.get(cat, 0) + 1
+    return counts
+
 
 def main():
     print("=== เริ่มดึงข่าว สาสุข TTM/เวลเนส ===")
@@ -268,9 +306,14 @@ def main():
     merged = merge_and_dedupe(hfocus_items, google_items)
     final_items = sort_and_trim(merged)
 
+    sources = sorted(set(i["source"] for i in final_items))
+
     output = {
         "updated_at": datetime.datetime.utcnow().isoformat() + "Z",
         "total_items": len(final_items),
+        "source_count": len(sources),
+        "sources": sources,
+        "category_counts": build_category_counts(final_items),
         "items": final_items,
     }
 

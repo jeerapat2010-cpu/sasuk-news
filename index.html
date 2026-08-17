@@ -173,7 +173,16 @@
     cursor: pointer;
     white-space: nowrap;
     font-family: inherit;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
     transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+  }
+  .chip .dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    flex: none;
   }
   .chip .count {
     opacity: 0.6;
@@ -207,6 +216,7 @@
   .card {
     background: var(--surface);
     border: 1px solid var(--border);
+    border-top: 4px solid var(--border);
     border-radius: 16px;
     overflow: hidden;
     display: flex;
@@ -287,10 +297,11 @@
   }
   .tag {
     font-size: 0.68rem;
-    padding: 3px 10px;
+    padding: 4px 11px;
     border-radius: 999px;
-    font-weight: 600;
-    letter-spacing: 0.01em;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+    color: #fff;
   }
   .card-title {
     font-size: 0.98rem;
@@ -381,17 +392,21 @@ let currentFilter = 'all';
 let currentSearch = '';
 
 const CATEGORY_COLORS = {
-  'แพทย์แผนจีน / ฝังเข็ม':   { bg: 'var(--plum-100)',  fg: 'var(--plum-600)' },
-  'แพทย์แผนไทย / นวดไทย':   { bg: 'var(--green-100)', fg: 'var(--green-700)' },
-  'สมุนไพร / กัญชา':         { bg: 'var(--amber-100)', fg: 'var(--amber-600)' },
-  'เวลเนส / สปา':            { bg: 'var(--teal-100)',  fg: 'var(--teal-600)' },
-  'เทคโนโลยีการแพทย์':       { bg: '#DCE6F5',          fg: '#2A5599' },
-  'การแพทย์ทางเลือก':        { bg: 'var(--slate-100)', fg: 'var(--slate-600)' },
-  'ข่าวสุขภาพทั่วไป':        { bg: 'var(--slate-100)', fg: 'var(--slate-600)' },
+  'ฝังเข็ม':                 { solid: '#0891B2', bg: '#E0F7FA', fg: '#0891B2' },
+  'แพทย์แผนจีน':             { solid: '#E11D48', bg: '#FFE4E9', fg: '#BE123C' },
+  'นวดไทย':                  { solid: '#0D9488', bg: '#D9F5F0', fg: '#0D9488' },
+  'แพทย์แผนไทย':             { solid: '#059669', bg: '#D6F5E7', fg: '#047857' },
+  'กัญชา / กัญชง':           { solid: '#65A30D', bg: '#EAF6D3', fg: '#4D7C0F' },
+  'สมุนไพร':                 { solid: '#D97706', bg: '#FDECD0', fg: '#B45309' },
+  'สปา':                     { solid: '#DB2777', bg: '#FCE1EE', fg: '#BE185D' },
+  'เวลเนส':                  { solid: '#7C3AED', bg: '#EDE3FC', fg: '#6D28D9' },
+  'เทคโนโลยีการแพทย์':       { solid: '#2563EB', bg: '#DCE7FD', fg: '#1D4ED8' },
+  'การแพทย์ทางเลือกอื่นๆ':   { solid: '#4F46E5', bg: '#E1DFFB', fg: '#4338CA' },
+  'ข่าวสุขภาพทั่วไป':        { solid: '#64748B', bg: '#E7EAEE', fg: '#475569' },
 };
 
 function catColor(cat) {
-  return CATEGORY_COLORS[cat] || { bg: 'var(--slate-100)', fg: 'var(--slate-600)' };
+  return CATEGORY_COLORS[cat] || { solid: '#64748B', bg: '#E7EAEE', fg: '#475569' };
 }
 
 function formatDate(dateStr) {
@@ -414,11 +429,19 @@ function buildFilterChips(items, categoryCounts) {
     const btn = document.createElement('button');
     btn.className = 'chip';
     btn.dataset.filter = cat;
-    btn.innerHTML = `${cat}<span class="count">${categoryCounts[cat]}</span>`;
+    const dotColor = catColor(cat).solid;
+    btn.style.borderColor = dotColor + '55';
+    btn.innerHTML = `<span class="dot" style="background:${dotColor};"></span>${cat}<span class="count">${categoryCounts[cat]}</span>`;
     btn.addEventListener('click', () => {
       currentFilter = cat;
-      document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+      document.querySelectorAll('.chip').forEach(c => {
+        c.classList.remove('active');
+        c.style.background = '';
+        c.style.color = '';
+      });
       btn.classList.add('active');
+      btn.style.background = dotColor;
+      btn.style.color = '#fff';
       render();
     });
     row.appendChild(btn);
@@ -426,7 +449,11 @@ function buildFilterChips(items, categoryCounts) {
 
   document.querySelector('[data-filter="all"]').addEventListener('click', function () {
     currentFilter = 'all';
-    document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+    document.querySelectorAll('.chip').forEach(c => {
+      c.classList.remove('active');
+      c.style.background = '';
+      c.style.color = '';
+    });
     this.classList.add('active');
     render();
   });
@@ -459,7 +486,7 @@ function cardHtml(item) {
     ${thumbHtml}
     <div class="card-body">
       <div class="tags">
-        <span class="tag" style="background:${colors.bg}; color:${colors.fg};">${item.category}</span>
+        <span class="tag" style="background:${colors.solid};">${item.category}</span>
       </div>
       <p class="card-title">${item.title}</p>
       ${summaryHtml}
@@ -509,6 +536,7 @@ function render() {
     card.href = item.link;
     card.target = '_blank';
     card.rel = 'noopener noreferrer';
+    card.style.borderTopColor = catColor(item.category).solid;
     card.innerHTML = cardHtml(item);
     grid.appendChild(card);
   });
