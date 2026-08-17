@@ -9,135 +9,275 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --green-50: #EAF3DE;
-    --green-100: #C0DD97;
-    --green-200: #97C459;
-    --green-400: #639922;
-    --green-600: #3B6D11;
-    --green-800: #27500A;
-    --green-900: #173404;
-    --bg-page: #F7F8F3;
+    --ink-900: #14210C;
+    --ink-700: #2B3A20;
+    --green-50:  #EEF4E4;
+    --green-100: #D7E6BE;
+    --green-200: #B7D488;
+    --green-300: #93BF5A;
+    --green-500: #5E8F2C;
+    --green-600: #47701F;
+    --green-700: #345516;
+    --green-800: #243B0E;
+    --amber-100: #FBEAD0;
+    --amber-600: #B06A12;
+    --teal-100: #DCEFE9;
+    --teal-600: #1E7A63;
+    --plum-100: #EFE0EC;
+    --plum-600: #8A3E76;
+    --slate-100: #E7EAE0;
+    --slate-600: #5B6350;
+    --bg-page: #F6F7F1;
     --surface: #FFFFFF;
-    --text-primary: #1F2A17;
-    --text-secondary: #5A6350;
-    --text-muted: #8A9280;
-    --border: #E1E6D8;
+    --text-primary: var(--ink-900);
+    --text-secondary: #52604A;
+    --text-muted: #8B9480;
+    --border: #E3E7D9;
   }
   * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
   body {
     margin: 0;
     font-family: 'IBM Plex Sans Thai', sans-serif;
     background: var(--bg-page);
     color: var(--text-primary);
-    line-height: 1.6;
+    line-height: 1.65;
   }
+
+  /* ---------- Header ---------- */
   header {
-    background: linear-gradient(135deg, var(--green-800), var(--green-600));
+    background:
+      radial-gradient(1200px 400px at 15% -10%, rgba(255,255,255,0.10), transparent),
+      linear-gradient(135deg, var(--green-800), var(--green-600));
     color: #fff;
-    padding: 2rem 1.5rem 1.5rem;
+    padding: 2.75rem 1.5rem 2.25rem;
+  }
+  .header-inner {
+    max-width: 1080px;
+    margin: 0 auto;
     text-align: center;
   }
-  header h1 {
-    margin: 0 0 4px;
-    font-size: 1.5rem;
-    font-weight: 600;
+  .eyebrow {
+    display: inline-block;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    background: rgba(255,255,255,0.16);
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin-bottom: 14px;
+    font-weight: 500;
   }
-  header p {
-    margin: 0;
-    font-size: 0.9rem;
-    opacity: 0.9;
+  header h1 {
+    margin: 0 0 8px;
+    font-size: clamp(1.35rem, 3vw, 1.9rem);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+  header p.subtitle {
+    margin: 0 auto;
+    max-width: 640px;
+    font-size: 0.95rem;
+    opacity: 0.88;
+  }
+
+  /* stat bar */
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 1.75rem;
+    flex-wrap: wrap;
+  }
+  .stat {
+    text-align: center;
+  }
+  .stat .num {
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: block;
+    line-height: 1.1;
+  }
+  .stat .label {
+    font-size: 0.72rem;
+    opacity: 0.8;
+    letter-spacing: 0.03em;
   }
   #updated-at {
-    margin-top: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 1.1rem;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.14);
     font-size: 0.8rem;
-    opacity: 0.8;
+    font-weight: 500;
   }
+  #updated-at .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #8FE388;
+    box-shadow: 0 0 0 3px rgba(143,227,136,0.25);
+  }
+
+  /* ---------- Controls ---------- */
   .container {
-    max-width: 960px;
+    max-width: 1080px;
     margin: 0 auto;
-    padding: 1.25rem 1rem 3rem;
+    padding: 0 1.25rem 3.5rem;
   }
   .controls {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 1.25rem;
     position: sticky;
     top: 0;
-    background: var(--bg-page);
-    padding: 12px 0;
     z-index: 5;
+    background: var(--bg-page);
+    padding: 1.1rem 0 0.9rem;
+  }
+  .search-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
   }
   #search {
     flex: 1;
-    min-width: 200px;
-    padding: 10px 14px;
-    border-radius: 10px;
+    padding: 11px 16px;
+    border-radius: 12px;
     border: 1px solid var(--border);
     font-family: inherit;
     font-size: 0.95rem;
     background: var(--surface);
+    color: var(--text-primary);
+  }
+  #search:focus {
+    outline: none;
+    border-color: var(--green-500);
+    box-shadow: 0 0 0 3px var(--green-100);
+  }
+  .chip-row {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scrollbar-width: thin;
   }
   .chip {
-    padding: 8px 14px;
+    flex: none;
+    padding: 7px 14px;
     border-radius: 999px;
     border: 1px solid var(--border);
     background: var(--surface);
     color: var(--text-secondary);
-    font-size: 0.85rem;
+    font-size: 0.82rem;
+    font-weight: 500;
     cursor: pointer;
     white-space: nowrap;
     font-family: inherit;
+    transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+  }
+  .chip .count {
+    opacity: 0.6;
+    font-weight: 400;
+    margin-left: 3px;
+  }
+  .chip:hover {
+    border-color: var(--green-300);
   }
   .chip.active {
-    background: var(--green-600);
-    border-color: var(--green-600);
+    background: var(--green-700);
+    border-color: var(--green-700);
     color: #fff;
   }
+  .chip.active .count { opacity: 0.85; }
+
   #status {
     text-align: center;
     color: var(--text-muted);
-    padding: 2rem 0;
+    padding: 3rem 0;
     font-size: 0.9rem;
   }
+
+  /* ---------- Grid / Cards ---------- */
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.1rem;
+    margin-top: 0.5rem;
   }
   .card {
     background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 14px;
+    border-radius: 16px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     text-decoration: none;
     color: inherit;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
   }
   .card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(39, 80, 10, 0.12);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 28px rgba(36, 59, 14, 0.14);
+    border-color: var(--green-200);
   }
-  .card .thumb {
+  .card .thumb-wrap {
+    position: relative;
     width: 100%;
-    height: 150px;
-    object-fit: cover;
-    background: var(--green-50);
+    height: 148px;
+    background: linear-gradient(135deg, var(--green-100), var(--green-50));
+    overflow: hidden;
   }
-  .card .thumb.placeholder {
+  .card .thumb-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .card .thumb-fallback {
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--green-400);
-    font-size: 0.8rem;
+    flex-direction: column;
+    gap: 4px;
   }
+  .source-badge {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--green-700);
+  }
+  .thumb-fallback .src-name {
+    font-size: 0.72rem;
+    color: var(--green-700);
+    font-weight: 500;
+    opacity: 0.85;
+  }
+  .region-flag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 3px 9px;
+    border-radius: 999px;
+    background: rgba(20, 33, 12, 0.55);
+    color: #fff;
+    backdrop-filter: blur(2px);
+  }
+
   .card-body {
-    padding: 12px 14px 14px;
+    padding: 14px 16px 16px;
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 8px;
     flex: 1;
   }
   .tags {
@@ -146,28 +286,52 @@
     flex-wrap: wrap;
   }
   .tag {
-    font-size: 0.7rem;
-    padding: 2px 8px;
+    font-size: 0.68rem;
+    padding: 3px 10px;
     border-radius: 999px;
-    background: var(--green-50);
-    color: var(--green-800);
-    font-weight: 500;
+    font-weight: 600;
+    letter-spacing: 0.01em;
   }
   .card-title {
-    font-size: 0.95rem;
+    font-size: 0.98rem;
     font-weight: 600;
     color: var(--text-primary);
     margin: 0;
+    line-height: 1.45;
+  }
+  .card-summary {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: 1.55;
   }
   .card-meta {
     margin-top: auto;
-    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.74rem;
     color: var(--text-muted);
+    padding-top: 6px;
+    border-top: 1px solid var(--border);
   }
+  .card-meta .src {
+    font-weight: 500;
+    color: var(--text-secondary);
+  }
+
   #empty {
     display: none;
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 3.5rem 1rem;
+    color: var(--text-muted);
+  }
+  #empty .big { font-size: 1.4rem; margin-bottom: 6px; }
+
+  footer {
+    text-align: center;
+    padding: 2rem 1rem 2.5rem;
+    font-size: 0.78rem;
     color: var(--text-muted);
   }
 </style>
@@ -175,26 +339,60 @@
 <body>
 
 <header>
-  <h1>ข่าวแพทย์แผนไทย แผนจีน สมุนไพร เทคโนโลยีการแพทย์ เวลเนส สปา</h1>
-  <p>รวมข่าวจาก Hfocus และแหล่งข่าวต่างประเทศ อัปเดตอัตโนมัติ</p>
-  <div id="updated-at">กำลังโหลด...</div>
+  <div class="header-inner">
+    <span class="eyebrow">อัปเดตอัตโนมัติทุก 4 ชั่วโมง</span>
+    <h1>ข่าวแพทย์แผนไทย แผนจีน สมุนไพร เทคโนโลยีการแพทย์ เวลเนส สปา</h1>
+    <p class="subtitle">รวมข่าวจาก Hfocus และแหล่งข่าวต่างประเทศ จัดหมวดหมู่ให้อัตโนมัติ ค้นหาและกรองได้ตามความสนใจ</p>
+    <div class="stats">
+      <div class="stat"><span class="num" id="stat-total">–</span><span class="label">ข่าวทั้งหมด</span></div>
+      <div class="stat"><span class="num" id="stat-sources">–</span><span class="label">แหล่งข่าว</span></div>
+      <div class="stat"><span class="num" id="stat-categories">–</span><span class="label">หมวดหมู่</span></div>
+    </div>
+    <div id="updated-at"><span class="dot"></span><span id="updated-at-text">กำลังโหลด...</span></div>
+  </div>
 </header>
 
 <div class="container">
   <div class="controls">
-    <input type="text" id="search" placeholder="ค้นหาข่าว...">
-    <button class="chip active" data-filter="all">ทั้งหมด</button>
+    <div class="search-row">
+      <input type="text" id="search" placeholder="ค้นหาข่าว เช่น กัญชา, ฝังเข็ม, สปา...">
+    </div>
+    <div class="chip-row" id="chip-row">
+      <button class="chip active" data-filter="all">ทั้งหมด</button>
+    </div>
   </div>
 
   <div id="status">กำลังโหลดข่าว...</div>
   <div class="grid" id="grid"></div>
-  <div id="empty">ไม่พบข่าวที่ตรงกับคำค้นหานี้</div>
+  <div id="empty">
+    <div class="big">ไม่พบข่าวที่ตรงกับคำค้นหานี้</div>
+    <div>ลองเปลี่ยนคำค้นหาหรือเลือกหมวดหมู่อื่นดูนะคะ</div>
+  </div>
 </div>
+
+<footer>
+  <div>แสดงเฉพาะหัวข้อข่าวและลิงก์กลับไปต้นทาง เพื่อเคารพลิขสิทธิ์ของสำนักข่าวเจ้าของเนื้อหา</div>
+  <div style="margin-top:6px;">จัดทำโดย ภก.จีรภัทร พลายงาม · กลุ่มงานการแพทย์แผนไทยและการแพทย์ทางเลือก สสจ.สมุทรปราการ</div>
+</footer>
 
 <script>
 let allItems = [];
 let currentFilter = 'all';
 let currentSearch = '';
+
+const CATEGORY_COLORS = {
+  'แพทย์แผนจีน / ฝังเข็ม':   { bg: 'var(--plum-100)',  fg: 'var(--plum-600)' },
+  'แพทย์แผนไทย / นวดไทย':   { bg: 'var(--green-100)', fg: 'var(--green-700)' },
+  'สมุนไพร / กัญชา':         { bg: 'var(--amber-100)', fg: 'var(--amber-600)' },
+  'เวลเนส / สปา':            { bg: 'var(--teal-100)',  fg: 'var(--teal-600)' },
+  'เทคโนโลยีการแพทย์':       { bg: '#DCE6F5',          fg: '#2A5599' },
+  'การแพทย์ทางเลือก':        { bg: 'var(--slate-100)', fg: 'var(--slate-600)' },
+  'ข่าวสุขภาพทั่วไป':        { bg: 'var(--slate-100)', fg: 'var(--slate-600)' },
+};
+
+function catColor(cat) {
+  return CATEGORY_COLORS[cat] || { bg: 'var(--slate-100)', fg: 'var(--slate-600)' };
+}
 
 function formatDate(dateStr) {
   if (!dateStr) return '';
@@ -203,28 +401,83 @@ function formatDate(dateStr) {
   return d.toLocaleDateString('th-TH', { year: 'numeric', month: 'short', day: 'numeric' });
 }
 
-function buildFilterChips(items) {
-  const categories = Array.from(new Set(items.map(i => i.category).filter(Boolean)));
-  const controls = document.querySelector('.controls');
+function initial(str) {
+  if (!str) return '?';
+  return str.trim().charAt(0).toUpperCase();
+}
+
+function buildFilterChips(items, categoryCounts) {
+  const row = document.getElementById('chip-row');
+  const categories = Object.keys(categoryCounts).sort((a, b) => categoryCounts[b] - categoryCounts[a]);
+
   categories.forEach(cat => {
     const btn = document.createElement('button');
     btn.className = 'chip';
-    btn.textContent = cat;
     btn.dataset.filter = cat;
+    btn.innerHTML = `${cat}<span class="count">${categoryCounts[cat]}</span>`;
     btn.addEventListener('click', () => {
       currentFilter = cat;
       document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
       btn.classList.add('active');
       render();
     });
-    controls.appendChild(btn);
+    row.appendChild(btn);
   });
-  document.querySelector('[data-filter="all"]').addEventListener('click', function() {
+
+  document.querySelector('[data-filter="all"]').addEventListener('click', function () {
     currentFilter = 'all';
     document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
     this.classList.add('active');
     render();
   });
+}
+
+function cardHtml(item) {
+  const colors = catColor(item.category);
+
+  let thumbHtml;
+  if (item.image) {
+    thumbHtml = `
+      <div class="thumb-wrap">
+        <img src="${item.image}" alt="" loading="lazy"
+             onerror="this.parentElement.innerHTML = ${JSON.stringify(fallbackThumbHtml(item))}">
+        <span class="region-flag">${item.region || ''}</span>
+      </div>`;
+  } else {
+    thumbHtml = `
+      <div class="thumb-wrap">
+        ${fallbackThumbHtml(item)}
+        <span class="region-flag">${item.region || ''}</span>
+      </div>`;
+  }
+
+  const summaryHtml = item.summary
+    ? `<p class="card-summary">${item.summary}</p>`
+    : '';
+
+  return `
+    ${thumbHtml}
+    <div class="card-body">
+      <div class="tags">
+        <span class="tag" style="background:${colors.bg}; color:${colors.fg};">${item.category}</span>
+      </div>
+      <p class="card-title">${item.title}</p>
+      ${summaryHtml}
+      <div class="card-meta">
+        <span class="src">${item.source || ''}</span>
+        <span>${formatDate(item.date)}</span>
+      </div>
+    </div>
+  `;
+}
+
+function fallbackThumbHtml(item) {
+  return `
+    <div class="thumb-fallback">
+      <div class="source-badge">${initial(item.source)}</div>
+      <span class="src-name">${item.source || 'ข่าว'}</span>
+    </div>
+  `;
 }
 
 function render() {
@@ -238,7 +491,10 @@ function render() {
   }
   if (currentSearch.trim()) {
     const q = currentSearch.trim().toLowerCase();
-    filtered = filtered.filter(i => (i.title || '').toLowerCase().includes(q));
+    filtered = filtered.filter(i =>
+      (i.title || '').toLowerCase().includes(q) ||
+      (i.summary || '').toLowerCase().includes(q)
+    );
   }
 
   if (filtered.length === 0) {
@@ -253,25 +509,7 @@ function render() {
     card.href = item.link;
     card.target = '_blank';
     card.rel = 'noopener noreferrer';
-
-    let thumbHtml;
-    if (item.image) {
-      thumbHtml = `<img class="thumb" src="${item.image}" alt="" loading="lazy" onerror="this.outerHTML='<div class=&quot;thumb placeholder&quot;>ไม่มีรูปภาพ</div>'">`;
-    } else {
-      thumbHtml = `<div class="thumb placeholder">${item.source || 'ข่าว'}</div>`;
-    }
-
-    card.innerHTML = `
-      ${thumbHtml}
-      <div class="card-body">
-        <div class="tags">
-          ${item.category ? `<span class="tag">${item.category}</span>` : ''}
-          ${item.source ? `<span class="tag">${item.source}</span>` : ''}
-        </div>
-        <p class="card-title">${item.title}</p>
-        <div class="card-meta">${formatDate(item.date)}</div>
-      </div>
-    `;
+    card.innerHTML = cardHtml(item);
     grid.appendChild(card);
   });
 }
@@ -289,11 +527,16 @@ fetch('news.json?t=' + Date.now())
 
     if (data.updated_at) {
       const d = new Date(data.updated_at);
-      document.getElementById('updated-at').textContent =
-        'อัปเดตล่าสุด: ' + d.toLocaleString('th-TH', { dateStyle: 'medium', timeStyle: 'short' });
+      document.getElementById('updated-at-text').textContent =
+        'อัปเดตล่าสุด ' + d.toLocaleString('th-TH', { dateStyle: 'medium', timeStyle: 'short' }) + ' น. · ระบบอัปเดตอัตโนมัติทุก 4 ชั่วโมง';
     } else {
-      document.getElementById('updated-at').textContent = 'ยังไม่มีข้อมูล รอรอบอัปเดตแรก';
+      document.getElementById('updated-at-text').textContent = 'ยังไม่มีข้อมูล รอรอบอัปเดตแรก';
     }
+
+    const categoryCounts = data.category_counts || {};
+    document.getElementById('stat-total').textContent = data.total_items ?? allItems.length;
+    document.getElementById('stat-sources').textContent = data.source_count ?? new Set(allItems.map(i => i.source)).size;
+    document.getElementById('stat-categories').textContent = Object.keys(categoryCounts).length || new Set(allItems.map(i => i.category)).size;
 
     if (allItems.length === 0) {
       document.getElementById('status').style.display = 'block';
@@ -302,7 +545,7 @@ fetch('news.json?t=' + Date.now())
       return;
     }
 
-    buildFilterChips(allItems);
+    buildFilterChips(allItems, categoryCounts);
     render();
   })
   .catch(err => {
