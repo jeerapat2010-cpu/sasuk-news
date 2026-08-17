@@ -96,6 +96,15 @@ OUTPUT_FILE = "news.json"
 MAX_ITEMS_PER_SOURCE = 15
 MAX_TOTAL_ITEMS = 150
 
+# ---------------------------------------------------------------------
+# ดึงภาพประกอบจริงจากบทความ — เฉพาะข่าวใน N วันล่าสุด และจำกัดจำนวนครั้ง
+# เพื่อไม่ให้ scraper ใช้เวลานานเกินไปหรือโหลดเว็บต้นทางหนักเกินจำเป็น
+# ---------------------------------------------------------------------
+RECENT_IMAGE_DAYS = 7
+MAX_IMAGE_FETCHES = 40
+OG_IMAGE_TIMEOUT = 6
+IMAGE_FETCH_DELAY_SEC = 0.4
+
 TAG_RE = re.compile(r"<[^>]+>")
 
 
@@ -118,6 +127,63 @@ def categorize(title):
 
 def region_of(lang):
     return "ต่างประเทศ" if lang == "en" else "ในประเทศ"
+
+
+def is_recent(date_str, days=RECENT_IMAGE_DAYS):
+    """เช็คว่าข่าวนี้อยู่ในช่วง N วันล่าสุดไหม (ใช้ตัดสินใจว่าจะดึงภาพจริงหรือไม่)"""
+    if not date_str:
+        return False
+    try:
+        d = datetime.datetime.strptime(date_str, "%Y-%m-%d").date()
+    except ValueError:
+        return False
+    cutoff = datetime.date.today() - datetime.timedelta(days=days)
+    return d >= cutoff
+
+
+def fetch_og_image(url):
+    """ดึงภาพปก (og:image / twitter:image) จากหน้าบทความจริง คืนค่า None ถ้าดึงไม่ได้"""
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=OG_IMAGE_TIMEOUT, allow_redirects=True)
+        resp.raise_for_status()
+    except requests.RequestException:
+        return None
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    for attrs in (
+        {"property": "og:image"},
+        {"name": "og:image"},
+        {"property": "twitter:image"},
+        {"name": "twitter:image"},
+    ):
+        tag = soup.find("meta", attrs=attrs)
+        if tag and tag.get("content"):
+            return tag["content"]
+    return None
+
+
+def enrich_recent_items_with_images(items):
+    """ดึงภาพจริงให้เฉพาะข่าวใน RECENT_IMAGE_DAYS วันล่าสุดที่ยังไม่มีรูป
+    จำกัดจำนวนครั้งด้วย MAX_IMAGE_FETCHES เพื่อคุมเวลารันและโหลดของเว็บต้นทาง"""
+    fetched = 0
+    success = 0
+    for item in items:
+        if fetched >= MAX_IMAGE_FETCHES:
+            break
+        if item.get("image"):
+            continue
+        if not is_recent(item.get("date")):
+            continue
+
+        fetched += 1
+        img = fetch_og_image(item["link"])
+        if img:
+            item["image"] = img
+            success += 1
+        time.sleep(IMAGE_FETCH_DELAY_SEC)
+
+    print(f"[image] ลองดึงภาพประกอบ {fetched} ข่าว (เฉพาะ {RECENT_IMAGE_DAYS} วันล่าสุด) สำเร็จ {success} ข่าว")
+    return items
 
 
 # ---------------------------------------------------------------------
@@ -305,6 +371,8 @@ def main():
 
     merged = merge_and_dedupe(hfocus_items, google_items)
     final_items = sort_and_trim(merged)
+
+    final_items = enrich_recent_items_with_images(final_items)
 
     sources = sorted(set(i["source"] for i in final_items))
 
