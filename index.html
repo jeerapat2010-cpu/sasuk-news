@@ -263,6 +263,16 @@
     font-weight: 700;
     font-size: 1.05rem;
     color: var(--green-700);
+    overflow: hidden;
+  }
+  .source-badge.favicon-badge {
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(36, 59, 14, 0.12);
+  }
+  .source-badge img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
   }
   .thumb-fallback .src-name {
     font-size: 0.72rem;
@@ -498,10 +508,31 @@ function cardHtml(item) {
   `;
 }
 
+function faviconUrl(link) {
+  try {
+    const host = new URL(link).hostname;
+    return `https://www.google.com/s2/favicons?domain=${host}&sz=128`;
+  } catch (e) {
+    return null;
+  }
+}
+
 function fallbackThumbHtml(item) {
-  return `
+  const favicon = faviconUrl(item.link);
+  const letterCircle = `
     <div class="thumb-fallback">
       <div class="source-badge">${initial(item.source)}</div>
+      <span class="src-name">${item.source || 'ข่าว'}</span>
+    </div>
+  `;
+  if (!favicon) return letterCircle;
+
+  return `
+    <div class="thumb-fallback">
+      <div class="source-badge favicon-badge">
+        <img src="${favicon}" alt=""
+             onerror="this.parentElement.outerHTML = ${JSON.stringify('<div class=\\"source-badge\\">' + initial(item.source) + '</div>')}">
+      </div>
       <span class="src-name">${item.source || 'ข่าว'}</span>
     </div>
   `;
