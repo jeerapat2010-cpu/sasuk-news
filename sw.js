@@ -1,7 +1,5 @@
-const CACHE_NAME = "sasuk-news-shell-v1";
+const CACHE_NAME = "sasuk-news-shell-v2";
 const SHELL_FILES = [
-  "./",
-  "./index.html",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
@@ -30,13 +28,17 @@ self.addEventListener("activate", (event) => {
 });
 
 // กลยุทธ์ fetch:
-// - news.json: พยายามดึงข้อมูลใหม่จากเน็ตก่อนเสมอ (network-first) เพื่อให้ข่าวสดใหม่
-//   ถ้าออฟไลน์ ค่อย fallback ไปใช้ข้อมูลที่ cache ไว้ล่าสุด
-// - ไฟล์อื่นๆ (shell): ใช้ cache-first เพื่อความเร็ว
+// - หน้าเว็บหลัก (index.html / navigation) และ news.json: network-first เสมอ
+//   เพื่อให้พี่จีเห็นเวอร์ชันล่าสุดทันทีที่อัปเดตไฟล์บน GitHub ไม่ค้าง cache เก่า
+//   ถ้าออฟไลน์ค่อย fallback ไปใช้ที่ cache ไว้ล่าสุด
+// - ไฟล์อื่นๆ ที่แทบไม่เปลี่ยน (ไอคอน, manifest): cache-first เพื่อความเร็ว
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
+  const isNavigation =
+    event.request.mode === "navigate" || url.pathname.endsWith("index.html");
+  const isNewsJson = url.pathname.endsWith("news.json");
 
-  if (url.pathname.endsWith("news.json")) {
+  if (isNavigation || isNewsJson) {
     event.respondWith(
       fetch(event.request)
         .then((response) => {

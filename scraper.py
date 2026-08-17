@@ -184,7 +184,10 @@ def fetch_og_image(url):
 
 
 def enrich_recent_items_with_images(items):
-    """ดึงภาพจริงให้เฉพาะข่าวใน RECENT_IMAGE_DAYS วันล่าสุดที่ยังไม่มีรูป
+    """ดึงภาพจริงให้เฉพาะข่าวจาก Hfocus ที่ยังไม่มีรูป และอยู่ใน RECENT_IMAGE_DAYS วันล่าสุด
+    (ไม่ทำกับข่าวจาก Google News เพราะลิงก์เป็นหน้า redirect ของ Google เอง
+    ดึงรูปมาแล้วมักได้รูปทั่วไปของ Google ซ้ำๆ กันทุกข่าว ไม่ใช่รูปข่าวจริง
+    ข่าวจาก Google News จึงใช้โลโก้เว็บต้นทาง (favicon) แทน ซึ่งแม่นยำกว่า)
     จำกัดจำนวนครั้งด้วย MAX_IMAGE_FETCHES เพื่อคุมเวลารันและโหลดของเว็บต้นทาง"""
     fetched = 0
     success = 0
@@ -192,6 +195,9 @@ def enrich_recent_items_with_images(items):
         if fetched >= MAX_IMAGE_FETCHES:
             break
         if item.get("image"):
+            continue
+        if item.get("topic_page") is None:
+            # ข่าวจาก Google News (ไม่ใช่ Hfocus) — ข้าม ใช้ favicon แทน
             continue
         if not is_recent(item):
             continue
@@ -203,7 +209,7 @@ def enrich_recent_items_with_images(items):
             success += 1
         time.sleep(IMAGE_FETCH_DELAY_SEC)
 
-    print(f"[image] ลองดึงภาพประกอบ {fetched} ข่าว (เฉพาะ {RECENT_IMAGE_DAYS} วันล่าสุด) สำเร็จ {success} ข่าว")
+    print(f"[image] ลองดึงภาพประกอบ {fetched} ข่าว (เฉพาะ Hfocus, {RECENT_IMAGE_DAYS} วันล่าสุด) สำเร็จ {success} ข่าว")
     return items
 
 
