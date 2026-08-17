@@ -7,6 +7,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#345516">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="สาสุข TTM">
 <style>
   :root {
     --ink-900: #14210C;
@@ -144,6 +151,106 @@
     border-radius: 50%;
     background: #8FE388;
     box-shadow: 0 0 0 3px rgba(143,227,136,0.25);
+  }
+
+  /* ---------- Install button ---------- */
+  .install-btn {
+    display: none;
+    margin: 1rem auto 0;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    border: none;
+    background: #fff;
+    color: var(--green-800);
+    font-family: inherit;
+    font-size: 0.86rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+    transition: transform 0.12s ease;
+  }
+  .install-btn:hover { transform: translateY(-1px); }
+  .install-btn:active { transform: scale(0.97); }
+  .install-btn.show { display: inline-flex; }
+  .install-btn svg { width: 17px; height: 17px; stroke: var(--green-800); }
+
+  /* ---------- iOS install instructions overlay ---------- */
+  .ios-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(20, 33, 12, 0.55);
+    z-index: 50;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .ios-overlay.show {
+    display: flex;
+  }
+  .ios-sheet {
+    background: var(--surface);
+    width: 100%;
+    max-width: 440px;
+    border-radius: 20px 20px 0 0;
+    padding: 1.5rem 1.5rem 2rem;
+    animation: slideUp 0.22s ease;
+  }
+  @media (min-width: 520px) {
+    .ios-overlay { align-items: center; }
+    .ios-sheet { border-radius: 20px; }
+  }
+  @keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  .ios-sheet h3 {
+    margin: 0 0 4px;
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+  .ios-sheet p.desc {
+    margin: 0 0 1.1rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+  }
+  .ios-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .ios-step {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    font-size: 0.88rem;
+  }
+  .ios-step .n {
+    flex: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--green-100);
+    color: var(--green-800);
+    font-weight: 700;
+    font-size: 0.78rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ios-close {
+    margin-top: 1.4rem;
+    width: 100%;
+    padding: 11px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: var(--bg-page);
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    cursor: pointer;
   }
 
   /* ---------- Controls ---------- */
@@ -421,8 +528,38 @@
       <div class="stat"><span class="num" id="stat-categories">–</span><span class="label">หมวดหมู่</span></div>
     </div>
     <div id="updated-at"><span class="dot"></span><span id="updated-at-text">กำลังโหลด...</span></div>
+    <button class="install-btn" id="install-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 3v12"></path>
+        <path d="M7 10l5 5 5-5"></path>
+        <path d="M5 21h14"></path>
+      </svg>
+      ติดตั้งเป็นแอป
+    </button>
   </div>
 </header>
+
+<div class="ios-overlay" id="ios-overlay">
+  <div class="ios-sheet">
+    <h3>ติดตั้งแอปบน iPhone / iPad</h3>
+    <p class="desc">เพิ่มไอคอนไว้ที่หน้าจอโฮม เปิดใช้งานได้เหมือนแอปทั่วไป ไม่ต้องเปิดเบราว์เซอร์ค้นหาใหม่ทุกครั้ง</p>
+    <div class="ios-steps">
+      <div class="ios-step">
+        <span class="n">1</span>
+        <span>แตะปุ่ม <strong>แชร์ (Share)</strong> ที่แถบด้านล่างของ Safari (ไอคอนสี่เหลี่ยมมีลูกศรชี้ขึ้น)</span>
+      </div>
+      <div class="ios-step">
+        <span class="n">2</span>
+        <span>เลื่อนลงแล้วเลือก <strong>"เพิ่มไปยังหน้าจอโฮม" (Add to Home Screen)</strong></span>
+      </div>
+      <div class="ios-step">
+        <span class="n">3</span>
+        <span>แตะ <strong>"เพิ่ม" (Add)</strong> มุมขวาบน เสร็จแล้วจะมีไอคอนแอปอยู่ที่หน้าจอโฮมทันที</span>
+      </div>
+    </div>
+    <button class="ios-close" id="ios-close">เข้าใจแล้ว</button>
+  </div>
+</div>
 
 <div class="container">
   <div class="controls">
@@ -456,6 +593,62 @@
 let allItems = [];
 let currentFilter = 'all';
 let currentSearch = '';
+
+// ---------- PWA: install button ----------
+const installBtn = document.getElementById('install-btn');
+const iosOverlay = document.getElementById('ios-overlay');
+const iosClose = document.getElementById('ios-close');
+
+function isStandalone() {
+  return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+}
+
+function isIOS() {
+  const ua = navigator.userAgent;
+  const isIPhoneIPad = /iPad|iPhone|iPod/.test(ua);
+  const isIPadOS13Up = navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1;
+  return isIPhoneIPad || isIPadOS13Up;
+}
+
+let deferredInstallPrompt = null;
+
+if (!isStandalone()) {
+  if (isIOS()) {
+    installBtn.classList.add('show');
+    installBtn.addEventListener('click', () => {
+      iosOverlay.classList.add('show');
+    });
+    iosClose.addEventListener('click', () => {
+      iosOverlay.classList.remove('show');
+    });
+    iosOverlay.addEventListener('click', (e) => {
+      if (e.target === iosOverlay) iosOverlay.classList.remove('show');
+    });
+  } else {
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredInstallPrompt = e;
+      installBtn.classList.add('show');
+    });
+    installBtn.addEventListener('click', async () => {
+      if (!deferredInstallPrompt) return;
+      deferredInstallPrompt.prompt();
+      await deferredInstallPrompt.userChoice;
+      deferredInstallPrompt = null;
+      installBtn.classList.remove('show');
+    });
+    window.addEventListener('appinstalled', () => {
+      installBtn.classList.remove('show');
+    });
+  }
+}
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(() => {});
+  });
+}
+
 
 const CATEGORY_COLORS = {
   'ฝังเข็ม':                 { solid: '#0891B2', bg: '#E0F7FA', fg: '#0891B2' },
