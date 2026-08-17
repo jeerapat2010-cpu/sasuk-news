@@ -415,15 +415,6 @@
     color: var(--green-700);
     overflow: hidden;
   }
-  .source-badge.favicon-badge {
-    background: #fff;
-    box-shadow: 0 2px 6px rgba(36, 59, 14, 0.12);
-  }
-  .source-badge img {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-  }
   .thumb-fallback .src-name {
     font-size: 0.72rem;
     color: var(--green-700);
@@ -720,22 +711,25 @@ function buildFilterChips(items, categoryCounts) {
 
 function cardHtml(item) {
   const colors = catColor(item.category);
+  const hasImage = Boolean(item.image);
 
-  let thumbHtml;
-  if (item.image) {
-    thumbHtml = `
-      <div class="thumb-wrap">
-        <img src="${item.image}" alt="" loading="lazy"
-             onerror="this.parentElement.innerHTML = ${JSON.stringify(fallbackThumbHtml(item))}">
-        <span class="region-flag">${item.region || ''}</span>
-      </div>`;
-  } else {
-    thumbHtml = `
-      <div class="thumb-wrap">
-        ${fallbackThumbHtml(item)}
-        <span class="region-flag">${item.region || ''}</span>
-      </div>`;
-  }
+  const imgHtml = hasImage
+    ? `<img class="thumb-img" src="${item.image}" alt="" loading="lazy"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">`
+    : '';
+
+  const fallbackHtml = `
+    <div class="thumb-fallback" style="display:${hasImage ? 'none' : 'flex'};">
+      <div class="source-badge">${initial(item.source)}</div>
+      <span class="src-name">${item.source || 'ข่าว'}</span>
+    </div>`;
+
+  const thumbHtml = `
+    <div class="thumb-wrap">
+      ${imgHtml}
+      ${fallbackHtml}
+      <span class="region-flag">${item.region || ''}</span>
+    </div>`;
 
   const summaryHtml = item.summary
     ? `<p class="card-summary">${item.summary}</p>`
@@ -753,36 +747,6 @@ function cardHtml(item) {
         <span class="src">${item.source || ''}</span>
         <span>${formatDate(item.date)}</span>
       </div>
-    </div>
-  `;
-}
-
-function faviconUrl(link) {
-  try {
-    const host = new URL(link).hostname;
-    return `https://www.google.com/s2/favicons?domain=${host}&sz=128`;
-  } catch (e) {
-    return null;
-  }
-}
-
-function fallbackThumbHtml(item) {
-  const favicon = faviconUrl(item.link);
-  const letterCircle = `
-    <div class="thumb-fallback">
-      <div class="source-badge">${initial(item.source)}</div>
-      <span class="src-name">${item.source || 'ข่าว'}</span>
-    </div>
-  `;
-  if (!favicon) return letterCircle;
-
-  return `
-    <div class="thumb-fallback">
-      <div class="source-badge favicon-badge">
-        <img src="${favicon}" alt=""
-             onerror="this.parentElement.outerHTML = ${JSON.stringify('<div class=\\"source-badge\\">' + initial(item.source) + '</div>')}">
-      </div>
-      <span class="src-name">${item.source || 'ข่าว'}</span>
     </div>
   `;
 }
