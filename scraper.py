@@ -129,8 +129,14 @@ def region_of(lang):
     return "ต่างประเทศ" if lang == "en" else "ในประเทศ"
 
 
-def is_recent(date_str, days=RECENT_IMAGE_DAYS):
+def is_recent(item, days=RECENT_IMAGE_DAYS):
     """เช็คว่าข่าวนี้อยู่ในช่วง N วันล่าสุดไหม (ใช้ตัดสินใจว่าจะดึงภาพจริงหรือไม่)"""
+    if item.get("source") == "Hfocus":
+        # หน้า topic ของ Hfocus แสดงเฉพาะข่าวล่าสุดอยู่แล้ว และเรารู้แค่ปี-เดือน
+        # (ไม่รู้วันที่จริงจาก URL) จึงถือว่าทุกข่าวที่ scrape มาจาก Hfocus เป็นข่าวใหม่เสมอ
+        return True
+
+    date_str = item.get("date")
     if not date_str:
         return False
     try:
@@ -150,6 +156,21 @@ def fetch_og_image(url):
         return None
 
     soup = BeautifulSoup(resp.text, "html.parser")
+
+    # บางลิงก์จาก Google News ยังค้างอยู่ที่หน้า redirect ของ Google เอง
+    # (ไม่ใช่ HTTP redirect ปกติ แต่เป็น meta refresh) ลองตามลิงก์จริงอีกหนึ่งชั้น
+    if "news.google.com" in resp.url:
+        refresh_tag = soup.find("meta", attrs={"http-equiv": re.compile("refresh", re.I)})
+        if refresh_tag and refresh_tag.get("content"):
+            match = re.search(r"url=['\"]?([^'\">]+)", refresh_tag["content"], re.I)
+            if match:
+                try:
+                    resp2 = requests.get(match.group(1), headers=HEADERS, timeout=OG_IMAGE_TIMEOUT, allow_redirects=True)
+                    resp2.raise_for_status()
+                    soup = BeautifulSoup(resp2.text, "html.parser")
+                except requests.RequestException:
+                    pass
+
     for attrs in (
         {"property": "og:image"},
         {"name": "og:image"},
@@ -172,7 +193,7 @@ def enrich_recent_items_with_images(items):
             break
         if item.get("image"):
             continue
-        if not is_recent(item.get("date")):
+        if not is_recent(item):
             continue
 
         fetched += 1
