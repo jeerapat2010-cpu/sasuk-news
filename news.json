@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-28T03:13:22.485733Z",
+  "updated_at": "2026-08-28T10:24:53.949325Z",
   "total_items": 150,
-  "source_count": 92,
+  "source_count": 93,
   "sources": [
     "2 Minute Medicine",
     "9News",
@@ -9,15 +9,13 @@
     "Athletech News",
     "BBC",
     "BeautyMatter",
-    "British Pharmacological Society | Journals",
     "Ch7.com",
-    "Condé Nast Traveler",
     "Cosmetics Business",
     "Coursera",
     "Docwire News",
+    "EIN Presswire",
     "EMJ",
     "EurekAlert!",
-    "Euronews.com",
     "Fact.MR",
     "Forbes",
     "Fortune Business Insights",
@@ -42,6 +40,7 @@
     "Nature",
     "News India Times",
     "News-Medical",
+    "News1Live",
     "Newswise",
     "Nomad Lawyer",
     "Oncodaily",
@@ -53,14 +52,14 @@
     "Sage Journals",
     "Sanook",
     "Science Partner Journals",
-    "Science | AAAS",
     "ScienceAlert",
     "South China Morning Post",
+    "THE BETTER",
     "TNN Thailand",
     "Thai PBS",
     "ThaiPR.NET",
-    "Thaigov",
-    "Thairath",
+    "Thaiger",
+    "Thairath.co.th",
     "The Costa Rica News",
     "The Guardian",
     "The Spectator Australia",
@@ -77,8 +76,10 @@
     "facebook.com",
     "komchadluek",
     "posttoday",
+    "science.org",
     "spabusiness.com",
     "thailandplus",
+    "thaitv5hd.com",
     "thansettakij",
     "thecoverage.info",
     "thepeople",
@@ -86,29 +87,41 @@
     "topnews.co.th",
     "webintravel.com",
     "workpointtoday.com",
-    "ข่าวสด",
     "ผู้จัดการออนไลน์",
     "ภูมิใจ ไทย",
     "มหาวิทยาลัยธรรมศาสตร์",
     "มิติหุ้น",
     "สำนักสารนิเทศ สำนักงานปลัดกระทรวงสาธารณสุข",
     "เดลินิวส์",
+    "เว็บไซต์รัฐบาลไทย",
     "แนวหน้า",
     "ไทยโพสต์"
   ],
   "category_counts": {
-    "เวลเนส": 21,
-    "แพทย์แผนไทย": 16,
+    "นวดไทย": 19,
+    "เวลเนส": 20,
+    "แพทย์แผนไทย": 17,
     "สมุนไพร": 17,
-    "นวดไทย": 18,
-    "สปา": 8,
-    "แพทย์แผนจีน": 25,
-    "ข่าวสุขภาพทั่วไป": 17,
+    "ข่าวสุขภาพทั่วไป": 19,
+    "สปา": 6,
+    "แพทย์แผนจีน": 24,
     "กัญชา / กัญชง": 12,
     "ฝังเข็ม": 15,
     "เทคโนโลยีการแพทย์": 1
   },
   "items": [
+    {
+      "title": "กมธ.การศาสนา สั่งสกัดคลิปนำเสนอ \"นวดแผนไทย\" เชิงค้าประเวณี หวั่นเสียภาพลักษณ์ - Thaiger",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwbTJxUi01b2lOeVhUQkEyLXhMakExYTdzQ0l0VkJMSnMyclItSzM5MFJuZWpZUGFqNzZCZ1VBeWlxd2JBODlkLWNyZVRQRHlU?oc=5",
+      "source": "Thaiger",
+      "category": "นวดไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "กมธ.การศาสนา สั่งสกัดคลิปนำเสนอ \"นวดแผนไทย\" เชิงค้าประเวณี หวั่นเสียภาพลักษณ์&nbsp;&nbsp;Thaiger",
+      "date": "2026-08-28",
+      "id": "2bd651eed2daf05477647bd6cf5ee8cf"
+    },
     {
       "title": "เจาะขุมทรัพย์ WELLNESS ECONOMY ชิงเค้ก 9.75 ล้านล้านดอลลาร์ ดันไทยฮับสุขภาพโลก - thansettakij",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QcGswb2xsSUlRSWN5bUFjT2NkQ1dGVFBOTnZXdUkzcUhYWkNPSnlJVlkwdEtHV3pRRFU3N1Zab016OF80VU1UaGtzUDVwMUhHbzVkbV93U0ZJS2dMSXZrSk13?oc=5",
@@ -206,6 +219,30 @@
       "id": "17ef5ab86c893e1dae6f4c9a08e9de30"
     },
     {
+      "title": "\"หงส์ไทย\" ชวนเยาวชนค่ายคิดดี กราบพ่อแม่ ส่งต่อความกตัญญู - topnews.co.th",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82cTdhZW1ORE5PSF9tUXRRMllDRk5qaWp6R2tRVEVNTV9jclQ0bmI1cEZXNGZiQXo1LVIzRTgwb0I1NnVkbDZzNE5vNGdGX2M?oc=5",
+      "source": "topnews.co.th",
+      "category": "ข่าวสุขภาพทั่วไป",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "\"หงส์ไทย\" ชวนเยาวชนค่ายคิดดี กราบพ่อแม่ ส่งต่อความกตัญญู&nbsp;&nbsp;topnews.co.th",
+      "date": "2026-08-26",
+      "id": "225f60c23e906e8d778fe57491e10f1b"
+    },
+    {
+      "title": "การอนุรักษ์วิธีการรักษาที่มีคุณค่าในทางการแพทย์แผนโบราณ - Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQlBxRmt2cXZ3MC10dS1DaGh5ekp2MzNtdmM4WENIUmowV2RsNEdUbVFvZWIxbGdMbnZjdHlLSWxnZzYzUG1EczhJUlNKY0QzbXVKZ0lCcmI5ZnctUjR5dVlaTkdUNVcwZjBpZVBnRHpPQUJDY281cnotai15SXN1Tw?oc=5",
+      "source": "Vietnam.vn",
+      "category": "ข่าวสุขภาพทั่วไป",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "การอนุรักษ์วิธีการรักษาที่มีคุณค่าในทางการแพทย์แผนโบราณ&nbsp;&nbsp;Vietnam.vn",
+      "date": "2026-08-26",
+      "id": "e6b2ca8ca32dd319e3ea2c36c99dd80d"
+    },
+    {
       "title": "โอซิมขยายตลาดโฮมเวลเนส เปิดตัวเก้าอี้นวด ‘uDream.AI’ ดึงเอไอวิเคราะห์สุขภาพเจาะกลุ่มคนเมือง - thereporters.co",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5BNFpBVEVKYTU2LVlhbThHNFJ1TlFjYV9QeHVpVUZEaGFqV3FJalZUZXhEaGxOZ1NfU3o1WDRiRnNRb3FianBld3dqSDZLbENWZFJlX2xIVmZjVjl0?oc=5",
       "source": "thereporters.co",
@@ -230,18 +267,6 @@
       "id": "237f6a9617ffcb2183e1f3a8d6f53c76"
     },
     {
-      "title": "เจาะลึก “4 โพธิ์” นวดไทยอัตลักษณ์ 4 ภาค ชูจุดขาย 5 สัมผัส ที่ไม่ได้แค่คลายเมื่อย - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSLXljM3lCWHhmaFA0T1l3dVlJMHVvUjBGd2o5aHZLOUlEYkd0d2p1bzlxVUhLWE5YNjRocmtHNV9sT092amdEZk1ObXVyMHkxM2FGTm8tSQ?oc=5",
-      "source": "Hfocus.org",
-      "category": "นวดไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "เจาะลึก “4 โพธิ์” นวดไทยอัตลักษณ์ 4 ภาค ชูจุดขาย 5 สัมผัส ที่ไม่ได้แค่คลายเมื่อย&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-08-25",
-      "id": "3690bafb1890f7ad875a2d5968ae01c1"
-    },
-    {
       "title": "เมื่อ Wellness ไม่ได้อยู่แค่ในสปาอีกต่อไป OSIM อ่านเกม Home Wellness ส่ง uDream.AI รุกตลาด Premium Self-care จาก Massage Chair สู่ Personalized Home Wellness - workpointtoday.com",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FeGJXWmo3MTNUWGNheGNrcl9yMzc0LWhjMmxUaFZlaTRrNklKOTAyOTRHNXZaQmNyRUtCV3JFWE5qRDduNzJnSDE4TmdZaGk2OTdsN2dxTlpPSk5IYXRsTkdwenZKTG9kVWc?oc=5",
       "source": "workpointtoday.com",
@@ -252,6 +277,18 @@
       "summary": "เมื่อ Wellness ไม่ได้อยู่แค่ในสปาอีกต่อไป OSIM อ่านเกม Home Wellness ส่ง uDream.AI รุกตลาด Premium Self-care จาก Massage Chair สู่…",
       "date": "2026-08-25",
       "id": "4dac298e94763e1afa81cb0c761fbcaa"
+    },
+    {
+      "title": "เจาะลึก “4 โพธิ์” นวดไทยอัตลักษณ์ 4 ภาค ชูจุดขาย 5 สัมผัส ที่ไม่ได้แค่คลายเมื่อย - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSLXljM3lCWHhmaFA0T1l3dVlJMHVvUjBGd2o5aHZLOUlEYkd0d2p1bzlxVUhLWE5YNjRocmtHNV9sT092amdEZk1ObXVyMHkxM2FGTm8tSQ?oc=5",
+      "source": "Hfocus.org",
+      "category": "นวดไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "เจาะลึก “4 โพธิ์” นวดไทยอัตลักษณ์ 4 ภาค ชูจุดขาย 5 สัมผัส ที่ไม่ได้แค่คลายเมื่อย&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-08-25",
+      "id": "3690bafb1890f7ad875a2d5968ae01c1"
     },
     {
       "title": "พลิกเกมรับ Home Wellness 'OSIM' ผสาน AI ศาสตร์นวด ยึดตลาดพรีเมียม - thansettakij",
@@ -326,30 +363,6 @@
       "id": "7ed26510a54b414fc70935b866fc44a7"
     },
     {
-      "title": "\"หงส์ไทย\" ร่วมเวที InterCare Asia 2026 ถ่ายทอดมุมมอง \"Thai Wellness Branding\" เปลี่ยนภูมิปัญญาไทย สู่แบรนด์ระดับสากล - topnews.co.th",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51ZDU1Wk5QeDgzY3pNSmZTX2ppblpubE4wTGYzZkRBNndJclVfTUxILTRaZVJIZlVYcWdVWk9rdTBvOWQzNldxamw0d3hNZ2s?oc=5",
-      "source": "topnews.co.th",
-      "category": "เวลเนส",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "\"หงส์ไทย\" ร่วมเวที InterCare Asia 2026 ถ่ายทอดมุมมอง \"Thai Wellness Branding\" เปลี่ยนภูมิปัญญาไทย…",
-      "date": "2026-08-24",
-      "id": "ef3a1609bcc64962df7a0f1de494e408"
-    },
-    {
-      "title": "Resinous traditional Chinese medicine for cancer treatment: Mechanisms and therapeutic potential - British Pharmacological Society | Journals",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5zbXBEWkhLcEZieXd3dVhCdnZLN3Ata0pBTGtVa0loUDRZYW1McGplY0d0VkZTSklneHlTMTFBN1pqY3lxeno4eUNkbXU4eVQtZkUyTWxPdmQ1Vk8wWGcyUnFqbTBScjBKcS1zc1Fn?oc=5",
-      "source": "British Pharmacological Society | Journals",
-      "category": "แพทย์แผนจีน",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Resinous traditional Chinese medicine for cancer treatment: Mechanisms and therapeutic potential&nbsp;&nbsp;British Pharmacological Society…",
-      "date": "2026-08-24",
-      "id": "e5d4297dcf7359b2eb1e37d0c5ebd06e"
-    },
-    {
       "title": "สธ.รับมอบที่ดิน 92 ไร่ที่สุพรรณฯ สร้าง ‘ศูนย์กลางการแพทย์แผนไทยฯ’ ดันเป็นต้นแบบ ‘ฮับสมุนไพร’ - thecoverage.info",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFbVpQMDVmeGh1SW9LSHlham9NbHJndHI5Z3N0ME40aHBLVmxTNmFmTk1BNGtMT1FCMS1zc2lJaGVoT295WVN3bHdsNnR5b29DTERfaVRiM1NhelE?oc=5",
       "source": "thecoverage.info",
@@ -372,6 +385,18 @@
       "summary": "นาโนเทค จับมือ กรมการแพทย์แผนไทยฯ นำ นาโนเทคโนโลยี ยกระดับสมุนไพรไทยสู่ยาแผนไทยมาตรฐานสากล&nbsp;&nbsp;TNN Thailand",
       "date": "2026-08-23",
       "id": "1e047d55f3e246cb8a801a09d1cc8a74"
+    },
+    {
+      "title": "คณะแพทย์แผนไทยวัดคีรีวงก์ เปิดให้คำปรึกษาศาสตร์แพทย์แผนไทยกลางกรุง 26-30 ส.ค.นี้ - THE BETTER",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzTExJeUhuMXRLbG9kejM4NGZvYXptanBYWmFDd1VLYjhEbVR1dWNfQTJtdmd4dGY5Tk5ZTUs4TEpFbjdaaThyS2ZEMXJiWHRWT295MlJ3clhrUQ?oc=5",
+      "source": "THE BETTER",
+      "category": "แพทย์แผนไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "คณะแพทย์แผนไทยวัดคีรีวงก์ เปิดให้คำปรึกษาศาสตร์แพทย์แผนไทยกลางกรุง 26-30 ส.ค.นี้&nbsp;&nbsp;THE BETTER",
+      "date": "2026-08-23",
+      "id": "5adcbb99dec7775206275653929fc8b2"
     },
     {
       "title": "มหกรรมนวดไทยฯ2569 เงินสะพัดในงานกว่า 75 ล้าน เตรียมจัด GWS 2026 ภูเก็ต - Hfocus.org",
@@ -444,6 +469,18 @@
       "summary": "News1. . ปรับพฤติกรรมสุขภาพด้วยสมุนไพรไทย 22/08/69 #อ.ปานเทพ #สุขภาพ #สมุนไพรไทย #ปรับพฤติกรรม&nbsp;&nbsp;facebook.com",
       "date": "2026-08-22",
       "id": "2be791a831e41835592b1e99a624f3da"
+    },
+    {
+      "title": "ปรับพฤติกรรมสุขภาพด้วยสมุนไพรไทย 22/08/69 #อ.ปานเทพ #สุขภาพ #สมุนไพรไทย #ปรับพฤติกรรม - News1Live",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE41UHFTRzZGVlhtSU5vb0Y4V0RfY0pOeFBDb1RiSTdpWFFFNjFCaHViT05IcWRxN2JDUmtJa0tXclRoY0tnUFFWTlpDRGtKWWw1?oc=5",
+      "source": "News1Live",
+      "category": "สมุนไพร",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "ปรับพฤติกรรมสุขภาพด้วยสมุนไพรไทย 22/08/69 #อ.ปานเทพ #สุขภาพ #สมุนไพรไทย #ปรับพฤติกรรม&nbsp;&nbsp;News1Live",
+      "date": "2026-08-22",
+      "id": "3425a5fbafc723925611da3266bbf6ea"
     },
     {
       "title": "สถาบันการแพทย์แผนโบราณแห่งเวียดนามได้เข้าร่วมโครงการฝึกอบรมด้านการแพทย์แผนโบราณในมณฑลไห่หนาน ประเทศจีน - Vietnam.vn",
@@ -542,18 +579,6 @@
       "id": "0cde91f9786f393bc37c0adba9e5345d"
     },
     {
-      "title": "“Let’s Relax” สปาไทยในตลาดหลักทรัพย์ฯ ที่ยึด Starbucks และ “ ปลา iberry ” เป็นไอดอล - Marketeer Online",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1aakljeHVYZF82cVExUW1iZnFycXBWZDB4bWlTOUtYUTR0T3lVaGNicFBkVlBRV3dnSTAwQ253V3lmNUtSOWpvU0FzR2gzaFZHNmhOZA?oc=5",
-      "source": "Marketeer Online",
-      "category": "สปา",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "“Let’s Relax” สปาไทยในตลาดหลักทรัพย์ฯ ที่ยึด Starbucks และ “ ปลา iberry ” เป็นไอดอล&nbsp;&nbsp;Marketeer Online",
-      "date": "2026-08-21",
-      "id": "0647eda8a6efadea661a473aa2094103"
-    },
-    {
       "title": "Can traditional medicines go mainstream? - Nature",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rMk9BZHpyUkN5SlA5UjFOZi1pcm12dHhfXzVyTGp6NXVQUGZtY1pJWUxnUWE3cmozU1Q5bkMzSGg1cldDUDlfaldTejlPYkktcTdXbWRPTlpvalVtbngw?oc=5",
       "source": "Nature",
@@ -600,18 +625,6 @@
       "summary": "ONSENS จ่อเข้า SET ยกระดับธุรกิจสู่ Social Wellness Space&nbsp;&nbsp;Marketeer Online",
       "date": "2026-08-20",
       "id": "213f9f06de3de79b428740df84d9e35e"
-    },
-    {
-      "title": "ONSENS คว้า 2 รางวัลใหญ่ งาน Thailand Medical and Wellness Expo 2026 รับเทรนด์ดูแลสุขภาพเชิงป้องกันโตแรง - Marketeer Online",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ya216bGZodE1CeENwZFlSYThHdHBFeXVIanc4b2VlV3N4YVBLQUN5NFVScUhyMllkUjYxaFNDNUc2SmhWcEFxZ2oxekpaSlBPWnBleA?oc=5",
-      "source": "Marketeer Online",
-      "category": "เวลเนส",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ONSENS คว้า 2 รางวัลใหญ่ งาน Thailand Medical and Wellness Expo 2026 รับเทรนด์ดูแลสุขภาพเชิงป้องกันโตแรง&nbsp;&nbsp;Marketeer Online",
-      "date": "2026-08-20",
-      "id": "ac5613ec04d94f4c96fb2a381a434dd7"
     },
     {
       "title": "กรมการแพทย์แผนไทยฯ จัดพิธีบวงสรวง ประดิษฐานพระรูป “หมอพร-หมอคง” - Hfocus.org",
@@ -722,16 +735,16 @@
       "id": "c711fc259d242e9024d15ca40b482755"
     },
     {
-      "title": "ครั้งแรกของประเทศ สธ. เตรียมจัดใหญ่ “มหกรรมนวดไทยและเวลเนสแห่งชาติ 2569” 20 สิงหาคม นี้ - ข่าวสด",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CdzlGR1dpSy1fUldoNGlPQTFEeE1GRFhkTElNWHMzQ2xfNi14N0h1N25jQlQ1Zl9vSUQtblhScnppeS05TFJQSTVqTGNVRjNXVl9pa0U1N1R0ZEt2N0RoOTNUWWRMZ2M5VzIzUHJ4SlM0QUlmYnl0WjRB?oc=5",
-      "source": "ข่าวสด",
+      "title": "สธ. ปลุกพลัง “นวดไทย” สู่เศรษฐกิจโลก เปิดมหกรรมเวลเนสครั้งแรก ชิงตำแหน่ง Global Wellness Hub - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rbmVBeXE2V09uOUxRek5vaW8tRk5rRmwyUEtwMGJSTi1nQXpCbU4xTXBBTnJXVnpCcmdHVEQtOGtody0xV0poMlFGbDZhVFRlQ0M2OHdsdw?oc=5",
+      "source": "Hfocus.org",
       "category": "นวดไทย",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "ครั้งแรกของประเทศ สธ. เตรียมจัดใหญ่ “มหกรรมนวดไทยและเวลเนสแห่งชาติ 2569” 20 สิงหาคม นี้&nbsp;&nbsp;ข่าวสด",
+      "summary": "สธ. ปลุกพลัง “นวดไทย” สู่เศรษฐกิจโลก เปิดมหกรรมเวลเนสครั้งแรก ชิงตำแหน่ง Global Wellness Hub&nbsp;&nbsp;Hfocus.org",
       "date": "2026-08-14",
-      "id": "0d6e25fb449167e7533647bd3c636906"
+      "id": "9892e3913ef46a01126c1ccc3909b897"
     },
     {
       "title": "สธ.เตรียมจัดมหกรรมใหญ่ ‘นวดไทย-เวลเนสแห่งชาติ 2569’ ครั้งแรกของประเทศ 20-22 ส.ค.นี้ - thecoverage.info",
@@ -756,6 +769,18 @@
       "summary": "Wellness conference Being Thailand will tackle spa, wellness and healthcare&nbsp;&nbsp;spabusiness.com",
       "date": "2026-08-12",
       "id": "d3bdb83632333832603b40e15b29624d"
+    },
+    {
+      "title": "ยุคแห่งสมุนไพรไทยมาถึงแล้ว!!! “DBD – สสว.” ส่งแรงหนุนสมุนไพรไทยรับศก.เวลเนส - ThaiPR.NET",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yQ0NlTDZaNm8xZjZoUFlwbG9ZeDVUWW45bzdhb1VjYTNWbm9JcUp0VUp3YUJjNzEwaFU1RDc3eS1OcGJTUFhtdFhXNDljeDQ?oc=5",
+      "source": "ThaiPR.NET",
+      "category": "สมุนไพร",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "ยุคแห่งสมุนไพรไทยมาถึงแล้ว!!! “DBD – สสว.” ส่งแรงหนุนสมุนไพรไทยรับศก.เวลเนส&nbsp;&nbsp;ThaiPR.NET",
+      "date": "2026-08-11",
+      "id": "15ef02a558dd691bc55bfb94cbb6e959"
     },
     {
       "title": "สมุนไพรไทยผงาดเบอร์ 1 อาเซียน-ท็อป 11 โลก! - ผู้จัดการออนไลน์",
@@ -804,18 +829,6 @@
       "summary": "How Wellness Tourism Is Changing The Way People Experience Travel&nbsp;&nbsp;The Costa Rica News",
       "date": "2026-08-10",
       "id": "c4f648310e59fc1e5f50fb242bac673c"
-    },
-    {
-      "title": "กรมบัญชีกลาง จ่อหั่นเบิกจ่ายค่ารักษาพยาบาลข้าราชด้วยการนวดไทย - Ch7.com",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE16VkFSNzVRa1lQSnFwWjhzNDJIY0lDUVgwdmQ0b1F6bnh1ZzhQZU11NlBuaHBBRFZpRTZ6aGlmR2E3ZUM4V0k5ZlV3?oc=5",
-      "source": "Ch7.com",
-      "category": "นวดไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "กรมบัญชีกลาง จ่อหั่นเบิกจ่ายค่ารักษาพยาบาลข้าราชด้วยการนวดไทย&nbsp;&nbsp;Ch7.com",
-      "date": "2026-08-04",
-      "id": "de4f2a3cb73d2adbc43efef36c4160d9"
     },
     {
       "title": "‘เมื่อการแพทย์บรรจบกับความสงบนิ่ง’ ค้นพบวิทยาศาสตร์แห่งการผ่อนคลาย ผ่านศิลปะ ดนตรี และกัญชาทางการแพทย์ - adaymagazine.com",
@@ -914,6 +927,18 @@
       "id": "3490ff7eea5825e7dd57cbe0783e9e90"
     },
     {
+      "title": "“ไทยเติบโตอันดับ 7 ในกลุ่ม 25 ตลาด Wellness ใหญ่ของโลก” - thaitv5hd.com",
+      "link": "https://news.google.com/rss/articles/CBMilARBVV95cUxPY0JfNVcyNDQySVIwMVF1NWU1a2tiNHEyclFjRWFfYnN1aDM2Rncta0RvWDEzellyZFFia29qWHlTWUlwaXp6endpandCeEh1bnhlanJ5TXFNaWpRLUhVa3V1Y1VVaG5kVTZRblFvcklpeHB1UjVXWDlFTjR5aVQtMGt3dXBiNXdYUFNIN3hob2ppbXQxYXlyMjJiT0E4aVN0TGtMNU1hVVRjRHF0RVdWTXdzcXRuS2oxbmtwaXRzMkM1T0FiZW5uMGVSenFDVHcyNkU2S0NuYTRNOGctR1VScEt3cWNoUTZHS0ZGMDg1b3JGN3BXZWpZdDhaNGJGNHlBOGRGX3ZCRTdKbXlZeVdNclN0OVl3REVMWkRlWl93bDI2Q0xwQ0dtQWduS1V4SkhzTFNLSFRUam1ySGhxTzRtd1JkcTJhMTEyTlhUdkxydFlSLXoyaEhzemdic1pFSHRoSmxaVklnVjNJSUUxdGZmRENWbWZCbm90azg1RzN0MF9uM1ZBcHRWc1AxM1NEeFI2bjI2bS1yc0pEU015RFBCSDJOMF9OVmhVUjFUZzhWRzEwOHA3RlZkSWUtcThHWXFDSk9TZ1liLXVKYXdIYnRmbEpCZjRuWXNUbERzb2Q1dVB0TlRfZkwwVkJGSGktemtmQjlDNDF2NEp1MllGVnExcFNmMHFVS2hGTXBOaUhYOC10QkN3?oc=5",
+      "source": "thaitv5hd.com",
+      "category": "เวลเนส",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "“ไทยเติบโตอันดับ 7 ในกลุ่ม 25 ตลาด Wellness ใหญ่ของโลก”&nbsp;&nbsp;thaitv5hd.com",
+      "date": "2026-07-22",
+      "id": "95ff2fc139fd8ac44693047cb0539365"
+    },
+    {
       "title": "No more twitching needed: How gentle electroacupuncture can help rewire the brainstem in long-term facial paralysis - EurekAlert!",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB0bnU1R2lmQmZSb1JCZzA4ZFo3TnpQNkU3Z05jbjFtMUkxajNxeXpxOWN2UHdFRUZVUUVoa2k1VWFPLU5yVFBfanNoN1RBYnlBamZzdGI4RkdJTlZZ?oc=5",
       "source": "EurekAlert!",
@@ -948,18 +973,6 @@
       "summary": "ทีมหมอไทยศึกษานวัตกรรมการแพทย์จีน เล็งต่อยอดเอไอ-แพทย์แผนจีนรักษามะเร็ง&nbsp;&nbsp;เดลินิวส์",
       "date": "2026-07-19",
       "id": "28982cbaa254c97f090dfbfb5fc90d38"
-    },
-    {
-      "title": "\"พยาบาล-แพทย์แผนจีน\"เฮ รับเงินประจำตำแหน่ง ก.พ.ประกาศ-มีผลแล้ว - thansettakij",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9mME5fZFhlX0FmQUtfNGtoSGViMkdFX2dTZmNrdmp4dHVPcFhVd05tX0pZb3VCWXFnQ0lEMzRfaGZHTFBjTVJtYlI1elJ1YmtzYTYxNnltckotWkFK?oc=5",
-      "source": "thansettakij",
-      "category": "แพทย์แผนจีน",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "\"พยาบาล-แพทย์แผนจีน\"เฮ รับเงินประจำตำแหน่ง ก.พ.ประกาศ-มีผลแล้ว&nbsp;&nbsp;thansettakij",
-      "date": "2026-07-19",
-      "id": "ec0117233059130b900cf541f5525bf9"
     },
     {
       "title": "สธ.จับมือหน่วยงานที่เกี่ยวข้อง บังคับใช้กฎหมายสมุนไพรควบคุม \"กัญชา\" - Hfocus.org",
@@ -1008,18 +1021,6 @@
       "summary": "สร้างประวัติศาสตร์! ไทยผนึก 9 สมาคมนานาชาติ จัดใหญ่ \"International NUAD THAI & Wellness Festival 2026\" เปิดเวทีชิงถ้วยพระราชทานฯ พร้อมดัน…",
       "date": "2026-07-11",
       "id": "1a6bd402b6e5f6eeca78bacb96415b5a"
-    },
-    {
-      "title": "ชี้ทางรอด \"สมุนไพรไทย\" ต้องสร้างความยั่งยืนตั้งแต่แหล่งปลูก ชูไทยได้เปรียบความหลากหลายทางชีวภาพ - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1XaTIzUl9mRldiQUlqVFB3dzE0MnQ2M1RwMXVQOV9Udnhxdnh6V2VWX3NhNGlFb2R2OTlGRlBBS1dlWUplN0Q4Qmg1Z01Zd19zTWhZQWZPQQ?oc=5",
-      "source": "Hfocus.org",
-      "category": "สมุนไพร",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ชี้ทางรอด \"สมุนไพรไทย\" ต้องสร้างความยั่งยืนตั้งแต่แหล่งปลูก ชูไทยได้เปรียบความหลากหลายทางชีวภาพ&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-07-09",
-      "id": "6a783f7183203a8cb13834690aa362f2"
     },
     {
       "title": "Ear acupuncture may reduce migraine pain, study suggests - News-Medical",
@@ -1080,6 +1081,18 @@
       "summary": "“พัฒนา”ย้ำภารกิจ อภ.ชูศก.สุขภาพ พัฒนากัญชาทางการแพทย์ ต่อยอดเชิงพาณิชย์&nbsp;&nbsp;Hfocus.org",
       "date": "2026-07-03",
       "id": "1f676b0a7f1031f8790c8e582820ad10"
+    },
+    {
+      "title": "สธ.ผนึก 5 พันธมิตร ยกระดับ “นวดไทย” สู่ผู้เชี่ยวชาญเวลเนส ปั้นกำลังคนดันไทยเป็นศูนย์กลางสุขภาพโลก - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE16ZklweUFycjZES3NEUUR5QS1WVnJhTGpKSkE2V19YalFCUmRXMmEwekhOX1BmN2FYZWNRcEg4c0wxT3MtRjVpbTVZdDZEaWgwLUFpRW80SQ?oc=5",
+      "source": "Hfocus.org",
+      "category": "นวดไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "สธ.ผนึก 5 พันธมิตร ยกระดับ “นวดไทย” สู่ผู้เชี่ยวชาญเวลเนส ปั้นกำลังคนดันไทยเป็นศูนย์กลางสุขภาพโลก&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-07-03",
+      "id": "fafa9cc93178f031ba2f8f0e38820568"
     },
     {
       "title": "กรมแพทย์แผนไทย-สปสช.เปิดสิทธิบัตรทอง “ฝังเข็ม” ฟื้นฟูหลอดเลือดสมองฟรี! - Hfocus.org",
@@ -1154,9 +1167,9 @@
       "id": "0b33aa0d1e163c92dc0089531886afa5"
     },
     {
-      "title": "รัฐบาลเดินหน้าจัดระเบียบ “กัญชาทางการแพทย์” เผยผลงาน 1 เดือน ประชาชนโทรปรึกษา 200 สาย พร้อมแจ้งเบาะแสการกระทำผิด 73 เรื่อง ตรวจร้านกัญชาแล้ว กว่า 1,200 ร้านค้าทั่วประเทศ - Thaigov",
+      "title": "รัฐบาลเดินหน้าจัดระเบียบ “กัญชาทางการแพทย์” เผยผลงาน 1 เดือน ประชาชนโทรปรึกษา 200 สาย พร้อมแจ้งเบาะแสการกระทำผิด 73 เรื่อง ตรวจร้านกัญชาแล้ว กว่า 1,200 ร้านค้าทั่วประเทศ - เว็บไซต์รัฐบาลไทย",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IbUpVTkt0Z2VqZ3lzRDdYamhyb0FWeUF6OV9iel90MVZENjEwODlXN0dRNVVHYU9oV052YU9kMWlPRmhqTFRFLVhQT1BPUQ?oc=5",
-      "source": "Thaigov",
+      "source": "เว็บไซต์รัฐบาลไทย",
       "category": "กัญชา / กัญชง",
       "region": "ในประเทศ",
       "topic_page": null,
@@ -1176,18 +1189,6 @@
       "summary": "จัดระเบียบ “กัญชาทางการแพทย์” เผยผลงาน 1 เดือน ตรวจร้านกัญชากว่า 1.2 พันแห่ง&nbsp;&nbsp;Hfocus.org",
       "date": "2026-06-19",
       "id": "930cb3af3ce1e0bf34023583243e85cd"
-    },
-    {
-      "title": "ปลุก Soft Power ไทย เจาะไลฟ์สไตล์คนเมือง ดัน “สมุนไพร” สู่ตลาดสุขภาพโลก - Thai PBS",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ST29oemZWZm40V0syU0IyeUp1Zlk3RW5aSDBCc05WWXQyc2dxY0JQejNLTzdHRU9rb1ZabUpzbjhxbUY2SE5ESm4wRzdMWERjUUFScHVFOGg?oc=5",
-      "source": "Thai PBS",
-      "category": "สมุนไพร",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ปลุก Soft Power ไทย เจาะไลฟ์สไตล์คนเมือง ดัน “สมุนไพร” สู่ตลาดสุขภาพโลก&nbsp;&nbsp;Thai PBS",
-      "date": "2026-06-11",
-      "id": "c9fee7cbcc44d76914b2ff437bbc7997"
     },
     {
       "title": "An investigation into alternative medicine raises questions about oversight in Georgia - WABE",
@@ -1236,6 +1237,18 @@
       "summary": "Determinants of medical crowdfunding information sharing attitudes through integrated source credibility and technology acceptance…",
       "date": "2026-05-26",
       "id": "e43e273647d3123195808285a02063fa"
+    },
+    {
+      "title": "TTW Picks Top 30 Wellness Tourism Destinations in Americas and Caribbean for 2026 - EIN Presswire",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSjNQdDJEdXJFc3BwcnJ3WXhvcnc2TDRXalFQMWM5M3VjcFAweUhsNG85WEJkRjhIQ2txQk13ZVRIUzdzLTc5OEZ4LWZqM05peWJtQWxaV2FjSkJWZnV6dWt4Y2NsVnBFelhYaWFPVU9hMXVUSkNfYTFPVFhyNzdzeGVPbWwyd0tKdmsyeURQVkhQZWpSNW82OFRYX1dGRFpJU2F5SVJoQjB2MFZadmwwSmdRR2I4eGhSZGhtZFpmeWhIZlMyUDE0?oc=5",
+      "source": "EIN Presswire",
+      "category": "เวลเนส",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "TTW Picks Top 30 Wellness Tourism Destinations in Americas and Caribbean for 2026&nbsp;&nbsp;EIN Presswire",
+      "date": "2026-05-24",
+      "id": "ebbc43dda22a5155cbe60be769505c5a"
     },
     {
       "title": "ลุยตรวจ “ร้านกัญชา” ถนนข้าวสาร สื่อสารการบังคับใช้กฎกระทรวงใหม่ปี 69 - Hfocus.org",
@@ -1358,18 +1371,6 @@
       "id": "fe251b1ba6f78c9c09d7ae07f727f4db"
     },
     {
-      "title": "คลินิกการแพทย์แผนจีนหัวเฉียว จัดกิจกรรมวันแพทย์แผนจีน 2569 ชวนผู้ปกครองเปิดมุมมองใหม่ในการดูแลสุขภาพเด็กด้วยศาสตร์การแพทย์แผนจีน - ThaiPR.NET",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE82cHhFWVpVdnRMWkRqeGhfc0VJb0ZSOHM0dUxnNnVwYXhSXzNBOVkwTEd0bWVQZy01cEczRnluc3N5Ym5DYmRmbnJuX0JHZw?oc=5",
-      "source": "ThaiPR.NET",
-      "category": "แพทย์แผนจีน",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "คลินิกการแพทย์แผนจีนหัวเฉียว จัดกิจกรรมวันแพทย์แผนจีน 2569…",
-      "date": "2026-05-08",
-      "id": "10400a5d90c64e2b951a8633d96f75b8"
-    },
-    {
       "title": "Scientists are finally decoding how acupuncture eases pain - National Geographic",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeERxb3ktNVJXZ3NoTFhZbXFIaFlJRHlibzZvODZZZ3dxNFY5Q0xHZ3RTc0ZFSWw5SXRRdk9tM3ExVXlMdlZRbHlnUEtycWxOTXd2X1FPX2ZBVVBScklyMnNQNDhDMmJKLTYyS2thMzBQWlRETnRvRWFEVXZsOW1YVHRsenl5WnBUR1FrWXR3SQ?oc=5",
       "source": "National Geographic",
@@ -1394,16 +1395,28 @@
       "id": "b101bfebb882a20102dd3466f8acac5f"
     },
     {
-      "title": "รัฐบาลเผยหลักสูตรนวดไทย โพธิ์-ล้านนา สู่เวลเนสสากล เปิดอบรมรุ่นแรกปลาย พ.ค. 69 - Thairath",
+      "title": "รัฐบาลเผยหลักสูตรนวดไทย โพธิ์-ล้านนา สู่เวลเนสสากล เปิดอบรมรุ่นแรกปลาย พ.ค. 69 - Thairath.co.th",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9jS2dEMkN0QXF4SnAteUUtNmdjQzk2S05WcHdZQ0FXaUo2bnVpNTk2bjNsTHhmUUE2bjA0QjZkZm5sNHFwTS1WcnpZTzd3QmFPY3R6d2ZYMnlpMUE?oc=5",
-      "source": "Thairath",
+      "source": "Thairath.co.th",
       "category": "นวดไทย",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "รัฐบาลเผยหลักสูตรนวดไทย โพธิ์-ล้านนา สู่เวลเนสสากล เปิดอบรมรุ่นแรกปลาย พ.ค. 69&nbsp;&nbsp;Thairath",
+      "summary": "รัฐบาลเผยหลักสูตรนวดไทย โพธิ์-ล้านนา สู่เวลเนสสากล เปิดอบรมรุ่นแรกปลาย พ.ค. 69&nbsp;&nbsp;Thairath.co.th",
       "date": "2026-05-04",
       "id": "9fa3b54eb9b766b35cbbc3617bfefa95"
+    },
+    {
+      "title": "New Chinese Medicine and Culture journal issue explores traditional Chinese medicine across history and borders - EurekAlert!",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUZDZJY1NySW1PUkFiRWpzX3lub0ExbmhPUWI2dnRTUFV2NktFLUIxUjBLZHdTaXNmcEsyTjB0QVJiY3hVRll5QmlDRW11eUhlOE1wb05ReDl4WFBh?oc=5",
+      "source": "EurekAlert!",
+      "category": "แพทย์แผนจีน",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "New Chinese Medicine and Culture journal issue explores traditional Chinese medicine across history and borders&nbsp;&nbsp;EurekAlert!",
+      "date": "2026-04-30",
+      "id": "8ee5352e9c754cd5f332e87d8c247b0f"
     },
     {
       "title": "The age of wellness tourism is here and tech is cashing in - webintravel.com",
@@ -1464,18 +1477,6 @@
       "summary": "Herbal Medicine Market Size to Reach $433.7 Billion by 2033 at 8.8% CAGR, Reports Allied Market Research&nbsp;&nbsp;PR Newswire",
       "date": "2026-04-16",
       "id": "090ec80ce5724bcd39c880ce35bac5d9"
-    },
-    {
-      "title": "Seeking rest and relaxation? Bulgaria taps into the wellness trend as spa tourism rises 15% - Euronews.com",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZE4xOERHTE5tMFRwUllqc3FWSnNLQkp5b0VlWDZzSVdXOU8tS0lCaGV4SktLb3pVWXB0ZEV4emNoZ3M3WEh0b3g3dzdRNXpRWE5HZWJBT2N6czNPN3RMUS1mQXZiUGVkUm1OSF95MlNXME1KYTBTcHNIQjFJUVNSVnhPMnduOFpFbUNDUWdqRnBSOHJhS3NoRmFOZnVZVkdYSDJ4eWdNSkl3SWctaTNKZExVSjRxeTRqSFdMcHpDQXQwZEtkdTExODZUQTY?oc=5",
-      "source": "Euronews.com",
-      "category": "สปา",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Seeking rest and relaxation? Bulgaria taps into the wellness trend as spa tourism rises 15%&nbsp;&nbsp;Euronews.com",
-      "date": "2026-04-16",
-      "id": "3985e20bdc603507adb998fbb07752c2"
     },
     {
       "title": "Best Luxury Hotels for Wellness Travel as Tourism Hits $900 Billion - Forbes",
@@ -1622,14 +1623,14 @@
       "id": "c082f377f635e97119b9420904c239f9"
     },
     {
-      "title": "China demands evidence that traditional medicine injections really work - Science | AAAS",
+      "title": "China demands evidence that traditional medicine injections really work - science.org",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaklaTmdKSVB5UWZXcFNfMm41Q25fdzUtRk9QN01PQmYxR1VwOUVjYV9wenVjV1ctUjI5Rl9TZk9lZTh4U2FDZDh3ekNGWEs5SmJteUxpaTN2OTYtWnAzampzRWVUejJBckJMS205ZHpmcjg2Nk1xbENQemRTb1lHTTdTSktES2tQWlllYnA2X3lpeUYzMDM0RlpBVHFQbDZNZUlyQUMtb2djdw?oc=5",
-      "source": "Science | AAAS",
+      "source": "science.org",
       "category": "ข่าวสุขภาพทั่วไป",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "China demands evidence that traditional medicine injections really work&nbsp;&nbsp;Science | AAAS",
+      "summary": "China demands evidence that traditional medicine injections really work&nbsp;&nbsp;science.org",
       "date": "2026-03-18",
       "id": "1c691cfb7b5637cb48c509da4c5c83b4"
     },
@@ -1644,6 +1645,18 @@
       "summary": "Can acupuncture help ease debilitating and persistent chronic pain?&nbsp;&nbsp;UIC today",
       "date": "2026-03-03",
       "id": "0202413634d2dd10d91c9ebf93298b26"
+    },
+    {
+      "title": "ในประเทศ - อธิบดีกรมราชทัณฑ์เปิด 'เฮือนดอยฮาง' สถานฝึกนวดแผนไทย-ศูนย์ทดสอบฝีมือแรงงาน - แนวหน้า",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE45eTFZdEZpMDBPdl9QWlRZU25sNjRXSjU4TGRlNzZWbUV3b21PdzJOYXNJZHgzdnU1Qng3aUlqdUtJcXVWQ0p4NDNUWQ?oc=5",
+      "source": "แนวหน้า",
+      "category": "นวดไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "ในประเทศ - อธิบดีกรมราชทัณฑ์เปิด 'เฮือนดอยฮาง' สถานฝึกนวดแผนไทย-ศูนย์ทดสอบฝีมือแรงงาน&nbsp;&nbsp;แนวหน้า",
+      "date": "2026-02-27",
+      "id": "301b9079aa534e56d76ccbff4f67d1df"
     },
     {
       "title": "A Guide to Philadelphia’s Top Luxury Wellness & Recovery Spots - Visit Philadelphia",
@@ -1692,6 +1705,18 @@
       "summary": "Herbal Medicinal Products Market&nbsp;&nbsp;Future Market Insights",
       "date": "2026-02-16",
       "id": "602e1257cb02c67bd952bcad37df3749"
+    },
+    {
+      "title": "สธ. แจ้งระยะเวลา รพศ./รพท. ให้ประเมิน ‘พกส.’ เข้าสู่ตำแหน่ง ‘แพทย์แผนจีน’ - thecoverage.info",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LODVleWc4dnVDVkw4ejdVcWRKc3NnRUZrenloYkV5MjdFNllSVUd3Q0FmNThGWkNFY2VFNi1xUHpRNHZCWHpid2hvNjU3NGR0LXhjYTlUdndsNU0?oc=5",
+      "source": "thecoverage.info",
+      "category": "แพทย์แผนจีน",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "สธ. แจ้งระยะเวลา รพศ./รพท. ให้ประเมิน ‘พกส.’ เข้าสู่ตำแหน่ง ‘แพทย์แผนจีน’&nbsp;&nbsp;thecoverage.info",
+      "date": "2026-02-12",
+      "id": "a16b49d828986fdaa746a2a2dd34ea0d"
     },
     {
       "title": "Perceived value and educational implications of traditional Chinese medicine nursing: a mixed-methods study - Frontiers",
@@ -1884,30 +1909,6 @@
       "summary": "Wellness Market Reaches Record $6.8 Trillion 12/02/2025&nbsp;&nbsp;MediaPost",
       "date": "2025-12-02",
       "id": "44c5af68ffc9631a8cc121db33604f80"
-    },
-    {
-      "title": "The 9 Biggest Wellness Travel Trends of 2026 - Condé Nast Traveler",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdlQydnh3RzV4elRQcTRycE5HZkRKRWhGSVE3bkRGU19KNUdQWEFrTmFHUXVOenQ3LWpISVZTSHBNRnZXZ1pDbXJoam9hNEVpUUFEX0ljLXd6N19xM2p5T1VxRmV2MjNQay1uMzVLTUx1X1ZWa25jN3V6NTBHekV0RQ?oc=5",
-      "source": "Condé Nast Traveler",
-      "category": "เวลเนส",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "The 9 Biggest Wellness Travel Trends of 2026&nbsp;&nbsp;Condé Nast Traveler",
-      "date": "2025-11-27",
-      "id": "c1a2fe446654cc9bc72c588052797faf"
-    },
-    {
-      "title": "'นวดแผนไทย'ขึ้นแท่น 'Longevity/wellness 'ระดับสากล - ไทยโพสต์",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0ydjBSbTM5bDRkbzM2elhTRUgtd0VsWm9wcm9jb2FmT0dWbkVLTkg0ZUV2bmY4am1QZFFLNTM5TkdPN3dkeTg2UkdGbWx2UmZxdnRaNFE3dw?oc=5",
-      "source": "ไทยโพสต์",
-      "category": "นวดไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "'นวดแผนไทย'ขึ้นแท่น 'Longevity/wellness 'ระดับสากล&nbsp;&nbsp;ไทยโพสต์",
-      "date": "2025-11-26",
-      "id": "500afb89515fff3593de9feb49c3cd82"
     }
   ]
 }
