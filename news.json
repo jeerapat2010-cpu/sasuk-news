@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-29T19:18:28.241294Z",
+  "updated_at": "2026-08-29T22:30:09.361612Z",
   "total_items": 150,
-  "source_count": 86,
+  "source_count": 87,
   "sources": [
     "2 Minute Medicine",
     "9News",
@@ -41,7 +41,6 @@
     "News18",
     "Newswise",
     "Oncodaily",
-    "PR Newswire",
     "Pace University",
     "PhocusWire",
     "Positioningmag",
@@ -52,7 +51,6 @@
     "Science Partner Journals",
     "Science | AAAS",
     "ScienceAlert",
-    "THE BETTER",
     "TNN Thailand",
     "Thai PBS",
     "ThaiPublica",
@@ -64,9 +62,11 @@
     "TravelMole",
     "UC Irvine News",
     "UIC today",
+    "Vaping360",
     "Vietnam.vn",
     "Visit Philadelphia",
     "WABE",
+    "Yahoo Finance",
     "adaymagazine.com",
     "bangkokbiznews",
     "facebook.com",
@@ -78,6 +78,7 @@
     "thecoverage.info",
     "thepeople",
     "thereporters.co",
+    "tourism-review.com",
     "webintravel.com",
     "ผู้จัดการออนไลน์",
     "มติชนออนไลน์",
@@ -92,13 +93,13 @@
   ],
   "category_counts": {
     "แพทย์แผนไทย": 15,
-    "สมุนไพร": 19,
-    "ข่าวสุขภาพทั่วไป": 16,
+    "สมุนไพร": 20,
     "สปา": 8,
+    "ข่าวสุขภาพทั่วไป": 16,
     "นวดไทย": 19,
     "แพทย์แผนจีน": 28,
     "เวลเนส": 18,
-    "กัญชา / กัญชง": 11,
+    "กัญชา / กัญชง": 10,
     "ฝังเข็ม": 15,
     "เทคโนโลยีการแพทย์": 1
   },
@@ -150,18 +151,6 @@
       "summary": "นักวิจัยไทยเจ๋ง! พัฒนาเจลแต้มสิวจาก 3 สมุนไพร “มังคุด-ว่านชักมดลูก-เหงือกปลาหมอ”&nbsp;&nbsp;สยามรัฐ",
       "date": "2026-08-29",
       "id": "559b76af4b735d9e03ddb16b98093160"
-    },
-    {
-      "title": "การแพทย์แผนโบราณในวิถีชีวิตสมัยใหม่ - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Nal9lVldpb0pWUzd2bXB3MmJEUnFVVEhTdEZaR081Mkk5NUVBcFYzdG5xSEwtaUtPbUdDQkplbTVteWNQdlBrMEg3NTRJUGFFal9kZU1ocWhOTDQ5MUdtSy1hYUN0c0xMSlFTLU5JS2p1MGI1?oc=5",
-      "source": "Vietnam.vn",
-      "category": "ข่าวสุขภาพทั่วไป",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "การแพทย์แผนโบราณในวิถีชีวิตสมัยใหม่&nbsp;&nbsp;Vietnam.vn",
-      "date": "2026-08-29",
-      "id": "58cd73dec2080a24141a33f2eb67f66d"
     },
     {
       "title": "สปาไทยโต 9.4% แตะ 9.7 หมื่นล้าน ส่องโมเดล 4 แบรนด์ชิงตลาด Wellness - thansettakij",
@@ -222,6 +211,18 @@
       "summary": "จัดทำรายชื่อยาแผนจีนโบราณที่ได้รับความคุ้มครองจากประกันสุขภาพอย่างครบถ้วน โดยใช้หลักวิทยาศาสตร์ ปลอดภัย…",
       "date": "2026-08-28",
       "id": "b350f195add27ed86120a3d5a0101002"
+    },
+    {
+      "title": "สมุนไพรทางการแพทย์ได้รับการอนุมัติในอละแบมา ยกเลิกในมิสซิสซิปปี - Vaping360",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSUFNcGs0QnFnZnhhak00Yzl4bVdZSHNDME1sbGc2U1k3Ty1XUXowUjRFamlyWl9IcXQxa3ZPRUdyc1g3SWRYN201Q29kY2dEenNCTzZhOTRRQ1dLXzZXUnRwdVJFU2E0amJLSXpVLXRrMXIyNF9LTmlnZ1I3LUVwa09fbWF4ek5FZVl3LUJYRmtsY3dBUXhhdkxZOXhqajVFdlE?oc=5",
+      "source": "Vaping360",
+      "category": "สมุนไพร",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "สมุนไพรทางการแพทย์ได้รับการอนุมัติในอละแบมา ยกเลิกในมิสซิสซิปปี&nbsp;&nbsp;Vaping360",
+      "date": "2026-08-28",
+      "id": "985b64f01ec162cc1575054c36b8f2da"
     },
     {
       "title": "เจาะขุมทรัพย์ WELLNESS ECONOMY ชิงเค้ก 9.75 ล้านล้านดอลลาร์ ดันไทยฮับสุขภาพโลก - thansettakij",
@@ -464,16 +465,16 @@
       "id": "5e18e90588dfd10f4ac84ec166a9be52"
     },
     {
-      "title": "สธ.รับมอบที่ดิน 92 ไร่ที่สุพรรณฯ สร้าง ‘ศูนย์กลางการแพทย์แผนไทยฯ’ ดันเป็นต้นแบบ ‘ฮับสมุนไพร’ - thecoverage.info",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFbVpQMDVmeGh1SW9LSHlham9NbHJndHI5Z3N0ME40aHBLVmxTNmFmTk1BNGtMT1FCMS1zc2lJaGVoT295WVN3bHdsNnR5b29DTERfaVRiM1NhelE?oc=5",
-      "source": "thecoverage.info",
+      "title": "สธ.รับมอบที่ดิน 92 ไร่ สุพรรณบุรี ลุยปักหมุด “ศูนย์กลางการแพทย์แผนไทยและฟื้นฟูผู้สูงอายุครบวงจร” - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9PYnVIYXZRNmpZNXotRUtiMW9ST2NpTEg2T0gtV1BRck45OUNvanE3R0NGV0NsbXFaSmtPNHBpRXBsS2FTeUM2SDBtdlh5bDNyN0lEOGhVSQ?oc=5",
+      "source": "Hfocus.org",
       "category": "แพทย์แผนไทย",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "สธ.รับมอบที่ดิน 92 ไร่ที่สุพรรณฯ สร้าง ‘ศูนย์กลางการแพทย์แผนไทยฯ’ ดันเป็นต้นแบบ ‘ฮับสมุนไพร’&nbsp;&nbsp;thecoverage.info",
+      "summary": "สธ.รับมอบที่ดิน 92 ไร่ สุพรรณบุรี ลุยปักหมุด “ศูนย์กลางการแพทย์แผนไทยและฟื้นฟูผู้สูงอายุครบวงจร”&nbsp;&nbsp;Hfocus.org",
       "date": "2026-08-23",
-      "id": "20192ce0eb5635fa1ff456e9c911d589"
+      "id": "e7f131505c812d71ef7af0f60cc31287"
     },
     {
       "title": "นาโนเทค จับมือ กรมการแพทย์แผนไทยฯ นำ นาโนเทคโนโลยี ยกระดับสมุนไพรไทยสู่ยาแผนไทยมาตรฐานสากล - TNN Thailand",
@@ -488,16 +489,16 @@
       "id": "1e047d55f3e246cb8a801a09d1cc8a74"
     },
     {
-      "title": "คณะแพทย์แผนไทยวัดคีรีวงก์ เปิดให้คำปรึกษาศาสตร์แพทย์แผนไทยกลางกรุง 26-30 ส.ค.นี้ - THE BETTER",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzTExJeUhuMXRLbG9kejM4NGZvYXptanBYWmFDd1VLYjhEbVR1dWNfQTJtdmd4dGY5Tk5ZTUs4TEpFbjdaaThyS2ZEMXJiWHRWT295MlJ3clhrUQ?oc=5",
-      "source": "THE BETTER",
+      "title": "สธ.รับมอบที่ดิน 92 ไร่ที่สุพรรณฯ สร้าง ‘ศูนย์กลางการแพทย์แผนไทยฯ’ ดันเป็นต้นแบบ ‘ฮับสมุนไพร’ - thecoverage.info",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFbVpQMDVmeGh1SW9LSHlham9NbHJndHI5Z3N0ME40aHBLVmxTNmFmTk1BNGtMT1FCMS1zc2lJaGVoT295WVN3bHdsNnR5b29DTERfaVRiM1NhelE?oc=5",
+      "source": "thecoverage.info",
       "category": "แพทย์แผนไทย",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "คณะแพทย์แผนไทยวัดคีรีวงก์ เปิดให้คำปรึกษาศาสตร์แพทย์แผนไทยกลางกรุง 26-30 ส.ค.นี้&nbsp;&nbsp;THE BETTER",
+      "summary": "สธ.รับมอบที่ดิน 92 ไร่ที่สุพรรณฯ สร้าง ‘ศูนย์กลางการแพทย์แผนไทยฯ’ ดันเป็นต้นแบบ ‘ฮับสมุนไพร’&nbsp;&nbsp;thecoverage.info",
       "date": "2026-08-23",
-      "id": "5adcbb99dec7775206275653929fc8b2"
+      "id": "20192ce0eb5635fa1ff456e9c911d589"
     },
     {
       "title": "ปิดฉากยิ่งใหญ่ ‘มหกรรมนวดไทยและเวลเนสแห่งชาติ’ เงินสะพัด 75.4 ล้านบาท ดันไทยสู่ฮับเวลเนสโลก - มติชนออนไลน์",
@@ -812,6 +813,18 @@
       "id": "8f7d3a9a6b014f9f479974babd073040"
     },
     {
+      "title": "กรมการแพทย์แผนไทยฯ ปั้น ผู้ประกอบการกัญชาทางการแพทย์รุ่นใหม่ ยกระดับมาตรฐานธุรกิจสู่สากล - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBFYVJkTG1CTDZ4NlV6Ym1jNUxxejkxVVE1eG5HeWF3Y25wVy1NWUV1QUFhTl9WX3pXdjdxeENTNlFpbWh6YWl1SGNqZ256YXRncFRmanpPRQ?oc=5",
+      "source": "Hfocus.org",
+      "category": "แพทย์แผนไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "กรมการแพทย์แผนไทยฯ ปั้น ผู้ประกอบการกัญชาทางการแพทย์รุ่นใหม่ ยกระดับมาตรฐานธุรกิจสู่สากล&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-08-10",
+      "id": "ae892abb8cf2369ec904bcde184cf3ee"
+    },
+    {
       "title": "สมุนไพรไทยผงาดเบอร์ 1 อาเซียน-ท็อป 11 โลก! - ผู้จัดการออนไลน์",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZUkl3ekxKSGFHQUVoaTZRemc4NWVzb3Z4NzlRMlIzcXE1OE1LcFdVRUpxM1Zmdk5ZNVdhZk1fQXpKUnZfN3QwZFMxb2RjRFotUGtQVTdsYUxiZW1Ia0xzSg?oc=5",
       "source": "ผู้จัดการออนไลน์",
@@ -846,18 +859,6 @@
       "summary": "ทูตจีน เยือนศาลาฯ เสาชิงช้า หารือยกระดับร่วมมือ 4 ด้าน ชัชชาติ เผย ศูนย์แพทย์จีน รพ.กทม. ‘คืบหน้าอย่างดี’&nbsp;&nbsp;มติชนออนไลน์",
       "date": "2026-08-10",
       "id": "28622704c04e534f7e917064114bde33"
-    },
-    {
-      "title": "กรมการแพทย์แผนไทยฯ ปั้น ผู้ประกอบการกัญชาทางการแพทย์รุ่นใหม่ ยกระดับมาตรฐานธุรกิจสู่สากล - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBFYVJkTG1CTDZ4NlV6Ym1jNUxxejkxVVE1eG5HeWF3Y25wVy1NWUV1QUFhTl9WX3pXdjdxeENTNlFpbWh6YWl1SGNqZ256YXRncFRmanpPRQ?oc=5",
-      "source": "Hfocus.org",
-      "category": "แพทย์แผนไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "กรมการแพทย์แผนไทยฯ ปั้น ผู้ประกอบการกัญชาทางการแพทย์รุ่นใหม่ ยกระดับมาตรฐานธุรกิจสู่สากล&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-08-10",
-      "id": "ae892abb8cf2369ec904bcde184cf3ee"
     },
     {
       "title": "How Wellness Tourism Is Changing The Way People Experience Travel - The Costa Rica News",
@@ -1100,16 +1101,16 @@
       "id": "47daed0cee267c9cb8defb17e8a1c4aa"
     },
     {
-      "title": "การเมือง - มธ. ปั้น แพทย์แผนจีนอินเตอร์ ดันไทยชิงเค้กโลก 5.5 แสนล้านดอลลาร์ - แนวหน้า",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yUXE3YTU2R084cVBPR1N2aldJUUJuT24zUklJY1kxTk43bnRIYnlzdkZNQjNuNmd4QWJDc0ViU0MwY2M0VmFYUm12QUtfdw?oc=5",
-      "source": "แนวหน้า",
+      "title": "มธ. ปั้น 'แพทย์แผนจีนนานาชาติ' ดันไทยลุยตลาดโลก ชิงเค้ก 5.5 แสนล้านดอลลาร์ - ไทยโพสต์",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0ySFU5a1RvLUlJWFJiNXc0b1B5TGZpVkhXQ0w3Qzc0SERVaFpBT19fWTFLaEdsMkZZUlZjMF9BQk1rTWRlOGxNTjFDeEFwVm5GQW9RZFJmc3UwUQ?oc=5",
+      "source": "ไทยโพสต์",
       "category": "แพทย์แผนจีน",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "การเมือง - มธ. ปั้น แพทย์แผนจีนอินเตอร์ ดันไทยชิงเค้กโลก 5.5 แสนล้านดอลลาร์&nbsp;&nbsp;แนวหน้า",
+      "summary": "มธ. ปั้น 'แพทย์แผนจีนนานาชาติ' ดันไทยลุยตลาดโลก ชิงเค้ก 5.5 แสนล้านดอลลาร์&nbsp;&nbsp;ไทยโพสต์",
       "date": "2026-07-04",
-      "id": "ceb666cbe359e94214eed27342bfc156"
+      "id": "525d2d86d43d91d1c1692790771bec05"
     },
     {
       "title": "“พัฒนา”ย้ำภารกิจ อภ.ชูศก.สุขภาพ พัฒนากัญชาทางการแพทย์ ต่อยอดเชิงพาณิชย์ - Hfocus.org",
@@ -1340,18 +1341,6 @@
       "id": "ebbc43dda22a5155cbe60be769505c5a"
     },
     {
-      "title": "ลุยตรวจ “ร้านกัญชา” ถนนข้าวสาร สื่อสารการบังคับใช้กฎกระทรวงใหม่ปี 69 - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9JNzdicEp5aW54OW5EbWE2T3NUTVExMjg2bHU2VUR6clE5ZnNrTW1SODJvSkF3UFpmZVRBSTZZdW1rZ0FTLW5DaEpyeGQ3UG80YS1yeEN5cw?oc=5",
-      "source": "Hfocus.org",
-      "category": "กัญชา / กัญชง",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ลุยตรวจ “ร้านกัญชา” ถนนข้าวสาร สื่อสารการบังคับใช้กฎกระทรวงใหม่ปี 69&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-05-22",
-      "id": "3c89b478ec4773903b036e5075f08844"
-    },
-    {
       "title": "The Rise of The Fitness-Driven Hotel - Hospitality Net",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSmxUN1BOQVNjQ2kxMDc3X0JYOWJCR3pUV2ljaDBPazBFalRKYkt3T3JsRVBESHRTX0YtR3RmczREdEJOaHNwR3ExdGxOOFlVY2VlTlVMMmExdkVrejd3eUJveHFRS0JFUTdtNF9iYmlzWVJRVWFzZGVZQ0FrWWYxRC1jMzI3RmxzWkRR?oc=5",
       "source": "Hospitality Net",
@@ -1412,18 +1401,6 @@
       "id": "a062dba253c0de9ee70e5680c16ec435"
     },
     {
-      "title": "กรมการแพทย์แผนไทยฯ ยกระดับคุมเข้ม “กัญชาทางการแพทย์” ปรับโฉมร้านจำหน่ายกัญชาสู่สถานพยาบาล สร้างความเชื่อมั่นความปลอดภัยทั่วประเทศ - สำนักสารนิเทศ สำนักงานปลัดกระทรวงสาธารณสุข",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSVDh2MDFBSUQ5Z0F3SW9ncGYySF9zZHhWdGo3dnFwemFjYnRieGM5TlA5dG12bkxrRzNtRDg1Q3NOM3A2ODRmN1VzV2xYTG9DVGliT25FRFRYUQ?oc=5",
-      "source": "สำนักสารนิเทศ สำนักงานปลัดกระทรวงสาธารณสุข",
-      "category": "แพทย์แผนไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "กรมการแพทย์แผนไทยฯ ยกระดับคุมเข้ม “กัญชาทางการแพทย์” ปรับโฉมร้านจำหน่ายกัญชาสู่สถานพยาบาล…",
-      "date": "2026-05-15",
-      "id": "6b6fe680726ba2550eff802932e7bd3b"
-    },
-    {
       "title": "Wellness tourism hits $894 bn and the growth is not over, tells Phocuswright - TravelMole",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZkF5Z09ObHJHZ0M2VUJxRmlnTXRwZWRTQWhmREVTRUF2T3JBMG1kNUEtME44aUZSY2FtcWpla01IUm91YXlSdV9pYVY3SnRzQnRvLTVVSV9CcFlSU3ZPR0Nzb1pWc0NzcmkxTzB2SnNNRXlhSkxySjF6N1NBXzNPWWU3LVBNZUFFZTZHS2JYMDl5Ulh1VXJqWFNCaUNMZ1hyZUkwMg?oc=5",
       "source": "TravelMole",
@@ -1434,6 +1411,18 @@
       "summary": "Wellness tourism hits $894 bn and the growth is not over, tells Phocuswright&nbsp;&nbsp;TravelMole",
       "date": "2026-05-15",
       "id": "cf81b0f1e1c33521df6343d6e9da9563"
+    },
+    {
+      "title": "กรมแพทย์แผนไทยฯ ยกระดับ “กัญชาทางการแพทย์” ปรับโฉมร้านค้าสู่สถานพยาบาล คุมเข้มผ่าน MC-GIS และ Traffy Fondue - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9YaFU1U1ZwNUJfWS1vb245WjFKdzE4VnA4cVh1X0x2ejRmdlNLYkRldzNqM2RON0p0UEw0aFhOX0oxWkx1ODZCYTlCcXBveXBvY2hJcTl1dw?oc=5",
+      "source": "Hfocus.org",
+      "category": "แพทย์แผนไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "กรมแพทย์แผนไทยฯ ยกระดับ “กัญชาทางการแพทย์” ปรับโฉมร้านค้าสู่สถานพยาบาล คุมเข้มผ่าน MC-GIS และ Traffy Fondue&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-05-14",
+      "id": "8d68eb3cd4783aa38bce506af1b877cd"
     },
     {
       "title": "Complementary and Alternative Medicine Market | Global Market Analysis Report - 2036 - Fact.MR",
@@ -1556,16 +1545,16 @@
       "id": "d1b2957b13372b4623e25b480f046c82"
     },
     {
-      "title": "Herbal Medicine Market Size to Reach $433.7 Billion by 2033 at 8.8% CAGR, Reports Allied Market Research - PR Newswire",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQczNmZ2t2SWdQQ0ExQW1QZTJUTDRYSU1vYTM2ZHdhS3ZPMzZDQXVGT3BmU1NpZFdrbkxkdHVhRXR1LTBvSTBtNVpHN3JYYjdiUGh5ZmtkOW5QanJ1a0YwY2MtdlFHMm0zZHhiUTd4cGVIZXR2UTVpQXhQRlk5T2F0Qm1nNVJSWEdNZDVNdWJTc2RSTnNpZzdzdzR3UzJ6UDA2Mi1Pa0hxQjU2OTNPVFItdFY1ZlBjcFdONG5GbW0zanJUUVo3VDVvOFVRUUJLU19xMWpfUEVjT2RwaWpPSjBxVEdvUzQ2TU1TSkFkdUln?oc=5",
-      "source": "PR Newswire",
+      "title": "Herbal Medicine Market Size to Reach $433.7 Billion by 2033 at 8.8% CAGR, Reports Allied Market Research - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSFNtVDZhLXZ1S3pFTTY2dVdrVEpkVE94VFlIRHZYZlE3aVI4Vk5sbTN0ZlB5cFYzY1FMeGllNWlPZ2k0ZjF1bmQtRXJtSjRFVGxsczg4ZTdKVUNvNS1LMDJpNE5rbGpybHdaVWduYmgzRTExSnZhOHJSVU5VMjM2WDJaTFc4bnpFLTRaMzh4cS1sUjhvSWIwQnMzS3ZydGFWWThLUg?oc=5",
+      "source": "Yahoo Finance",
       "category": "สมุนไพร",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Herbal Medicine Market Size to Reach $433.7 Billion by 2033 at 8.8% CAGR, Reports Allied Market Research&nbsp;&nbsp;PR Newswire",
+      "summary": "Herbal Medicine Market Size to Reach $433.7 Billion by 2033 at 8.8% CAGR, Reports Allied Market Research&nbsp;&nbsp;Yahoo Finance",
       "date": "2026-04-16",
-      "id": "090ec80ce5724bcd39c880ce35bac5d9"
+      "id": "3a5871d154ff07bab1c2a22801eb072b"
     },
     {
       "title": "Seeking rest and relaxation? Bulgaria taps into the wellness trend as spa tourism rises 15% - Euronews.com",
@@ -1842,6 +1831,18 @@
       "summary": "Japan Herbal Medicine Market Size, Share, Growth, Forecast, 2034&nbsp;&nbsp;Fortune Business Insights",
       "date": "2026-01-28",
       "id": "95321e8d9d7f2f9583ea119dc0b0be22"
+    },
+    {
+      "title": "CHINA'S HEALTH TOURISM MARKET IS BOOMING - tourism-review.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdWF5WVZzQkx0VXkzVk1YdzFoTlZZY1huWWlHSEs2UmVoWXVHdmM5RUJnRWVhS3RhNEhpLXktOGlrMHk4TXYyeW5XWVRUYmtMbjF0RFQ1dWxNdTBaN0hack16SHE0QmxONUFsekFDdGxsUzlKWUdkcEdzUTBjeWNQRnNjcW84Q2NrYnNTT0JrbUhLdlJBM1BPdjY3a0xvX21XLUdvM2U1NE5UMWszZXdJZEx2YjZtZ3J6bU5Vb2ZYeVDSAcABQVVfeXFMTXVheVlWc0JMdFV5M1ZNWHcxaE5WWWNYbllpR0hLNlJlaFl1R3ZjOUVCZ0VlYUt0YTRIaS15LThpazB5OE12MnluV1lUVGJrTG4xdERUNXVsTXUwWjdIWnJNekhxNEJsTjVBbHpBQ3RsbFM5SllHZHBHc1EwY3ljUEZzY3FvOENja2JzU09Ca21IS3ZSQTNQT3Y2N2tMb19tVy1HbzNlNTROVDFrM2V3SWRMdmI2bWdyem1OVW9mWHlQ?oc=5",
+      "source": "tourism-review.com",
+      "category": "ข่าวสุขภาพทั่วไป",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "CHINA'S HEALTH TOURISM MARKET IS BOOMING&nbsp;&nbsp;tourism-review.com",
+      "date": "2026-01-26",
+      "id": "7cdf05166c0be91e70de68593d8b3eea"
     },
     {
       "title": "EmVital is the Newest Technology at Aria Integrative Health - 9News",
