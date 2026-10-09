@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T15:06:34.572916Z",
+  "updated_at": "2026-10-09T20:41:11.961801Z",
   "total_items": 150,
-  "source_count": 89,
+  "source_count": 90,
   "sources": [
     "77 ข่าวเด็ด",
     "American Spa",
@@ -22,7 +22,6 @@
     "Forbes",
     "Fortune Business Insights",
     "Frontiers",
-    "Future Market Insights",
     "HELLO! Magazine Thailand",
     "Harvard Business Review",
     "Hfocus.org",
@@ -33,6 +32,7 @@
     "Market Data Forecast",
     "Market.us",
     "Marketeer Online",
+    "Marketing Oops!",
     "Matichon Online",
     "Medscape",
     "Nanyang Technological University - NTU Singapore",
@@ -43,6 +43,7 @@
     "PNAS",
     "PR Newswire",
     "RYT9",
+    "Rethinking Clinical Trials",
     "Rus Tourism News",
     "SNS Insider",
     "STAT",
@@ -82,42 +83,30 @@
     "thepeople",
     "www.ch7.com",
     "กรมส่งเสริมการค้าระหว่างประเทศ (DITP)",
-    "กระทรวงแรงงาน",
     "ข่าวสด",
     "ผู้จัดการออนไลน์",
     "มติชนออนไลน์",
     "มหาวิทยาลัยธรรมศาสตร์",
     "สำนักข่าวบางกอกทูเดย์",
+    "สำนักสารนิเทศ",
     "สำนักสารนิเทศ สำนักงานปลัดกระทรวงสาธารณสุข",
     "เดลินิวส์",
     "เว็บไซต์รัฐบาลไทย",
     "แนวหน้า"
   ],
   "category_counts": {
-    "นวดไทย": 18,
-    "ฝังเข็ม": 14,
-    "แพทย์แผนไทย": 20,
-    "สมุนไพร": 17,
-    "แพทย์แผนจีน": 25,
-    "กัญชา / กัญชง": 11,
+    "ฝังเข็ม": 15,
+    "แพทย์แผนไทย": 21,
+    "สมุนไพร": 15,
+    "แพทย์แผนจีน": 26,
+    "กัญชา / กัญชง": 10,
     "ข่าวสุขภาพทั่วไป": 16,
     "สปา": 9,
-    "เวลเนส": 17,
+    "เวลเนส": 18,
+    "นวดไทย": 17,
     "เทคโนโลยีการแพทย์": 3
   },
   "items": [
-    {
-      "title": "ปลัดแรงงาน ลุยปารีส เยี่ยมแรงงานไทย–หารือผู้ประกอบการนวดไทย – สปา ดันมาตรฐานฝีมือแรงงานไทยสู่ตลาดยุโรป - กระทรวงแรงงาน",
-      "link": "https://news.google.com/rss/articles/CBMiuwlBVV95cUxOLWRhMm9zSGJ4ZEIxSTk2WDRibm1vVnVHYklzcTBJdE5NR1BfTlpUdDVlaVp4Q2s5M3VXOW1PV2J0QWgwMkNmMjFqaFAtdjMwOTUzSkstM2NGRkVOaXkzUXVReEUzMWR0V0ItWEN5elNZMm1HcTlrdC1MNUNTOUpvU0NkS2lzUkNEUDdPbmlNckhDbHZrS3Zhd3d2VDAzU1l5RG9QaFNnclZYcFZOQVdJTmJXZUVqVzJ4d3BqYUpZZGVQRWtHOW1lRV9GWGZacGtIby03ekpPaDU5VUhPc3RTZlFSaWh2OEpYcm8zSThvSzlKeTJyU2ZmdWt4aFJXOE9mTzdxSTY1ZmM1R3JxTEtNb2xmdkVQYjZ5RHhRbGhyczQzRXVyMjU3UHB3ZHZkeTN2V0RBVHEwcmZCak1CVmlGQk45WW5NcERIZVdkR3NRYmtpUVgxekxTTVdnai1QOVB3a2Y5Nms4UVhMa1ZNVDUtaFRKYjBsUjBzWmlTejMyTTZjbnhzSTQwWm1YTHhBUFg2cjFwLVBLOEJ2QURRSjJKU2JtMWFHRThNUHU4dVhiS3FrUk42RkV6c1B6OW0wU0ZQbjdPY2pKT0NOaUxLUkRpXzJWNzdlbHhzS2ZNRUpYUUZxMEMwUk5qUWFwUTl5TkxiM243ZXFoeHNUdThuNUk4alJBQ2xQWjk3NjE4MWt2ZjNqYnpOT1R4SFlzUkRXdjlRQ3V0ckxVaXNlRmdmdnBFZmNkTDFPYkIxTFd0cGdHNXhKekh6S3cyQjV2QzN3eWRxejFXeVJxam9pUWpfSDg5ME9iSzctU2dYZXhIenk0dHZicU9wOWNYa21EY0RlOGZfUjFrTXZZZHJBVVNjaEpZUV9aQTQ5aGYwVy03el9EN0hicHR6eFVBT3hYamlUYW1LRzltRXVfN2NvVUFNcjZ4eXQ1VEtDVDVIeGxMT01FYTVRVUJicXNrdGFHX1AwVjNBSDFkZXNQQXZQTXJaSXYwX2JZc1UweWM2SEpFZDRVd1IyQlFsbHBoVjlVUjdWQTNJWEVrSmNzOW10bnluam81ZVlONzVRMFhnRjNJSEtMMTFieDZyTVFtT3JoVk9fbmFJX0ltend6UGdVRVZlRkt1OXVsSVdTMnlWSTdJN09rWEVudnJGNnhOT0p6Q1htYlp3eTJ0SXlEQkNKOHNNbG43Y0RjMjN6UFgzRzNjZmk2RVVGTF9jQlphdnFBZlc5ZTRFdFB2VnRrWnN5TEV5Zi1PMkpsS21DYU5OSnV6dzJ0eG1maDJUVGdmWUwzQ2NDVE5kZ3RBaEREZG52eFNSb0VOMzRGVUtYY3A2VzBnbDNvZThaZnBRYWcyN2dWaklUTVFhTmlnYU5xSnNPSkNtVjFjMUxIbEkyTjhMTm1GaXVxSlotYjdMNk96VW16VFdNR0gwNVBsU0lsM2lLODJsOUtoRnJDcHc3akhha1JjV2NIRTN6czctWkRXRVIxYXdPc2Z3SFVvczl2N1NCSjNOM1g4QmNDdGlGQUZRWTBYbEpDT3VROExOelFIbTNSZUp1T3RNMTdLYmdZdFlEMUNubkRFMFhEV1FjbFRCaTRNZV9lRGlTMUIwSllKRHEzZw?oc=5",
-      "source": "กระทรวงแรงงาน",
-      "category": "นวดไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ปลัดแรงงาน ลุยปารีส เยี่ยมแรงงานไทย–หารือผู้ประกอบการนวดไทย – สปา ดันมาตรฐานฝีมือแรงงานไทยสู่ตลาดยุโรป&nbsp;&nbsp;กระทรวงแรงงาน",
-      "date": "2026-10-09",
-      "id": "86f5b9e3b256a5d73b86a7ad45a1d977"
-    },
     {
       "title": "Acupuncture Trials for Diabetes and Obesity Fail Rigor Tests, Landmark Audit Finds - Bioengineer.org",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRVczR2h2QUJoaG84NFVxV3dKc0kzV2NiaGpnWWtNajljd2E5UlZDWHNSaFd1UW9FLXdIR0FzcEotOG5WNjlhSl9KMGtiYmhWaTdvUVpjMkxTcGE4aXVYRVY1TFl5b1o1a0EzMTMwRmpZN0VkUEtsNFg3Wm5yRzMyalB2NDNpWFhYN0VPSmc1dDBjVG9UYVA3RkhrNnB3RXJmSDFoUUt6VDdGUQ?oc=5",
@@ -167,16 +156,16 @@
       "id": "4588bb24697f2f6489b37af1269dd353"
     },
     {
-      "title": "เครือข่ายแพทย์ฯ ต้านภัยยาเสพติด ชวนลงชื่อหนุนร่าง พ.ร.บ.กัญชา กัญชง ฉบับ “ทวี สอดส่อง” - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVUmhpcWh3UGEzdy1acEtreWlFQ2t0Y1NEVkx3ajdGM0g0QmJCU2hTTVZiYkgtT0pyNzJnNFdtekFjN1pqVzNxNnRIOV83Z1BqRFkyLTlWOA?oc=5",
+      "title": "ดร.นพ.ไพโรจน์ ชี้กฎหมายกัญชาไทย ถึงเวลาสร้างระบบกำกับ-บังคับใช้ได้จริง - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Hb3dVSEh5MUpFZ3RYNDREbldSX001RFZ3Nm5JNW9QMWFvWlA1UTQzRUNjZmN1RTBxZEVhYm1YTWpDTDc3SDVhOFBxXzkxcFl3WE1FbmxZMA?oc=5",
       "source": "Hfocus.org",
       "category": "กัญชา / กัญชง",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "เครือข่ายแพทย์ฯ ต้านภัยยาเสพติด ชวนลงชื่อหนุนร่าง พ.ร.บ.กัญชา กัญชง ฉบับ “ทวี สอดส่อง”&nbsp;&nbsp;Hfocus.org",
+      "summary": "ดร.นพ.ไพโรจน์ ชี้กฎหมายกัญชาไทย ถึงเวลาสร้างระบบกำกับ-บังคับใช้ได้จริง&nbsp;&nbsp;Hfocus.org",
       "date": "2026-10-08",
-      "id": "6b53c74678b6e1d9f737c0a65daf05dc"
+      "id": "78e51bbf33b316e09116712355dbec48"
     },
     {
       "title": "เครือข่ายแพทย์ หนุน ‘ทวี สอดส่อง’ เสนอร่างกฎหมายคุมกัญชา น่าสกัดสันทนาการได้จริง - มติชนออนไลน์",
@@ -191,18 +180,6 @@
       "id": "d3172ae4bed884b7578a737c4c745a23"
     },
     {
-      "title": "ดร.นพ.ไพโรจน์ ชี้กฎหมายกัญชาไทย ถึงเวลาสร้างระบบกำกับ-บังคับใช้ได้จริง - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Hb3dVSEh5MUpFZ3RYNDREbldSX001RFZ3Nm5JNW9QMWFvWlA1UTQzRUNjZmN1RTBxZEVhYm1YTWpDTDc3SDVhOFBxXzkxcFl3WE1FbmxZMA?oc=5",
-      "source": "Hfocus.org",
-      "category": "กัญชา / กัญชง",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ดร.นพ.ไพโรจน์ ชี้กฎหมายกัญชาไทย ถึงเวลาสร้างระบบกำกับ-บังคับใช้ได้จริง&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-10-08",
-      "id": "78e51bbf33b316e09116712355dbec48"
-    },
-    {
       "title": "Nationwide Survey Reveals How Chinese Physicians Rate Their Own Traditional Medicine Services - Bioengineer.org",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQWZfY2ctNDhZSlFJS2N3X3FMbFNsN3NXVkVpcS1wdWtlbU5Cc0dxaXNub242cW84NlFya3BBT1pybWpjMWswV3UxdFRLcGl6TGpnNE9rUUthNGtoei1nZjRQS0M4enhpY2pXRVB2aU5XOTNZcVZrX3o0Z2dheVBrekk0ZjNXRzRnbTVXcEdCZjRkYm94dTA3eEFyZGZiUkRVbjFLNFRmbTFPckM1SU9yeXM2UmJ2SVNCalE?oc=5",
       "source": "Bioengineer.org",
@@ -213,18 +190,6 @@
       "summary": "Nationwide Survey Reveals How Chinese Physicians Rate Their Own Traditional Medicine Services&nbsp;&nbsp;Bioengineer.org",
       "date": "2026-10-08",
       "id": "26ee16b70d9cb6fc77a0711dc7d6c6f7"
-    },
-    {
-      "title": "Ancient Herbal Formula Meets Modern Oncology in Landmark Gastric Cancer Trial - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcGdYTktSZDRuSkdmdGVkVTBld2U3YUM5VHpBUk1IZGFpaW8tYVRhakdnd2NmRTVOZU5la3dEcVl3MGNPNlhxYnFxazF3NzNFMFpSVld4Nk9mQnBQV1pvLWZPc3pTRFljQk1kSTJmbndkNm0zTEZIdUxsNXRnZ3VRM3EtX2dPcjZvZWVHV0dBOFl2LUVMZGp2MmQ3S2ZOajA2a09MYQ?oc=5",
-      "source": "Bioengineer.org",
-      "category": "สมุนไพร",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Ancient Herbal Formula Meets Modern Oncology in Landmark Gastric Cancer Trial&nbsp;&nbsp;Bioengineer.org",
-      "date": "2026-10-08",
-      "id": "4c0634cbf611ff8675ecb86164a1affa"
     },
     {
       "title": "Meet the Winners of the 2026 World Spa Awards - American Spa",
@@ -827,18 +792,6 @@
       "id": "e7f131505c812d71ef7af0f60cc31287"
     },
     {
-      "title": "มหกรรมนวดไทยฯ2569 เงินสะพัดในงานกว่า 75 ล้าน เตรียมจัด GWS 2026 ภูเก็ต - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0ZGdueFZFTUNrLUUtVk1KNi1TN2xSbmpMTFhDOUZGd213Nl9tWHNuVDItd3hER2tlRTBvakg5ZlFERXdnWk9tSEdDdnZlNldpRS1vb3Jlcw?oc=5",
-      "source": "Hfocus.org",
-      "category": "นวดไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "มหกรรมนวดไทยฯ2569 เงินสะพัดในงานกว่า 75 ล้าน เตรียมจัด GWS 2026 ภูเก็ต&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-08-23",
-      "id": "27e51a2007a5ff6e9257ed0da22f4f20"
-    },
-    {
       "title": "ประกาศรายชื่อสุดยอดนักสร้างสรรค์กลิ่น “ว่านสาวหลง” ดันสมุนไพรไทยสู่ตลาดเวลเนสโลก - Hfocus.org",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFByNkxlRHNmWWJ3eDFaazVscnNrZ3c3Vm42aHA1NmVSMkQ3ZDJmMV9uRFFhNzRjTGV3cEhaWGQ2QXVrMzJNaURCZ3BubnFjZWhhU0VwZ1lubw?oc=5",
       "source": "Hfocus.org",
@@ -923,6 +876,18 @@
       "id": "ef82fc251d821351c51e3658c82d50e7"
     },
     {
+      "title": "สธ.เตรียมจัดมหกรรมใหญ่ ‘นวดไทย-เวลเนสแห่งชาติ 2569’ ครั้งแรกของประเทศ 20-22 ส.ค.นี้ - The Coverage",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PRzdibjg5Mi1xLUVjd0lycjAyaGFNTVZiVTdkZ3JwemhZb3hxUV9CSG9RNkhlNEZaVi04WDhoQVlxcVJFeDNMZTkza21tREc5Y1E2V2ZnOVR0MVk?oc=5",
+      "source": "The Coverage",
+      "category": "นวดไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "สธ.เตรียมจัดมหกรรมใหญ่ ‘นวดไทย-เวลเนสแห่งชาติ 2569’ ครั้งแรกของประเทศ 20-22 ส.ค.นี้&nbsp;&nbsp;The Coverage",
+      "date": "2026-08-14",
+      "id": "c5ed51f18f1cb8be9a77b6f157d4dd61"
+    },
+    {
       "title": "Acupuncture for IBS: Does It Really Help? - Medscape",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdlhZeVFHQVdoY3JKdjMtSExlc1YtZURpN1Qta3pPT21CNVotdFFPclFzeGxPc1NtVnVNWVh4VlFRWlM2SngxTFdLZ0RJSzMxYWRCakFYSVgxN3lXNTBFVkZMXzk5U2VvMENRYWNWWnNTbFptS0wwbS1LNl9pTFE0QTVuV0dMaDRYS0lZenN3?oc=5",
       "source": "Medscape",
@@ -971,6 +936,18 @@
       "id": "aaedb14c7b5afd33b963d27d148cc645"
     },
     {
+      "title": "ประชุมชี้แจงแนวทางบังคับใช้ กฎหมายสมุนไพรควบคุม “กัญชา” เพื่อการแพทย์ - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TZm45bFR4WVFRdEFnOHlWUlNySFJOZ0tNa3U4RjB6Z1dEOXZDODFwYzkzT2dsV2V0R1c5bDM0VjBwMkxUQjdGbC1oVDFobjlnelZBOGEzSQ?oc=5",
+      "source": "Hfocus.org",
+      "category": "กัญชา / กัญชง",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "ประชุมชี้แจงแนวทางบังคับใช้ กฎหมายสมุนไพรควบคุม “กัญชา” เพื่อการแพทย์&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-08-03",
+      "id": "7b327b535446ef12695b1a9fd2b62a46"
+    },
+    {
       "title": "จบดราม่า! ขบวนแห่เทียน “นวดแผนไทย” โชคชัย จับมือเคลียร์ใจ ชาวบ้านขอโทษ–กลุ่มหมอนวดยอมรับ - Workpoint News",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9HaXF5NE0wTFA3LVB1Qnlsc1h6TjUxdks0WTNPRE5VMUFBT2habkZHUEZoSWNqeG1ma0hmeUxxdUJpNVZjYnZvdHVETzUwMlVQMU0tc2RWeU9odm51V2ZoazFORzI?oc=5",
       "source": "Workpoint News",
@@ -1005,6 +982,18 @@
       "summary": "เปิดหลักสูตร TOP 3 มหาวิทยาลัยจีนชั้นนำด้านแพทย์แผนจีน&nbsp;&nbsp;HELLO! Magazine Thailand",
       "date": "2026-07-31",
       "id": "8ce78938f2ace92e809b2dbc88f7a224"
+    },
+    {
+      "title": "ถอดรหัสอนาคต Wellness Thailand บนเวทีโลก จากภูมิปัญญาสู่ยุทธศาสตร์เศรษฐกิจหมื่นล้าน - Marketing Oops!",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZFNMSUdCWW43NmZLUUhobDlyRmthS2hzWEg5UVNOLXZ5TlBqZXF6ZkVzaVFqakw0U2JXYTZ1bTZpZDBPcjR4TXhxZFU3MjZoamI5MGdmNUQzS1ZaVGtaeF95RndaNTFFNDJoWHQtWHFlUFRlVWkxX1Z2ZXFla2FYMENNVXJnYzFsZWh3X1AyVUZybTU2?oc=5",
+      "source": "Marketing Oops!",
+      "category": "เวลเนส",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "ถอดรหัสอนาคต Wellness Thailand บนเวทีโลก จากภูมิปัญญาสู่ยุทธศาสตร์เศรษฐกิจหมื่นล้าน&nbsp;&nbsp;Marketing Oops!",
+      "date": "2026-07-30",
+      "id": "510f6d16e9eac9e62ddbaf2464f4a170"
     },
     {
       "title": "Unlocking the potential of traditional Chinese medicine - Nature",
@@ -1067,16 +1056,16 @@
       "id": "5a84b9bef204b88fa4c7538b0eea1b87"
     },
     {
-      "title": "ไทม์ไลน์ กัญชาทางการแพทย์ ก่อนชงร่างฯ พรบ.ควบคุมกัญชา เสนอ รบ. 24 ก.ค. - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JVTdRbFFFWk9rMG1EZy1KUjNmcE9idmdwQTFGbkNacHRGOFhVQ1Q1cjFPLWJuWGFJaHZPYkEtT2tib1FkVmVUNEFSalJJeWNRNXVtUUpQQQ?oc=5",
-      "source": "Hfocus.org",
-      "category": "กัญชา / กัญชง",
+      "title": "เปิดไทม์ไลน์กฎหมายคุมเข้ม “กัญชาทางการแพทย์” ก่อนกรมแพทย์แผนไทยฯ ชงร่างฯ พ.ร.บ. ควบคุมกัญชา พ.ศ. .... เสนอรัฐบาล 24 ก.ค. นี้ - สำนักสารนิเทศ",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OdVg3Mi1HYm9lV1BBcl9XVFZMZjZPZkdFaEUtWlJ0RUV6MWNyTUpoeHhvTVAzZEpWdHdzOGM1UzJ1LWphZWRvOF90dUdhZnZzdGNfZGVRMGJrQQ?oc=5",
+      "source": "สำนักสารนิเทศ",
+      "category": "แพทย์แผนไทย",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "ไทม์ไลน์ กัญชาทางการแพทย์ ก่อนชงร่างฯ พรบ.ควบคุมกัญชา เสนอ รบ. 24 ก.ค.&nbsp;&nbsp;Hfocus.org",
+      "summary": "เปิดไทม์ไลน์กฎหมายคุมเข้ม “กัญชาทางการแพทย์” ก่อนกรมแพทย์แผนไทยฯ ชงร่างฯ พ.ร.บ. ควบคุมกัญชา พ.ศ. .... เสนอรัฐบาล 24 ก.ค.…",
       "date": "2026-07-15",
-      "id": "2725865e86988c7c2ebc1cc602390f1f"
+      "id": "800b9dd67a4729b3b51bfde8d5e06c98"
     },
     {
       "title": "Acupuncture-related therapy for sudden sensorineural hearing loss: clinical efficacy and central mechanistic insights - Frontiers",
@@ -1101,18 +1090,6 @@
       "summary": "สร้างประวัติศาสตร์! ไทยผนึก 9 สมาคมนานาชาติ จัดใหญ่ \"International NUAD THAI & Wellness Festival 2026\" เปิดเวทีชิงถ้วยพระราชทานฯ พร้อมดัน…",
       "date": "2026-07-11",
       "id": "1a6bd402b6e5f6eeca78bacb96415b5a"
-    },
-    {
-      "title": "Acupuncture treatment for Sjögren’s syndrome: a narrative review on mechanism of treatment and clinical application - Frontiers",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTFFGdW52eDFpX3NIX3NxSktIQ1M0OHZFZ1gzZC1PMVprNjdpREVtR2lhZUJ5dDBMZFVncHRTMTQtNVlwRW5pbTQzRlM1MW1xMlIxWkFhbUVQS1hkZTkzQ0l4NVZUWGMwcVNVZmR5aVhJZWZJVklTWlFmZmFzSmtyN25TNWgxWjNwSHdpbEN6VUFldw?oc=5",
-      "source": "Frontiers",
-      "category": "ฝังเข็ม",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Acupuncture treatment for Sjögren’s syndrome: a narrative review on mechanism of treatment and clinical application&nbsp;&nbsp;Frontiers",
-      "date": "2026-07-10",
-      "id": "3799cf1c97e229d490fa641dbbe9dd00"
     },
     {
       "title": "ชี้ทางรอด \"สมุนไพรไทย\" ต้องสร้างความยั่งยืนตั้งแต่แหล่งปลูก ชูไทยได้เปรียบความหลากหลายทางชีวภาพ - Hfocus.org",
@@ -1401,6 +1378,18 @@
       "summary": "EASL 2026: ‘Natural’ Wellness Supplements Linked to Liver Injury&nbsp;&nbsp;European Medical Journal",
       "date": "2026-05-28",
       "id": "5ec81e6896c13df64a8c74d2f3815b31"
+    },
+    {
+      "title": "Acupuncture is independently associated with improved recovery in Guillain–Barré syndrome: a prospective observational study - Frontiers",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOXZjdzFSZTZpRS1wV1FRMU9DbmM5SExHLVZfRXhTRml2SDhjZzZuMGNZZmQwRXh1VXB1emlqZjhSRVNmakNjbFNWVjNJVjhqMl9yaGtoZEVkVml1SkhQRDZGV09xRFhwaXdfcm1tcXNLR0NnY2RCc1p0cXI2T3J6eFExMUd4TzVnY2RaYWFIb2Q?oc=5",
+      "source": "Frontiers",
+      "category": "ฝังเข็ม",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Acupuncture is independently associated with improved recovery in Guillain–Barré syndrome: a prospective observational…",
+      "date": "2026-05-27",
+      "id": "c0eeb8a265871cff36c36a423ada07e7"
     },
     {
       "title": "Determinants of medical crowdfunding information sharing attitudes through integrated source credibility and technology acceptance models - Nature",
@@ -1847,16 +1836,16 @@
       "id": "9329c84b62f07e1760476fff52a9c514"
     },
     {
-      "title": "Herbal Medicinal Products Market - Future Market Insights",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZmdIRUtxYU9INGRlMkh5Z3Y2Ym5PcjZxZUxsLVV6R3NtXzZiaVMzQlVQa1J1SHhIM1lJX1FCWENmWXJkM1luX3dLYWIzZGhBOXo2NW5DMVBMS0swYUU4MGhvMmRRdElfT2lWZ3Q1eVVaaHpDVl8wNUQyTHh5TVRhMTlvZw?oc=5",
-      "source": "Future Market Insights",
-      "category": "สมุนไพร",
+      "title": "Perceived value and educational implications of traditional Chinese medicine nursing: a mixed-methods study - Frontiers",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObzhEMThyWUkxeVFfNE1WSE9VamMyaHU0YjRfOEhpQnVyVkxsOVk2WFg5NERZZnh6NWlLT25JcVpJbFFWWmxIUDBvWlQzOEU5VnRZSWdvVXFBRzlmVWJiQVF0eEtTS0ZlcmRscE9fU3RjTFA0SnBqWDBWbEg1SlQ4NmpzMjIyeU9rc0NRV0ZTU204bnYzQlE?oc=5",
+      "source": "Frontiers",
+      "category": "แพทย์แผนจีน",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Herbal Medicinal Products Market&nbsp;&nbsp;Future Market Insights",
-      "date": "2026-02-16",
-      "id": "602e1257cb02c67bd952bcad37df3749"
+      "summary": "Perceived value and educational implications of traditional Chinese medicine nursing: a mixed-methods study&nbsp;&nbsp;Frontiers",
+      "date": "2026-02-09",
+      "id": "a602744f57ec6013a01d471261268911"
     },
     {
       "title": "ช็อก! พบแม่สุดงมงายใช้เข็มแทงลูกวัย 10 เดือนกว่า 600 แผล อ้างเป็นการ “ฝังเข็ม” รักษาโรค - เดลินิวส์",
@@ -1905,6 +1894,18 @@
       "summary": "ศูนย์การแพทย์แผนไทยธรรมศาสตร์ ขอเชิญผู้ที่สนใจเข้ารับบริการ “นวดเพื่อสุขภาพ” ณ คณะแพทยศาสตร์…",
       "date": "2026-01-26",
       "id": "947d4346f2ceab76cccd6c0dc7145b86"
+    },
+    {
+      "title": "January 26, 2026: New Findings From GRACE Trial Highlight Strategies for Integrating Acupuncture and Guided Relaxation Into Sickle Cell Disease Clinics - Rethinking Clinical Trials",
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNQ3l4Mmk3M08tOENRY2hMbWRzbjJRcTBxRHhOU3oxVEo3eFdyQkNiNjhHeTE3SW5SYmRZczZzNUFfVkZiSTMzeFpmOTZ4ZEV5TmhHcDVHWmFYWk9weUZ5akJwMzZCWUJXV1FOLWRSWXJfVnNSX2NfWkF6dzVyTGsyc3MxQU5uX1h4VGdYRW5BNEdPMEszRTB5dEI5NnhRZzZobkZVdXVNY2h4T2VhaVpkaUVuZ0VtVVMxb0JZVDJaVERvUUJFWXlvcG1mSmFYcnpIbGdrdTRlaFVxZFVYWGxLNnJRUFdHd3k1T3JVU0J4T0FyeU9HQWZ4VFhfUDFvUk9fX2JINjN4QWQ5ZV9PM1lPeEc4QjlBa2s2YzhZZQ?oc=5",
+      "source": "Rethinking Clinical Trials",
+      "category": "ฝังเข็ม",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "January 26, 2026: New Findings From GRACE Trial Highlight Strategies for Integrating Acupuncture and Guided Relaxation Into Sickle Cell…",
+      "date": "2026-01-26",
+      "id": "3afbd5baa2d807516b0ced403ee748ac"
     }
   ]
 }
