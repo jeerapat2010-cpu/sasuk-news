@@ -7,6 +7,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DT9E54XRZZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-DT9E54XRZZ');
+
+  // ตัวช่วยส่ง event แบบปลอดภัย (ไม่พังถ้าผู้ใช้บล็อกสคริปต์วิเคราะห์ข้อมูล)
+  function track(name, params) {
+    try { gtag('event', name, params || {}); } catch (e) {}
+  }
+</script>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -607,6 +620,7 @@ if (!isStandalone()) {
   if (isIOS()) {
     installBtn.classList.add('show');
     installBtn.addEventListener('click', () => {
+      track('install_click', { platform: 'ios' });
       iosOverlay.classList.add('show');
     });
     iosClose.addEventListener('click', () => {
@@ -623,12 +637,14 @@ if (!isStandalone()) {
     });
     installBtn.addEventListener('click', async () => {
       if (!deferredInstallPrompt) return;
+      track('install_click', { platform: 'desktop_android' });
       deferredInstallPrompt.prompt();
       await deferredInstallPrompt.userChoice;
       deferredInstallPrompt = null;
       installBtn.classList.remove('show');
     });
     window.addEventListener('appinstalled', () => {
+      track('app_installed');
       installBtn.classList.remove('show');
     });
   }
@@ -692,6 +708,7 @@ function buildFilterChips(items, categoryCounts) {
       btn.classList.add('active');
       btn.style.background = dotColor;
       btn.style.color = '#fff';
+      track('select_category', { news_category: cat });
       render();
     });
     row.appendChild(btn);
@@ -782,13 +799,28 @@ function render() {
     card.rel = 'noopener noreferrer';
     card.style.borderTopColor = catColor(item.category).solid;
     card.innerHTML = cardHtml(item);
+    card.addEventListener('click', () => {
+      track('select_content', {
+        content_type: 'news',
+        item_id: item.id,
+        news_category: item.category,
+        news_source: item.source
+      });
+    });
     grid.appendChild(card);
   });
 }
 
+let searchTrackTimer = null;
 document.getElementById('search').addEventListener('input', (e) => {
   currentSearch = e.target.value;
   render();
+  // ส่ง event ค้นหาหลังหยุดพิมพ์ 1 วินาที เพื่อไม่ให้นับทุกตัวอักษร
+  clearTimeout(searchTrackTimer);
+  const term = currentSearch.trim();
+  if (term.length >= 2) {
+    searchTrackTimer = setTimeout(() => track('search', { search_term: term }), 1000);
+  }
 });
 
 fetch('news.json?t=' + Date.now())
