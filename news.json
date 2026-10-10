@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T19:54:31.742706Z",
+  "updated_at": "2026-10-10T23:21:06.169521Z",
   "total_items": 150,
   "source_count": 84,
   "sources": [
@@ -12,7 +12,6 @@
     "Business Wire",
     "DMC.tv",
     "Daily Excelsior",
-    "DocWireNews",
     "EurekAlert! Science News Releases",
     "Euronews.com",
     "European Medical Journal",
@@ -35,7 +34,6 @@
     "Marketeer Online",
     "Marketing Oops!",
     "Matichon Online",
-    "MedTech World",
     "Medscape",
     "Nanyang Technological University - NTU Singapore",
     "National Geographic",
@@ -56,6 +54,7 @@
     "South China Morning Post",
     "Thai PBS",
     "ThaiPR.NET",
+    "Thairath.co.th",
     "The Atlanta Journal-Constitution",
     "The Coverage",
     "The Spectator",
@@ -83,24 +82,37 @@
     "ข่าวสด",
     "ผู้จัดการออนไลน์",
     "มหาวิทยาลัยธรรมศาสตร์",
+    "สำนักสารนิเทศ",
     "สำนักสารนิเทศ สำนักงานปลัดกระทรวงสาธารณสุข",
     "เดลินิวส์",
     "เว็บไซต์รัฐบาลไทย",
     "แนวหน้า"
   ],
   "category_counts": {
-    "กัญชา / กัญชง": 11,
-    "แพทย์แผนไทย": 21,
+    "แพทย์แผนจีน": 26,
+    "กัญชา / กัญชง": 10,
+    "แพทย์แผนไทย": 22,
     "ข่าวสุขภาพทั่วไป": 15,
     "ฝังเข็ม": 12,
-    "เทคโนโลยีการแพทย์": 4,
-    "สมุนไพร": 16,
-    "แพทย์แผนจีน": 26,
+    "สมุนไพร": 17,
     "สปา": 9,
     "เวลเนส": 18,
-    "นวดไทย": 18
+    "นวดไทย": 18,
+    "เทคโนโลยีการแพทย์": 3
   },
   "items": [
+    {
+      "title": "บทความและข่าว “แพทย์แผนจีนรักษาสัตว์” ล่าสุด วันนี้ - Thairath.co.th",
+      "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQLXVyeklqQUpQdF9DVnQzS2lqRmlqRnlCZVAxRXV3QTRjSVpaRFV3cFREd21VV1Vyam8yOEhkaUNMV2RnX2ZQaUtEeXpocHV3VFdGU29RQVZjNUJjaUVtTFZ4MUJYdXNSb3BxbGhhTGg3TzRSQm4xVXUtSG9yNU8ta1Zwa25yT25OZ0lraGx5QnFMSElyX3VTZjBMblpYdndMZXJndy1BNjduM2o0WWZXcFV5cDQyNElfRWY0UThxUDhudThaSzhEQmhjbXUyLVpCZmEtVGxMUF9ta2J6M0RpQ1VPdkVfTWZvbzFpR3J6cmltSm5rbXNTSmZpVVBGNEE0Z1U3MTNnUHlhelJiTGF5Sm9lVTlqSVJBZlVsMmc3UVN4V0dKQXpOOEdjZzRuRVl4eHItR3lqbW1NeFlkZGRtbXVaTQ?oc=5",
+      "source": "Thairath.co.th",
+      "category": "แพทย์แผนจีน",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "บทความและข่าว “แพทย์แผนจีนรักษาสัตว์” ล่าสุด วันนี้&nbsp;&nbsp;Thairath.co.th",
+      "date": "2026-10-10",
+      "id": "a4e5de40ac1c7cf2eaee369934b14741"
+    },
     {
       "title": "เปิดร่าง พ.ร.บ.กัญชา คุมเข้ม 7 ใบอนุญาต - Policy Watch",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GTlZpQWZJdXJjeG1ySjNUSzVDQ1ItV2dSU3VsV21WZGQ5MnoyWlgwbXpzMWVsU0szdEpnc1dYOVhKSEVZY1FqNWxEbGR0MFA1ak56eDRyRHJHNExRRWU0?oc=5",
@@ -148,18 +160,6 @@
       "summary": "Acupuncture Trials for Diabetes and Obesity Fail Rigor Tests, Landmark Audit Finds&nbsp;&nbsp;Bioengineer.org",
       "date": "2026-10-09",
       "id": "6ba4bbc63e94f8fcf9e6fc96e33fa8d5"
-    },
-    {
-      "title": "St Vincent de Paul: Advancing digitalisation, medical technology and integrated geriatric healthcare - MedTech World",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeVhfbXRYZWk2cG83MEdtUDZmMXZ1aTBNYjFhaU15cXpPbUxRMzEzcGk0WmkzLTh5RXpGU0Z1TG5KOWVsSzRPS3ByeWMzUEl2dHo3NFhWWUppVW1ZMHBvbi1XMzBnLU5jbVFsYUF1Sm9YR1ZEN1UzVGRGZ3dRVUlwRWVR?oc=5",
-      "source": "MedTech World",
-      "category": "เทคโนโลยีการแพทย์",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "St Vincent de Paul: Advancing digitalisation, medical technology and integrated geriatric healthcare&nbsp;&nbsp;MedTech World",
-      "date": "2026-10-09",
-      "id": "0079b75e80a26c2368087891994d3499"
     },
     {
       "title": "กรมการแพทย์แผนไทยฯ เผยแนวทาง “กินเจอิ่มบุญ สบายท้อง” ชู 5 สมุนไพรไทยขับลม แนะนำเมนูต้ม นึ่ง ลดทอด ป้องกันท้องอืด - thailandplus",
@@ -1002,16 +1002,28 @@
       "id": "7e73ea4a2b6543f5e2fe0b4d48bbb48f"
     },
     {
-      "title": "ไทม์ไลน์ กัญชาทางการแพทย์ ก่อนชงร่างฯ พรบ.ควบคุมกัญชา เสนอ รบ. 24 ก.ค. - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5JVTdRbFFFWk9rMG1EZy1KUjNmcE9idmdwQTFGbkNacHRGOFhVQ1Q1cjFPLWJuWGFJaHZPYkEtT2tib1FkVmVUNEFSalJJeWNRNXVtUUpQQQ?oc=5",
-      "source": "Hfocus.org",
-      "category": "กัญชา / กัญชง",
+      "title": "เปิดไทม์ไลน์กฎหมายคุมเข้ม “กัญชาทางการแพทย์” ก่อนกรมแพทย์แผนไทยฯ ชงร่างฯ พ.ร.บ. ควบคุมกัญชา พ.ศ. .... เสนอรัฐบาล 24 ก.ค. นี้ - สำนักสารนิเทศ",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OdVg3Mi1HYm9lV1BBcl9XVFZMZjZPZkdFaEUtWlJ0RUV6MWNyTUpoeHhvTVAzZEpWdHdzOGM1UzJ1LWphZWRvOF90dUdhZnZzdGNfZGVRMGJrQQ?oc=5",
+      "source": "สำนักสารนิเทศ",
+      "category": "แพทย์แผนไทย",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "ไทม์ไลน์ กัญชาทางการแพทย์ ก่อนชงร่างฯ พรบ.ควบคุมกัญชา เสนอ รบ. 24 ก.ค.&nbsp;&nbsp;Hfocus.org",
+      "summary": "เปิดไทม์ไลน์กฎหมายคุมเข้ม “กัญชาทางการแพทย์” ก่อนกรมแพทย์แผนไทยฯ ชงร่างฯ พ.ร.บ. ควบคุมกัญชา พ.ศ. .... เสนอรัฐบาล 24 ก.ค.…",
       "date": "2026-07-15",
-      "id": "2725865e86988c7c2ebc1cc602390f1f"
+      "id": "800b9dd67a4729b3b51bfde8d5e06c98"
+    },
+    {
+      "title": "Beyond the lab: rapid mass spectrometry techniques charted for traditional Chinese medicine analysis - EurekAlert! Science News Releases",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUaEUxaWxHbUZiRUpPM0RVWXh3bVN0SlU4UGpIZlJPSmswVWJyLVktYmxKU01neE92RnVCd0dHQk1yUG92bnZ3eHl6QkpnOU5QWlBSeTBtYXVjWGRV?oc=5",
+      "source": "EurekAlert! Science News Releases",
+      "category": "แพทย์แผนจีน",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Beyond the lab: rapid mass spectrometry techniques charted for traditional Chinese medicine analysis&nbsp;&nbsp;EurekAlert! Science News…",
+      "date": "2026-07-15",
+      "id": "6b2f96fcf07922338d9828551361b07e"
     },
     {
       "title": "Acupuncture-related therapy for sudden sensorineural hearing loss: clinical efficacy and central mechanistic insights - Frontiers",
@@ -1086,18 +1098,6 @@
       "id": "05155c40bbba8d03398e09510d1cbd12"
     },
     {
-      "title": "การเมือง - มธ. ปั้น แพทย์แผนจีนอินเตอร์ ดันไทยชิงเค้กโลก 5.5 แสนล้านดอลลาร์ - แนวหน้า",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yUXE3YTU2R084cVBPR1N2aldJUUJuT24zUklJY1kxTk43bnRIYnlzdkZNQjNuNmd4QWJDc0ViU0MwY2M0VmFYUm12QUtfdw?oc=5",
-      "source": "แนวหน้า",
-      "category": "แพทย์แผนจีน",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "การเมือง - มธ. ปั้น แพทย์แผนจีนอินเตอร์ ดันไทยชิงเค้กโลก 5.5 แสนล้านดอลลาร์&nbsp;&nbsp;แนวหน้า",
-      "date": "2026-07-04",
-      "id": "ceb666cbe359e94214eed27342bfc156"
-    },
-    {
       "title": "ไทยขาดแคลน 'เทอราปิส' กว่า 70,000 คน เร่งปั้นกำลังคน รับ 'เวลเนสอีโคโนมี' อัปรายได้หลักแสน . เมื่อวันที่ 3 กรกฎาคม 2569 ที่โรงแรม เมอเวนพิค บีดีเอ็มเอส เวลเนส รีสอร์ท กรุงเทพ พิธีลงนามบันทึกความเข้าใจ (MOU) ความร่วมมือ Thai Wellness Therapist Program เพื่อยกระดับวิชาชีพ - Facebook",
       "link": "https://news.google.com/rss/articles/CBMipwdBVV95cUxQaVJqLWY4dWN6WnRobVAtY1ZDREVWenZxNlhGa29USThhaTJEa0tHLURmNEwyMFM3UXIwRHMxZkJyb2JSb19POFNfaFlmRVlOYkJYOU81aVBDdm1fcDJZRnNwem9BdDh1VzdkaWhXU3p5RHZ0QTdmZGlsZ1lycm1ud1FlZlFXVmdPQk5UVXhaZUFKMENCVnV5RGprajN6NWRfaEZ5WVd3d0RTYV9DNDJIRXRqb2dnTnZHSFdvX0lmVWRZclB5d0N3UVFVQWtGYXMzSTd1bVRsVGs3WjByaHY5Z2Z4dFYyZjQzRE5FSy13M2hsRGxOTkJtdm1pQ1RXQnlnUkUzdUM0YnFzMUNyanltM1QtejcxVVptcHJNanBUa1dHMlV6RzkzUUt6Rm9qR0Z6VFBQSWFXeTlkd0pzeEp4NFhnQl9xZ3Y0OVV0ME5zTWVkcEdXVFdScllQSDZpLW1iZEt2RUJPSHZOSnNpdlJOY3A5NUI4UC1jV3JVeXppTUFaNkRfYktoSEM4VXpWeXhVS0tUa20tdzZYczVNeWNsdC1HdXZQNWZwRHJraWZUTlBHUk5MeDBoLThFTHl0NWpKZHlIMHBONnl3akdBQnVaM3hMdTRMZnpKS3Fmb2FRMS1jLTQ1MzNNTFo3eVl4QXNKZWRKWnRFQWRUU0pVa2RmUDJ6MWNpeE1xWkg2OU1NR01PLUROcEd3d1RwZjVxZHRlTDJ0QWFFdHdSZFdkUUVrUUNxV3ExR1hDVHZna1RjSVEzd2tuWC1taXZFM1ZjcV9fWVg3c3hITzZ6YzhSSWd0bjQ0ekZTbWxIMWktclRaSUlXUkNWNE1NYm84YVg0dDJrXzZCb1Nmck1VVnV2V1F4Wlh0REVGOVFhM2xrWERCTzVpSF9wN1pUYmFjVkV0d0puSmNlZnNFczNaaWl1S0ZfV1FHZjNRMl8tNlJ6azVuSVM5WW5UNldFUFlWaHBaM1BqWFIyd3JDSDBESU4wakNhVXZ2Nl90T28xUzRHR0ROWm9oWEVyekRLbFFHM1Joa1RXTTlhTFl2WHhudzlJdUhCS0NJWDM3UWc0MmRjc1d1UFl0UTBLNmtaa3RLS3JPdkNGaEdXV0FHZHdHU1VMTG5zalBOZnFDaVZjVUJCNy1ydk1VTFhUQ1R2emdOQnllSzZJSnpYNkVjS3hnTzhJYXNvaTBSQzRPZ2JJMUw4UER3ZEtTQlBrSDlNY2VYTVVpTGRWN3pIalFpSQ?oc=5",
       "source": "Facebook",
@@ -1144,6 +1144,18 @@
       "summary": "\"พัฒนา\" เปิดงานมหกรรมสมุนไพรฯ คาด 4 วัน เงินสะพัดกว่า 200 ล้านบาท&nbsp;&nbsp;Hfocus.org",
       "date": "2026-07-02",
       "id": "65101e82076850708284044465dabffb"
+    },
+    {
+      "title": "สุดเจ๋ง! อภัยภูเบศร กวาด 3 รางวัลสมุนไพรคุณภาพแห่งชาติ ตอกย้ำการพัฒนาสมุนไพร 40 ปี - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVOWdfTmctOVNvUHFfbkxzbnBuT0xVRldYcWNaa0F1SVkwUHpFbDVMY3VNWTN6NFpIeE5idTJ6VjNyYVdEaURxWHV5RjhwcVA0aDNEWXpCTQ?oc=5",
+      "source": "Hfocus.org",
+      "category": "สมุนไพร",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "สุดเจ๋ง! อภัยภูเบศร กวาด 3 รางวัลสมุนไพรคุณภาพแห่งชาติ ตอกย้ำการพัฒนาสมุนไพร 40 ปี&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-07-02",
+      "id": "e0ff0e2e1d2ccaa54409f058f301f7df"
     },
     {
       "title": "กรมแพทย์แผนไทย-สปสช.เปิดสิทธิบัตรทอง “ฝังเข็ม” ฟื้นฟูหลอดเลือดสมองฟรี! - Hfocus.org",
@@ -1804,18 +1816,6 @@
       "summary": "Salma Health Launches Integrated Brain Health Center of Excellence, Ushering in a New Era for Comprehensive Brain Care, Technology, and…",
       "date": "2026-02-26",
       "id": "6d4def73f0c907f93799a067eefd5789"
-    },
-    {
-      "title": "Traditional Chinese Medicine Shows Promise for HIV Comorbidities - DocWireNews",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX3N3M2dlR1hNamVESVZIRmh2MDBOTlhrRHZ0RUhWRGJuR3FPdXR6ckJLc0lhbHg2dzl3UkJvSlozdEtveGlweF9MSWJWdVFldnI3RU4ydFpYVE95amE4NVRwaHQzWDM4eTduV3lsd0JPT3NkZFpQYWMzZWZaR1AtYzJJQ1k4WnV2NkVwZkZRdU5xSmdfelpFeFM4U3hEUQ?oc=5",
-      "source": "DocWireNews",
-      "category": "แพทย์แผนจีน",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Traditional Chinese Medicine Shows Promise for HIV Comorbidities&nbsp;&nbsp;DocWireNews",
-      "date": "2026-02-25",
-      "id": "e0968c37c54ca5e7210775eaa5fe05e4"
     },
     {
       "title": "Apothékary: Liquid Herbal Supplements Scaling Into Whole Foods and Ulta - BeautyMatter",
