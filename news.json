@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-19T09:48:02.953240Z",
+  "updated_at": "2026-10-19T18:32:45.306814Z",
   "total_items": 150,
-  "source_count": 87,
+  "source_count": 86,
   "sources": [
     "American Spa",
     "BBC",
@@ -14,7 +14,7 @@
     "Cowboy State Daily",
     "DMC.tv",
     "Daily Excelsior",
-    "DocWireNews",
+    "Dove Medical Press",
     "EMJ",
     "EurekAlert!",
     "EurekAlert! Science News Releases",
@@ -28,10 +28,8 @@
     "Harvard Business Review",
     "Hfocus.org",
     "Hospitality Net",
-    "LINE TODAY",
     "Market Data Forecast",
     "Market.us",
-    "Marketeer Online",
     "Matichon Online",
     "MedTech World",
     "Medscape",
@@ -39,26 +37,25 @@
     "Nation Thailand",
     "National Geographic",
     "Nature",
+    "Oncodaily",
     "Open Magazine",
     "PNAS",
     "PR Newswire",
     "PhocusWire",
-    "SNS Insider",
     "STAT",
     "Sage Journals",
     "Science Partner Journals",
     "Science | AAAS",
     "SondhiX",
     "South China Morning Post",
-    "THE BETTER",
     "Thai PBS",
     "ThaiPR.NET",
     "Thaigov",
+    "Thairath.co.th",
     "Thansettakij",
     "The ASCO Post",
     "The Atlanta Journal-Constitution",
     "The Coverage",
-    "The Manila Times",
     "The Straits Times",
     "TravelMole",
     "UC Irvine News",
@@ -75,12 +72,14 @@
     "spacebar.th",
     "thailandplus",
     "thepeople",
+    "thestandard.co",
     "thestatestimes",
     "topnews.co.th",
     "กรมส่งเสริมการค้าระหว่างประเทศ (DITP)",
     "กระทรวงพาณิชย์",
     "ข่าวสด",
     "ผู้จัดการออนไลน์",
+    "มติชนออนไลน์",
     "มหาวิทยาลัยธรรมศาสตร์",
     "มิติหุ้น",
     "วารสารการเงินธนาคาร",
@@ -92,53 +91,29 @@
     "แนวหน้า"
   ],
   "category_counts": {
-    "สมุนไพร": 20,
-    "แพทย์แผนจีน": 26,
+    "สมุนไพร": 18,
     "ฝังเข็ม": 13,
-    "ข่าวสุขภาพทั่วไป": 15,
-    "สปา": 11,
-    "เวลเนส": 13,
+    "ข่าวสุขภาพทั่วไป": 17,
+    "แพทย์แผนจีน": 26,
+    "สปา": 10,
+    "เวลเนส": 14,
     "นวดไทย": 18,
-    "แพทย์แผนไทย": 22,
+    "แพทย์แผนไทย": 20,
     "เทคโนโลยีการแพทย์": 3,
-    "กัญชา / กัญชง": 9
+    "กัญชา / กัญชง": 11
   },
   "items": [
     {
-      "title": "อภัยภูเบศร ยกทัพสมุนไพรบุกพารากอน งาน Thai FDA WELLNEXT 2026 - THE BETTER",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BOERJZE9nUDZOTVJmZmRWUUJBbGpmSUFyUm9qLTFpbDR3akFiMzR1UXU1Y2RFY19NRUJhMHpsWU1sZk9zUXFuMlgxOGZxTjJGWHBGc3J3?oc=5",
-      "source": "THE BETTER",
+      "title": "อภัยภูเบศรชวนคนไทย 'รู้ความเสี่ยง ดูแลก่อนป่วย' ส่งเสริมสวนสมุนไพรดูแลสุขภาพ 23-25 ต.ค. สยามพารากอน - Matichon Online",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iNTR5RlBsbGN0QXJsRG5hUllraE55dURxT2RkRjZWMzA0NlpjM1dZU1UtalREZkFYSkhaTVdVa0tXeUVCSVZneFRFc3JTVm9LalVBNDhHcWtyVU5HX1d6UlpOQ0JFNnlCRUE?oc=5",
+      "source": "Matichon Online",
       "category": "สมุนไพร",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "อภัยภูเบศร ยกทัพสมุนไพรบุกพารากอน งาน Thai FDA WELLNEXT 2026&nbsp;&nbsp;THE BETTER",
+      "summary": "อภัยภูเบศรชวนคนไทย 'รู้ความเสี่ยง ดูแลก่อนป่วย' ส่งเสริมสวนสมุนไพรดูแลสุขภาพ 23-25 ต.ค. สยามพารากอน&nbsp;&nbsp;Matichon Online",
       "date": "2026-10-19",
-      "id": "bcffb8a028548cf03eed95b87bd31573"
-    },
-    {
-      "title": "รู้แล้วใครจด NENE ROYAL พบเป็นเจ้าของธุรกิจสมุนไพรชื่อดัง | tvpoolonline.com - LINE TODAY",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Pd2pxSDFhbFV4bkU5cE4waTNrVjhjV3N1cllVdWExcU9reGpFc0drdVJFQkZfWGhMdm5fMVVpd3ZQZEx4R3dBbUFKdFlmU3pKT2s1bFdn?oc=5",
-      "source": "LINE TODAY",
-      "category": "สมุนไพร",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "รู้แล้วใครจด NENE ROYAL พบเป็นเจ้าของธุรกิจสมุนไพรชื่อดัง | tvpoolonline.com&nbsp;&nbsp;LINE TODAY",
-      "date": "2026-10-19",
-      "id": "37881250861e5c0d61eb8ac5d902c86d"
-    },
-    {
-      "title": "Overseas Forum of International Congress of Luobing Theory Opens in Singapore, Helping Advance the Internationalization of Traditional Chinese Medicine - The Manila Times",
-      "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxQdml6d2FjXzJwS0MzeFhJblJTMjA3Q1pRWWtPcVk1dVVqa3NtYThKMFNvenZ5UlZ5dTAwTm5WYkdVc3R2cWFTUkxZVkgtUnM1NHFVTkppUXc3dEx0T1VPWjllRkZKdGc5TUR3LWRUUVhkR3hodElqMXpWZE1NdS1pdjhMaDBkY2RCOW4yZDlCRHdhZ0VBM012UFBXUXJsbF9Ed2NxQjVmbjdzRGRfM0pQN1hQWXctMlQ5T1FncHJwS0tWclg1YklvQ01zMm5DMENOUDhIR3c4Z1RWNFMybkpwSkRZLXdfY0pfd2lDcnZ0bU93V1B0MThaWl9kV2M3Sk81REdLYlJ3eVdUdG9IbnRZYmdHTVlRanlzbkpnaDBiLVg5RXNWWWswSlJBN0tWdGZOQmcxV2VCTEJXRWx0eTZ4cG9YOHRNR0nSAcwCQVVfeXFMTk5pVlNiQVpNcFladW93cFowZDg0WllCbl9Mb0gyX2tWZ0VWREJoSnVtT2VEeGh2MFpHX3A5ZlFmQUlCSndhMTlpYmVqVmlheElvOFBQYXVtMVhOcUd6Z29IX3NUbXg1RUcxR05pZTVybkltNXpCbF91WkJpWXZ1aHg3Wm4zNjh4bmVLQTlxa2hZbGFRZTEyQzNoZWRLYlk4OVJWN1RqUlR6UTBERjJXbWRqdTdxNWdiYTRsNnpBenhiVl9JNFdpR3k0SUdyNU5TU3RZUVVCeUlKbVNjeHlyRENkZlFUVEFCTl95NEtpb05zalRoUjhPdjI3WThMNEdCRUlZSUNvUzR3SDQ3TFFvaEFCemJxRm1ieW5hMEw2UFE3V0tZS0NFbFhlcmxaaHN5R200ZUN4QjN6N1ViSWJlaU1OZDJNNFZ6R0R6OWY?oc=5",
-      "source": "The Manila Times",
-      "category": "แพทย์แผนจีน",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Overseas Forum of International Congress of Luobing Theory Opens in Singapore, Helping Advance the Internationalization of Traditional…",
-      "date": "2026-10-19",
-      "id": "68520219d8a2bd8582d1ca69b413ef68"
+      "id": "ccd34ec08bfe1b19f1fdedd8fdada2f7"
     },
     {
       "title": "Acupuncture Shows Hints of Benefit for Vascular Dementia, but Evidence Falls Short - Bioengineer.org",
@@ -309,6 +284,30 @@
       "id": "a79aac0e12313f63048427928b2771cc"
     },
     {
+      "title": "กรมการแพทย์แผนไทยฯ ชู “Phuket Wellness Routes” เชื่อมธรรมชาติ สปา ชุมชน อาหารสุขภาพ สู่ Global Wellness Destination กระจายรายได้สู่ท้องถิ่น - ThaiPR.NET",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5xNW9XSWxZMXZNVU1ieUlGWVJ3U0Z1dFpqUWNmcE1XNnRTMHFwaEs0b3RzTjNIZjN6SkdXYkhsUk9VZmExcEdVUExSU3VoUQ?oc=5",
+      "source": "ThaiPR.NET",
+      "category": "แพทย์แผนไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "กรมการแพทย์แผนไทยฯ ชู “Phuket Wellness Routes” เชื่อมธรรมชาติ สปา ชุมชน อาหารสุขภาพ สู่ Global Wellness Destination…",
+      "date": "2026-10-14",
+      "id": "941a4cc8780381a908dd21d1b2eafcc4"
+    },
+    {
+      "title": "วัย 62 พลิกตึกเก่า จากขายลอตเตอรี่สู่ธุรกิจสปา รายได้หลักแสนต่อเดือน - posttoday",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4zeW1kRElNSTRDbXh2UnlPbmRCYzFEMjF0dkZUN1hmM2VjVzVSUmNjWTNZMGwxaGlnQVFId05uV0oyTjQzQ1RTMllOV2lfWmJLOVFkVg?oc=5",
+      "source": "posttoday",
+      "category": "สปา",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "วัย 62 พลิกตึกเก่า จากขายลอตเตอรี่สู่ธุรกิจสปา รายได้หลักแสนต่อเดือน&nbsp;&nbsp;posttoday",
+      "date": "2026-10-14",
+      "id": "d765d21fb1ddd409700a61c66d788e92"
+    },
+    {
       "title": "กรมแพทย์แผนไทย ชู 'Phuket Wellness Routes' ดันไทยศูนย์กลางสุขภาพโลก ปักหมุด GWS 2026 สร้างรายได้สู่ท้องถิ่น - เดลินิวส์",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00WWR5MlVibXdBRlZXTFZWdTBSSS1TVDlXWVhtQ2s0T25KY2tsV29RRnpoUzhlc0ZOWTltRGxoT0w4dlBMTHZNZ0pwaVpWTXNEa0Fn?oc=5",
       "source": "เดลินิวส์",
@@ -319,18 +318,6 @@
       "summary": "กรมแพทย์แผนไทย ชู 'Phuket Wellness Routes' ดันไทยศูนย์กลางสุขภาพโลก ปักหมุด GWS 2026 สร้างรายได้สู่ท้องถิ่น&nbsp;&nbsp;เดลินิวส์",
       "date": "2026-10-13",
       "id": "549b7963f21ad8174a43439a9ef2fe9c"
-    },
-    {
-      "title": "กรมการแพทย์แผนไทยฯ ชู “Phuket Wellness Routes” เชื่อมธรรมชาติ สปา ชุมชน อาหารสุขภาพ สู่ Global Wellness Destination กระจายรายได้สู่ท้องถิ่น - ผู้จัดการออนไลน์",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83ZDN1TGdrRFhvVjBYelVwWUJ3NnFOYzJ2Z0JuOHc5VE82V2pOcjJsVFJYVUxBMVM5b0NlX254dXRFWlNSeTZheHc1M19fOUFEdEdHNWpLSUR0Zw?oc=5",
-      "source": "ผู้จัดการออนไลน์",
-      "category": "แพทย์แผนไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "กรมการแพทย์แผนไทยฯ ชู “Phuket Wellness Routes” เชื่อมธรรมชาติ สปา ชุมชน อาหารสุขภาพ สู่ Global Wellness Destination…",
-      "date": "2026-10-13",
-      "id": "08ee8268373340e0c3edd959801dae76"
     },
     {
       "title": "จังหวัดสมุทรสงคราม หารือเตรียมความพร้อมจัดงาน \"มหกรรมการแพทย์แผนไทยและการแพทย์พื้นบ้านไทย ระดับภาค ครั้งที่ 19\" - สำนักงานประชาสัมพันธ์จังหวัดสมุทรสงคราม",
@@ -379,6 +366,18 @@
       "summary": "“สอบผ่านกี่รอบ ก็ได้ใบเดียว” ใบอนุญาตนวดไทยมุ่งคุมวิชาชีพ มิใช่เพื่อแสดงคุณวุฒิ&nbsp;&nbsp;Thansettakij",
       "date": "2026-10-11",
       "id": "fff7e76f34dfa39d99a22a8ba6ed2d05"
+    },
+    {
+      "title": "กรุงเทพฯ ผงาดอันดับ 1 เมืองที่ดีที่สุดในโลก Condé Nast Traveller 2026 มงลงสตรีทฟู้ด-เวลเนสไทย - Thairath.co.th",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJdUVPRzNzMFRNczQ2ZWlFNU4xTDRTLWhlZWpROXVTNkhMUG5BdUxLNXQtRC1rVkE4bG0zaGtnVjdFS1BxTVR2eHBWLWs4WW96YmNPTnJxNmJ3LWFpU3c?oc=5",
+      "source": "Thairath.co.th",
+      "category": "เวลเนส",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "กรุงเทพฯ ผงาดอันดับ 1 เมืองที่ดีที่สุดในโลก Condé Nast Traveller 2026 มงลงสตรีทฟู้ด-เวลเนสไทย&nbsp;&nbsp;Thairath.co.th",
+      "date": "2026-10-09",
+      "id": "c2b769cf71ebf3aa2bf276e495186f58"
     },
     {
       "title": "St Vincent de Paul: Advancing digitalisation, medical technology and integrated geriatric healthcare - MedTech World",
@@ -451,6 +450,18 @@
       "summary": "Complementary and Alternative Medicine Market Size [2034]&nbsp;&nbsp;Fortune Business Insights",
       "date": "2026-10-06",
       "id": "eac155eba3ba8b90895273c737679d5f"
+    },
+    {
+      "title": "คลิฟ สปา คว้า 2 รางวัลระดับประเทศ “ไทยสปาพรีเมียม” และ “นวดไทยพรีเมียม” 2025 – 2028 การันตีมาตรฐานบริการสปาและเวลเนสระดับคุณภาพ - ThaiPR.NET",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yWlN6NVdwd094R3BfVlpQbjFfVWhMdGlqMDZ4aXYteldZbEZVUmZlOC1rZjJhT3hIWlcxZkJReUN3cWZRVi12X3FvMXFVWXRR?oc=5",
+      "source": "ThaiPR.NET",
+      "category": "นวดไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "คลิฟ สปา คว้า 2 รางวัลระดับประเทศ “ไทยสปาพรีเมียม” และ “นวดไทยพรีเมียม” 2025 – 2028…",
+      "date": "2026-10-05",
+      "id": "ba6d33de6ac4b1f544d5bab04c74b02c"
     },
     {
       "title": "IIIM Celebrates 85th CSIR Foundation Day, Focus On Integrative Medicine And Research-Industry Linkages - Daily Excelsior",
@@ -559,6 +570,54 @@
       "summary": "กรมการแพทย์แผนไทยฯ แนะใช้ศาสตร์แพทย์แผนจีน บำรุงหัวใจ เนื่องในวันหัวใจโลก (World Heart Day)&nbsp;&nbsp;สำนักสารนิเทศ",
       "date": "2026-09-29",
       "id": "850699e0f8e6b4bfb27b33f3a9b8ac98"
+    },
+    {
+      "title": "Agential Events เปิดฉาก ‘Agential Cannabis 2026’ เวที B2B กัญชาทางการแพทย์ระดับนานาชาติ เชื่อมอุตสาหกรรมเอเชียแปซิฟิกสู่ตลาดโลก - ผู้จัดการออนไลน์",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84NU9IdTRFcFBNcU5OYk1nOXZZT3NvdjBJMldpdjdqbldVOG5IZ1hnb296bjlDY3dmNzJWWVE3ZUJobXczSG9FSzZ0bkgtM2pDakxIcFUzaTd2NS1ZclNPcTc5VjVBcjA?oc=5",
+      "source": "ผู้จัดการออนไลน์",
+      "category": "กัญชา / กัญชง",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Agential Events เปิดฉาก ‘Agential Cannabis 2026’ เวที B2B กัญชาทางการแพทย์ระดับนานาชาติ…",
+      "date": "2026-09-29",
+      "id": "1ab0312eb4d303f08674a676c190ed60"
+    },
+    {
+      "title": "เปิดฉากเวที ‘Agential Cannabis 2026’ กัญชาทางการแพทย์นานาชาติ ชี้กฎนำเข้า-ส่งออก เชื่อมธุรกิจสู่ตลาดโลก - มติชนออนไลน์",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nR05FdW95dzN6UDQ0bmZqOGFSbHYydHptQWkxY2ItYXpBSWtRMjFmazJGZWYySDhSX0daQmUzcTlNQnpBaWxwaGc0QUwybHB4Q2M0M0tMYmdUZFV1cFJPcHVOZ0xHc0xuX3c?oc=5",
+      "source": "มติชนออนไลน์",
+      "category": "กัญชา / กัญชง",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "เปิดฉากเวที ‘Agential Cannabis 2026’ กัญชาทางการแพทย์นานาชาติ ชี้กฎนำเข้า-ส่งออก เชื่อมธุรกิจสู่ตลาดโลก&nbsp;&nbsp;มติชนออนไลน์",
+      "date": "2026-09-29",
+      "id": "4236cd183aad10a78522789ef4ca454d"
+    },
+    {
+      "title": "สธ. บุกตลาดโลก ร่วมเวที WTO Public Forum เล็งหาตลาดใหม่ดึงดูดบริการและการลงทุน ยกระดับสู่ \"Medical Investment Hub\" - สำนักสารนิเทศ",
+      "link": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxOay1yM3lzMndmbUs3NmV2R0FTOUY5OWRSMVRTcG9fZVdkUDI1bmh6anEtVC1KYnQ0M2FPSHZzVUVvWmlZZERZVGEtd1FBS3pET1lKTjQ2MGNKak9iYXBpaDJJYVlKRnpoUnliYjlyTzUzeDBSRUc0MmJmTWpMNTZ3XzVkbDBwYkphczNjQXZDQ3AwMU1qUHVFWEQzX2w5X21KQ1FPME85MjlSdVI2djdKVVR1dko2Q21FQTVBTGdyOHNURk5pZ2llNkdKVnFFekxXRWN4Tk8yX0ZQWFh5Q1FJWklNRG04RFNYZXg1RmVxbUVzdU9xemdPdlZzcVl6S1JMUVpCRGYyX2trYTUxMDM0Q280X3ZDY3Fhc0xpZkZ2aHVtZWNNTVl6NzJJZzVnTVQ3VDN0LWJLM1kxaWVoUUFYejNuNGd3aTNFM01LR0RpNFNseHh5TThTN1VZc3hMX2Nqa1hnWE5mMjVkeE9PVU8zVFhNSldBaXZoOTBwTXFBaTZPS2NLUnd6VVJVeWlOTExvb1JYOEZDQnUtb0VzLUhMc2prdTBvY0RTRldrOEI5WFBIU3JmdWktbWVkSDJmU0RQQzBXNjVkWXloaVlJR0RrVWFSWkZjU2N0WlZNaThR?oc=5",
+      "source": "สำนักสารนิเทศ",
+      "category": "ข่าวสุขภาพทั่วไป",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "สธ. บุกตลาดโลก ร่วมเวที WTO Public Forum เล็งหาตลาดใหม่ดึงดูดบริการและการลงทุน ยกระดับสู่ \"Medical Investment Hub\"&nbsp;&nbsp;สำนักสารนิเทศ",
+      "date": "2026-09-29",
+      "id": "1195ed161f5599927cb46ff80231266a"
+    },
+    {
+      "title": "เปิดเทรนด์เฮลท์แอนด์เวลเนส คนไทยขยับจาก ‘ไม่เจ็บป่วย’ สู่ ‘ลองจิวิตี้’ - Matichon Online",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5nenZZbXBoaWlha0NBbXBQNmg0a1licUxhcEpWZE9CQmdQRWxyV1I4bjJLQmtYUkxPVkp0NzAzWlpyUDFEV1RYTVZ4dXp0dGJ2YnFFMWdjU3RpMXc2VUFPcVBsdDIwTnIwR0E?oc=5",
+      "source": "Matichon Online",
+      "category": "เวลเนส",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "เปิดเทรนด์เฮลท์แอนด์เวลเนส คนไทยขยับจาก ‘ไม่เจ็บป่วย’ สู่ ‘ลองจิวิตี้’&nbsp;&nbsp;Matichon Online",
+      "date": "2026-09-29",
+      "id": "8c4b3c22e16aaedae11c28a9a3a611ee"
     },
     {
       "title": "Goat Yoga And High Tech Healing: Inside Wyoming's Booming Wellness Tourism Trend - Cowboy State Daily",
@@ -693,18 +752,6 @@
       "id": "1221e09d79f9e892f708ed2a300b8012"
     },
     {
-      "title": "สธ. ชูจุดแข็งสุขภาพไทย รพ. JCI กว่า 60 แห่ง เวลเนสกว่า 17,000 แห่ง ดันไทยสู่ Medical Investment Hub - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1tdEFDZVNfdXJaTTMxTnU4SDZ5ZUZqNXZZcE1GSzdVUjZ3ZUVpVllxWk9Ba3VwaVV0OFBlLVl4TUtGbU5JYnVzRUcxY3dMNHFwUFFXa0NZdw?oc=5",
-      "source": "Hfocus.org",
-      "category": "เวลเนส",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "สธ. ชูจุดแข็งสุขภาพไทย รพ. JCI กว่า 60 แห่ง เวลเนสกว่า 17,000 แห่ง ดันไทยสู่ Medical Investment Hub&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-09-17",
-      "id": "7fb249527ceb47db78d2ecee1ef81e20"
-    },
-    {
       "title": "ยกระดับนวดไทยสู่เวทีโลก “NewMA Asia Massage Championship 2027” ครั้งที่ 2 รวมสุดยอดนักนวดทั่วโลกประชันฝีมือ 22–24 มกราคม 2570 ที่ ม.อ.ภูเก็ต พร้อมปั้นคนรุ่นใหม่ขับเคลื่อนอุตสาหกรรม Massage & Wellness วันที่ 8 กันยายน 2569 โรงพยาบาลการแพทย์แผนไทยสงขลานคริ - Facebook",
       "link": "https://news.google.com/rss/articles/CBMihAVBVV95cUxOTkZhUTcwbnJWZXV4LXUzem9PUnNRYlFicl9KZHBVME1pSWdkMFVrdndYNVpHd01nQkIzYTA2UUR1N196ejE0TDBQZURHTVRrZlBYZmVwYWJfT1lacThJSW9fcnpSR2lwOU1ITnlDNU9xRzVQT1M3eHZ2amNiNmNwVHpxUDA2aURKZ1ZZVUdxbWxsQUZta2RiMnVpOTZyQ2tROFh4UGxMNURFdFRhazU0NkUwTTlldG5IT2NDVm4xZUNFTW5EVFdlM2RnZnBzREF1VDYtd3o5R1BNa29CcWx1aVRfYlJXd2Y1ckFNaGhuRC1pelktSlE0dXpVRE9WeDZLZWd3V2Z6S1NtUGtvcHJOR3JjaTNxWnVJcmgxVnhKazVOa1ZKeEFfMDVFbEhmQlpYLS14dUJiUjdzTFhXNWRBbVpRQ3NMOVZyYm9Db0hBY1RQTTlSc2EzX0JYTy03RWt1Sm1COTl2TmxiYWxXUDlEdWtOMTlwT2RHVjQ3OEpHRGNrMUFmVHE5X3RFUFYxZ2pHejdpWEQ3QWZMa3o3bFZaTjlyNzhqeXFJUXRvcklWOEM4UWhzeU45c01xZXpoS3FSdUtUWXJncUVycTh1Yks4bzlOel9HaVZ6VUxKTlRQcFpBMnpJb0xoeDl5LXpZdjlHN2ZhZkMzN0hESFRvNUdCdzljMUR2TGJKTXdHYkg3eUZjNUQ3c2Yza3J5a1kzZkhDQUh6cUQ0VDROSVNSaWlPQlhKT2JDdXJSdkN5M2RHN1ZOVHdZTFVOYVlGb1NCVmhOZ05mQ3g0V1RoRXVPVWF2Z2NTWV9JS0owd1pScWFibEdaUWRWUEIzR3pUTERFV3R1dV9neg?oc=5",
       "source": "Facebook",
@@ -753,6 +800,18 @@
       "id": "42666352998efb368a40e985013f8211"
     },
     {
+      "title": "เปิด 3 นวัตกรรมสมุนไพรไทย สู่ตลาดมูลค่าสูง ตอบโจทย์ตลาดยุคใหม่ - bangkokbiznews",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCWE42TXJEcVZCM053b3VNcXVSeEpaXzlVOGRtYTQxLXFPNmRBbVB2ZWZNS3JlZnhNUndKMFllTm9UMHlJQmp2V2xKaTlvTGFkN3Rubk4wMkZqR2lhd3N6SlB4N3lTTzg?oc=5",
+      "source": "bangkokbiznews",
+      "category": "สมุนไพร",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "เปิด 3 นวัตกรรมสมุนไพรไทย สู่ตลาดมูลค่าสูง ตอบโจทย์ตลาดยุคใหม่&nbsp;&nbsp;bangkokbiznews",
+      "date": "2026-08-27",
+      "id": "a43350849c5e82828cc31f69ae77a56e"
+    },
+    {
       "title": "นับถอยหลังสู่ “มหกรรมนวดไทยและสุขภาพนานาชาติ 2569” ยกระดับนวดไทยสู่เวทีสากล - spacebar.th",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTzZfLWpZYjNTSWJuMzlTYXRtYmFiNVZjeFRSMnJrT3JTMjExUXItdDJtWlNPTVFsd1ViSHdScjN1ODlsdXpYTFhLRmtqWDBIeXE1NGpqOVBPUnhxeWR0cDQxekR1MkU2R1pTbVNjVDFIQjNhbGFFZVVJX00tXzJnR0lJenZBaDA?oc=5",
       "source": "spacebar.th",
@@ -789,18 +848,6 @@
       "id": "e7f131505c812d71ef7af0f60cc31287"
     },
     {
-      "title": "มหกรรมนวดไทยฯ2569 เงินสะพัดในงานกว่า 75 ล้าน เตรียมจัด GWS 2026 ภูเก็ต - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0ZGdueFZFTUNrLUUtVk1KNi1TN2xSbmpMTFhDOUZGd213Nl9tWHNuVDItd3hER2tlRTBvakg5ZlFERXdnWk9tSEdDdnZlNldpRS1vb3Jlcw?oc=5",
-      "source": "Hfocus.org",
-      "category": "นวดไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "มหกรรมนวดไทยฯ2569 เงินสะพัดในงานกว่า 75 ล้าน เตรียมจัด GWS 2026 ภูเก็ต&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-08-23",
-      "id": "27e51a2007a5ff6e9257ed0da22f4f20"
-    },
-    {
       "title": "ประกาศรายชื่อสุดยอดนักสร้างสรรค์กลิ่น “ว่านสาวหลง” ดันสมุนไพรไทยสู่ตลาดเวลเนสโลก - Hfocus.org",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFByNkxlRHNmWWJ3eDFaazVscnNrZ3c3Vm42aHA1NmVSMkQ3ZDJmMV9uRFFhNzRjTGV3cEhaWGQ2QXVrMzJNaURCZ3BubnFjZWhhU0VwZ1lubw?oc=5",
       "source": "Hfocus.org",
@@ -811,6 +858,18 @@
       "summary": "ประกาศรายชื่อสุดยอดนักสร้างสรรค์กลิ่น “ว่านสาวหลง” ดันสมุนไพรไทยสู่ตลาดเวลเนสโลก&nbsp;&nbsp;Hfocus.org",
       "date": "2026-08-22",
       "id": "ebabc8d289a21e08dee6873189064a5b"
+    },
+    {
+      "title": "Did Traditional Chinese Medicine Treat Cancer? The History, Traditional Remedies, and Modern Evidence - Oncodaily",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5aTMwVjBsNEZ3cVNQbGkyTDVpTVlSdTJTTUhYdzI5NkEzQS1MSi1hZjkza2ZKd1ZfTXF2WUZwX09jNDIxUHZZd2ZuREY1alVqR3Y4V3JwSUhjYzc5a0pDaHBFNU1aVFA5SG5GR0xIbFJOazZCbnFBRVBZcWVXQQ?oc=5",
+      "source": "Oncodaily",
+      "category": "แพทย์แผนจีน",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Did Traditional Chinese Medicine Treat Cancer? The History, Traditional Remedies, and Modern Evidence&nbsp;&nbsp;Oncodaily",
+      "date": "2026-08-22",
+      "id": "191addb5bbd571f84ce29bc736eda9ed"
     },
     {
       "title": "กรมการแพทย์แผนไทยฯ ผนึก ป.ป.ส. ยกระดับพืชเสพติดสู่การแพทย์ หนุนเศรษฐกิจสุขภาพอย่างปลอดภัย - Hfocus.org",
@@ -1065,9 +1124,21 @@
       "id": "c4d351887a5618f168d11ba787e70e59"
     },
     {
-      "title": "เปิดไทม์ไลน์กฎหมายคุมเข้ม “กัญชาทางการแพทย์” ก่อนกรมแพทย์แผนไทยฯ ชงร่างฯ พ.ร.บ. ควบคุมกัญชา พ.ศ. .... เสนอรัฐบาล 24 ก.ค. นี้ - สำนักสารนิเทศ",
+      "title": "กรมแพทย์แผนไทยฯ ผนึกจ.นนทบุรี ตรวจเข้ม “ร้านกัญชา” ฝ่าฝืนสั่งพัก-เพิกถอนใบอนุญาต ดำเนินคดีทันที - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBnZHZEU1doamlhRHBhZzZ0NEFFVC02eWQtWEZVVVZyM3oxdHBYanJNOGp6V2ozVlROSloyYTlETHZoelpoeGhpRkdJalRnbHQzbzVBRE9IQQ?oc=5",
+      "source": "Hfocus.org",
+      "category": "แพทย์แผนไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "กรมแพทย์แผนไทยฯ ผนึกจ.นนทบุรี ตรวจเข้ม “ร้านกัญชา” ฝ่าฝืนสั่งพัก-เพิกถอนใบอนุญาต ดำเนินคดีทันที&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-07-16",
+      "id": "e3b8f9974caab39859dd14b7e3a2e015"
+    },
+    {
+      "title": "เปิดไทม์ไลน์กฎหมายคุมเข้ม “กัญชาทางการแพทย์” ก่อนกรมแพทย์แผนไทยฯ ชงร่างฯ พ.ร.บ. ควบคุมกัญชา พ.ศ. .... เสนอรัฐบาล 24 ก.ค. นี้ - สำนักสารนิเทศ สำนักงานปลัดกระทรวงสาธารณสุข",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OdVg3Mi1HYm9lV1BBcl9XVFZMZjZPZkdFaEUtWlJ0RUV6MWNyTUpoeHhvTVAzZEpWdHdzOGM1UzJ1LWphZWRvOF90dUdhZnZzdGNfZGVRMGJrQQ?oc=5",
-      "source": "สำนักสารนิเทศ",
+      "source": "สำนักสารนิเทศ สำนักงานปลัดกระทรวงสาธารณสุข",
       "category": "แพทย์แผนไทย",
       "region": "ในประเทศ",
       "topic_page": null,
@@ -1149,16 +1220,16 @@
       "id": "05155c40bbba8d03398e09510d1cbd12"
     },
     {
-      "title": "Herbal Medicine Market Size, Share & Growth, 2026-2035 - SNS Insider",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13SDd4eTZJc29kOGNDeldybTA0dVFpYjdCSmxPQThCblZVTm0wN3ZxSkkxOWVPQzJjNV9TazlQVXVFWjJiM2t6N1J4LVJKYVNQSHNtVktwdG0wV0pCWkJORmtOYTBPQmhtNHgyOUxBcw?oc=5",
-      "source": "SNS Insider",
-      "category": "สมุนไพร",
-      "region": "ต่างประเทศ",
+      "title": "พัฒนา ย้ำกัญชาทางการแพทย์เท่านั้น ดัน พ.ร.บ.กัญชา กัญชง คุมเข้มตั้งแต่การปลูก เตือนลอบขนออกนอกประเทศเสี่ยงคุก - thestandard.co",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ONFpMUGh2OURIdkQ2dXJacVJTZmI3OUZUUDNURG13OUUxX2N6dlhEVk9ZMGtxbERWSzhkR01KZkZsdXRJOEg5WVYwY1BCek03NEtESGozc1ExZFA3R05TeDBFS2doVHFWWWthWFY1aw?oc=5",
+      "source": "thestandard.co",
+      "category": "กัญชา / กัญชง",
+      "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Herbal Medicine Market Size, Share & Growth, 2026-2035&nbsp;&nbsp;SNS Insider",
-      "date": "2026-07-06",
-      "id": "7380bba7d449d7a6e5ed8c638fe07763"
+      "summary": "พัฒนา ย้ำกัญชาทางการแพทย์เท่านั้น ดัน พ.ร.บ.กัญชา กัญชง คุมเข้มตั้งแต่การปลูก เตือนลอบขนออกนอกประเทศเสี่ยงคุก&nbsp;&nbsp;thestandard.co",
+      "date": "2026-07-07",
+      "id": "1440db3480346ba1d4aa8f6db2cecdd6"
     },
     {
       "title": "กรมการแพทย์แผนไทยฯ นำร่อง “ยาปรุงเฉพาะราย” ดูแลผู้ป่วย เล็งเข้าบัตรทอง - Hfocus.org",
@@ -1171,6 +1242,18 @@
       "summary": "กรมการแพทย์แผนไทยฯ นำร่อง “ยาปรุงเฉพาะราย” ดูแลผู้ป่วย เล็งเข้าบัตรทอง&nbsp;&nbsp;Hfocus.org",
       "date": "2026-07-03",
       "id": "0ef49cc75b179519d7c1a347acb82c69"
+    },
+    {
+      "title": "“พัฒนา”ย้ำภารกิจ อภ.ชูศก.สุขภาพ พัฒนากัญชาทางการแพทย์ ต่อยอดเชิงพาณิชย์ - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8tSWE5eTBlZDJzdGhmRGNLcUZlMzhNTGNMaUVrR2FGZlp4cDdhbVRVYVRHNXZ6NTV6aG1fZDhXd3gyR2tiNDBvbVFkQWVKb0JtNHU2RlFvZw?oc=5",
+      "source": "Hfocus.org",
+      "category": "กัญชา / กัญชง",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "“พัฒนา”ย้ำภารกิจ อภ.ชูศก.สุขภาพ พัฒนากัญชาทางการแพทย์ ต่อยอดเชิงพาณิชย์&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-07-03",
+      "id": "1f676b0a7f1031f8790c8e582820ad10"
     },
     {
       "title": "สธ.ผนึก 5 พันธมิตร ยกระดับ “นวดไทย” สู่ผู้เชี่ยวชาญเวลเนส ปั้นกำลังคนดันไทยเป็นศูนย์กลางสุขภาพโลก - Hfocus.org",
@@ -1281,6 +1364,18 @@
       "id": "acebf5f7471fab7e3eea7296b2ccc1c1"
     },
     {
+      "title": "สธ. จับตา \"ใบ ภ.ท.33 ปลอม\" จำหน่ายกัญชา พ่วงเพิกถอนใบประกอบวิชาชีพ - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1bEdmQk81QnZEcDVLSUdVYXRTOGJiMW5iS0ViNHlqNXZxNXpoZTNXMnBWSGdTOG54dEtiUmFzM0R1VmRGRWpIcHdZRGlTMHFWSjUwZkp6WQ?oc=5",
+      "source": "Hfocus.org",
+      "category": "กัญชา / กัญชง",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "สธ. จับตา \"ใบ ภ.ท.33 ปลอม\" จำหน่ายกัญชา พ่วงเพิกถอนใบประกอบวิชาชีพ&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-06-27",
+      "id": "5128c8eddf5ad6266a08629a6833164b"
+    },
+    {
       "title": "ปรับแก้ครั้งใหญ่! พ.ร.บ.คุ้มครองฯภูมิปัญญาการแพทย์แผนไทย เพิ่มโทษสูงสุด 1 แสนบาท - Hfocus.org",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0zV1VJLXA1cGY5V213bXBnVXp6bDgzQ3lITng1bElHeUhETUh1S2VXNm9QUDF6eF8zV093c0I2REtMSzJWREZVb1ljOFJhSTFqUWtvTE0zbw?oc=5",
       "source": "Hfocus.org",
@@ -1291,18 +1386,6 @@
       "summary": "ปรับแก้ครั้งใหญ่! พ.ร.บ.คุ้มครองฯภูมิปัญญาการแพทย์แผนไทย เพิ่มโทษสูงสุด 1 แสนบาท&nbsp;&nbsp;Hfocus.org",
       "date": "2026-06-26",
       "id": "696200c30bd9ab8568b9fc023380d1e1"
-    },
-    {
-      "title": "ตลาดสปาไทย 70,000 ล้านบาท จะพลิกเกมธุรกิจ เด่นบริการไม่พอ ต้องเก่งบริหาร-การเงิน - Marketeer Online",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4SHBIOEZsOF9FWDk3bkRvY3ItUmtoWnlDMUpCUGFDQ2JsLWdlRUlnbXRYTVFnRFE2Ymlya3I1MU44MDFKLTVsU2dTbFFIQ3lrbXJrVA?oc=5",
-      "source": "Marketeer Online",
-      "category": "สปา",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ตลาดสปาไทย 70,000 ล้านบาท จะพลิกเกมธุรกิจ เด่นบริการไม่พอ ต้องเก่งบริหาร-การเงิน&nbsp;&nbsp;Marketeer Online",
-      "date": "2026-06-22",
-      "id": "6746b8ea1d3c6b99908b71a01088c185"
     },
     {
       "title": "รัฐบาลเดินหน้าจัดระเบียบ “กัญชาทางการแพทย์” เผยผลงาน 1 เดือน ประชาชนโทรปรึกษา 200 สาย พร้อมแจ้งเบาะแสการกระทำผิด 73 เรื่อง ตรวจร้านกัญชาแล้ว กว่า 1,200 ร้านค้าทั่วประเทศ - Thaigov",
@@ -1329,30 +1412,6 @@
       "id": "930cb3af3ce1e0bf34023583243e85cd"
     },
     {
-      "title": "สมาคมสปาไทยจับมือภาครัฐและเอกชน วางรากฐาน Premium Thailand Wellness Ecosystem ส่งเวลเนสไทย สู่ระดับโลก - แนวหน้า",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBhVWdWcmJPSmRMeXpjSGpvc2VYVEw0YVJOcEtzS0I2QU1fY2FoQWxSMTlYN3dUN1dzamY3WExIUnJIX3NGY1A2TFZB?oc=5",
-      "source": "แนวหน้า",
-      "category": "สปา",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "สมาคมสปาไทยจับมือภาครัฐและเอกชน วางรากฐาน Premium Thailand Wellness Ecosystem ส่งเวลเนสไทย สู่ระดับโลก&nbsp;&nbsp;แนวหน้า",
-      "date": "2026-06-18",
-      "id": "2aeef2b49e9ffd87a64adf2349207481"
-    },
-    {
-      "title": "กระแส Wellness หนุนโอกาสผลิตภัณฑ์สมุนไพรและสปาไทยในตลาดออสเตรีย - กรมส่งเสริมการค้าระหว่างประเทศ (DITP)",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1CemFRTjdQR2ZGSmxWX3lWRllLMzBEYzdXSFlncWhRNldpUnRDdGFsdjNqWE5kU1haMk1NT0F2NTBBVGFnaVhIOXF4NlZoLTl1cm1XZ1BDRGdCVkJKVlNKMzJB?oc=5",
-      "source": "กรมส่งเสริมการค้าระหว่างประเทศ (DITP)",
-      "category": "สมุนไพร",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "กระแส Wellness หนุนโอกาสผลิตภัณฑ์สมุนไพรและสปาไทยในตลาดออสเตรีย&nbsp;&nbsp;กรมส่งเสริมการค้าระหว่างประเทศ (DITP)",
-      "date": "2026-06-18",
-      "id": "d954d1a33fc02ce854e57a8ece47695f"
-    },
-    {
       "title": "ปลุก Soft Power ไทย เจาะไลฟ์สไตล์คนเมือง ดัน “สมุนไพร” สู่ตลาดสุขภาพโลก - Thai PBS",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ST29oemZWZm40V0syU0IyeUp1Zlk3RW5aSDBCc05WWXQyc2dxY0JQejNLTzdHRU9rb1ZabUpzbjhxbUY2SE5ESm4wRzdMWERjUUFScHVFOGg?oc=5",
       "source": "Thai PBS",
@@ -1375,6 +1434,18 @@
       "summary": "An investigation into alternative medicine raises questions about oversight in Georgia&nbsp;&nbsp;WABE",
       "date": "2026-06-08",
       "id": "b9e0db72a3b4a5ce801cec35952d53ff"
+    },
+    {
+      "title": "Desperate patients seek cures, leave with debt and regret - The Atlanta Journal-Constitution",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd3ZtaTJGckk3enpLNVEwUVY0ZzRxVkk1eGVTWmhaVGtJSUJyUHdfMnpnTDl6YWpIME1OZGNycVZQdGlWOEo4SkNMRDBhaFppX1hqOWJlbDRnaThCcmxBdUlKdEZIUXpCc1ZaWTU4UXBwbTB3aU04VVJ5SUFzZEJXRmZBaUxUVGVWRVY5bjYtLUZZOWc0?oc=5",
+      "source": "The Atlanta Journal-Constitution",
+      "category": "ข่าวสุขภาพทั่วไป",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Desperate patients seek cures, leave with debt and regret&nbsp;&nbsp;The Atlanta Journal-Constitution",
+      "date": "2026-06-08",
+      "id": "b177bbd6013ec5bb9b9836e185e5369d"
     },
     {
       "title": "ต้นแบบ ‘คลินิกการแพทย์แผนจีน’ แบบผสมผสานระดับมหาวิทยาลัย - มหาวิทยาลัยธรรมศาสตร์",
@@ -1413,18 +1484,6 @@
       "id": "e43e273647d3123195808285a02063fa"
     },
     {
-      "title": "ลุยตรวจ “ร้านกัญชา” ถนนข้าวสาร สื่อสารการบังคับใช้กฎกระทรวงใหม่ปี 69 - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9JNzdicEp5aW54OW5EbWE2T3NUTVExMjg2bHU2VUR6clE5ZnNrTW1SODJvSkF3UFpmZVRBSTZZdW1rZ0FTLW5DaEpyeGQ3UG80YS1yeEN5cw?oc=5",
-      "source": "Hfocus.org",
-      "category": "กัญชา / กัญชง",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ลุยตรวจ “ร้านกัญชา” ถนนข้าวสาร สื่อสารการบังคับใช้กฎกระทรวงใหม่ปี 69&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-05-22",
-      "id": "3c89b478ec4773903b036e5075f08844"
-    },
-    {
       "title": "สธ.ไฟเขียว 58 อัตรา ดัน “นักวิชาการสาธารณสุข” เปลี่ยนสายสู่ “แพทย์แผนจีน” - Hfocus.org",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92ZkJGbHE0ZmNqVS1STzhib0U1elh0VHdELUpjNXl4T2NBUm9QVDgxZ2ZjLXpNdVh1amdLNWpxT0c0TWpUMVdtWU1NT1djY2dISkt0QVZQbw?oc=5",
       "source": "Hfocus.org",
@@ -1459,30 +1518,6 @@
       "summary": "Wellness tourism hits $894B, with more growth ahead&nbsp;&nbsp;PhocusWire",
       "date": "2026-05-19",
       "id": "8820fb090c02fb4920ef83586b2d2d82"
-    },
-    {
-      "title": "กรมการแพทย์แผนไทยฯ แจงกฎกระทรวงใหม่ กัญชา \"ใช้เพื่อการแพทย์เท่านั้น\" คุมช่อดอกเข้มงวด - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBJendKWUZuc1ZDZU9sdXp3ckV0QWRDeDJRQ015YVhaYlpTV2h4ODRHSmZiTUtQRWhGaG1fRHM0ZGpydG1rRDVGdUptRUlwSUhyU0FlSjdNRQ?oc=5",
-      "source": "Hfocus.org",
-      "category": "แพทย์แผนไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "กรมการแพทย์แผนไทยฯ แจงกฎกระทรวงใหม่ กัญชา \"ใช้เพื่อการแพทย์เท่านั้น\" คุมช่อดอกเข้มงวด&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-05-16",
-      "id": "a062dba253c0de9ee70e5680c16ec435"
-    },
-    {
-      "title": "กรมการแพทย์แผนไทยฯ ยกระดับคุมเข้ม “กัญชาทางการแพทย์” ปรับโฉมร้านจำหน่ายกัญชาสู่สถานพยาบาล สร้างความเชื่อมั่นความปลอดภัยทั่วประเทศ - สำนักสารนิเทศ",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSVDh2MDFBSUQ5Z0F3SW9ncGYySF9zZHhWdGo3dnFwemFjYnRieGM5TlA5dG12bkxrRzNtRDg1Q3NOM3A2ODRmN1VzV2xYTG9DVGliT25FRFRYUQ?oc=5",
-      "source": "สำนักสารนิเทศ",
-      "category": "แพทย์แผนไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "กรมการแพทย์แผนไทยฯ ยกระดับคุมเข้ม “กัญชาทางการแพทย์” ปรับโฉมร้านจำหน่ายกัญชาสู่สถานพยาบาล…",
-      "date": "2026-05-15",
-      "id": "6b6fe680726ba2550eff802932e7bd3b"
     },
     {
       "title": "Wellness tourism hits $894 bn and the growth is not over, tells Phocuswright - TravelMole",
@@ -1579,18 +1614,6 @@
       "summary": "กรมการแพทย์แผนไทยฯ ยกระดับ “นวดไทย โพธิ์-ล้านนา” 450 ชั่วโมง สู่ Wellness สากล&nbsp;&nbsp;Hfocus.org",
       "date": "2026-04-29",
       "id": "8b8d367a44ff754d36f58d48019f6c1c"
-    },
-    {
-      "title": "รมว.สธ.เดินหน้าดัน “กัญชาทางการแพทย์” สู่เศรษฐกิจสุขภาพ - อัปเดตกฎกระทรวงสารสกัดกัญชาล่าสุด!! - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9HOGJyQ1g0aVhYeW5UZTNhQjc3UUdDVUNvZjNqSWFSSVF5eXNUdVFnX3BoUmN0TEtHeDI0X0R1dXFpVFBZQW5FdjdvWUhqbk9sbV9QV1M4OA?oc=5",
-      "source": "Hfocus.org",
-      "category": "กัญชา / กัญชง",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "รมว.สธ.เดินหน้าดัน “กัญชาทางการแพทย์” สู่เศรษฐกิจสุขภาพ - อัปเดตกฎกระทรวงสารสกัดกัญชาล่าสุด!!&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-04-29",
-      "id": "f411c035eae59bfee51929cfa5e3a262"
     },
     {
       "title": "Why alternative medicine can feel so much better than mainstream health care - STAT",
@@ -1725,18 +1748,6 @@
       "id": "d9a446ae90d5ad1e26ad37a80184fae0"
     },
     {
-      "title": "“รมว.พัฒนา” ยันรัฐบาลดัน \"กัญชาทางการแพทย์\" พร้อมเปลี่ยนร้านขายเป็น “สถานพยาบาล” ให้เวลา 3 ปี - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLd19JUURmYWpmVE55RGpIb1k2eXdtcU1YQ1Y5RTZldFBhME8zZmNRQXBSclA1SE1FV1N3T05seGNVcHJWNTFHX2dIOEROTTJwcEdhRjZqOA?oc=5",
-      "source": "Hfocus.org",
-      "category": "กัญชา / กัญชง",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "“รมว.พัฒนา” ยันรัฐบาลดัน \"กัญชาทางการแพทย์\" พร้อมเปลี่ยนร้านขายเป็น “สถานพยาบาล” ให้เวลา 3 ปี&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-04-01",
-      "id": "ab3693441394fbc7dbed76090e3a8228"
-    },
-    {
       "title": "The impact of herbal medicine development on the population health in China - Nature",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4tUVhOOUtMZXpzWjlrOGJFQ3JiNTJacmVxRVB5ekNWZnU0NFpRUGNyS1RfZ1hmMVF3TXRBZHlUYzlYT0lwZ1ZEWUdlQ1RYSWh4U3dJcUI2d2lINzRVOE4w?oc=5",
       "source": "Nature",
@@ -1747,18 +1758,6 @@
       "summary": "The impact of herbal medicine development on the population health in China&nbsp;&nbsp;Nature",
       "date": "2026-03-25",
       "id": "d4233c483a487f2cc0ea7d24907cd766"
-    },
-    {
-      "title": "กรมการแพทย์แผนไทยฯ เดินหน้าอบรมผู้ปฏิบัติงานประจำสถานที่ให้บริการกัญชาทางการแพทย์ - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE80YlpwQTh2VGlLZ2tfenJRLWV4MXVrYUJ0Rm9rZDFBTUFTbmFWcEJpSWZtd1dvcFRvWFVUU2JPS3p3a1Fkc2VlZXFJQ0RncUV5WEhHRi1JMA?oc=5",
-      "source": "Hfocus.org",
-      "category": "แพทย์แผนไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "กรมการแพทย์แผนไทยฯ เดินหน้าอบรมผู้ปฏิบัติงานประจำสถานที่ให้บริการกัญชาทางการแพทย์&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-03-20",
-      "id": "7861a87d21a5229c76f8cf70e7b28fb5"
     },
     {
       "title": "China demands evidence that traditional medicine injections really work - Science | AAAS",
@@ -1845,18 +1844,6 @@
       "id": "6d4def73f0c907f93799a067eefd5789"
     },
     {
-      "title": "Traditional Chinese Medicine Shows Promise for HIV Comorbidities - DocWireNews",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX3N3M2dlR1hNamVESVZIRmh2MDBOTlhrRHZ0RUhWRGJuR3FPdXR6ckJLc0lhbHg2dzl3UkJvSlozdEtveGlweF9MSWJWdVFldnI3RU4ydFpYVE95amE4NVRwaHQzWDM4eTduV3lsd0JPT3NkZFpQYWMzZWZaR1AtYzJJQ1k4WnV2NkVwZkZRdU5xSmdfelpFeFM4U3hEUQ?oc=5",
-      "source": "DocWireNews",
-      "category": "แพทย์แผนจีน",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Traditional Chinese Medicine Shows Promise for HIV Comorbidities&nbsp;&nbsp;DocWireNews",
-      "date": "2026-02-25",
-      "id": "e0968c37c54ca5e7210775eaa5fe05e4"
-    },
-    {
       "title": "Apothékary: Liquid Herbal Supplements Scaling Into Whole Foods and Ulta - BeautyMatter",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51WUtLWkpuMi1DaUVUVXJ0YlJwaXlJUVVVQ0dqQmRKc0VSbFpkbnJQckhfaTNsYlY4WFBya2N5MkI3Njhwd09RTzlJMkNBUXp4SkJ5QWVhMGpQbEF3bkpLOVI0NjlmV2oxcHc?oc=5",
       "source": "BeautyMatter",
@@ -1891,6 +1878,18 @@
       "summary": "Complementary and Alternative Medicine Market to Reach Over US$ 1,282.70 Billion by 2033 Driven by Rising Chronic Disease Burden and…",
       "date": "2026-02-09",
       "id": "7e1f4ac515e41c597e0df49eb104c685"
+    },
+    {
+      "title": "Policy Evaluation for Regulating Toxic traditional Chinese Medicines i | RMHP - Dove Medical Press",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT2lXN2doOWZjTjFjSHV5eWw1T1I2WXV3Z0haVFRpa3B4Snc5c0IteHA5SWRaVnFVbTgwLTlTLU9hSG9aa1phWHVkLWlXVGxHUU9qSVp3Vl94bkg0cWZ1cUZZenRlWmEwNUhpYlRWZWRFYTVhWnJYVU5fUUNNU2hvV1hzWEM0a2tlMGpGQl9CY18ydm5QLVdHRjRVZXVmOFFGdlZlR1g4aGNnd2ZEWnFOcFBzNXFVRVFVUjBfbzNBMkR4ajRVRWhzZ0lTcGo?oc=5",
+      "source": "Dove Medical Press",
+      "category": "แพทย์แผนจีน",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Policy Evaluation for Regulating Toxic traditional Chinese Medicines i | RMHP&nbsp;&nbsp;Dove Medical Press",
+      "date": "2026-02-04",
+      "id": "820a42070816dd4fd6e73f22f5bd5698"
     },
     {
       "title": "Western medical acupuncture techniques for pain management in athletes: a systematic review and meta-analysis - Frontiers",
