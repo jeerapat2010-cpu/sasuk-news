@@ -1,21 +1,19 @@
 {
-  "updated_at": "2026-10-28T20:52:38.738686Z",
+  "updated_at": "2026-10-29T05:01:46.417358Z",
   "total_items": 150,
   "source_count": 87,
   "sources": [
     "American Spa",
-    "Arabian Business",
-    "BioSpace",
     "Bioengineer.org",
+    "Business Research Insights",
     "Business Wire",
-    "Condé Nast Traveler",
+    "Cowboy State Daily",
     "DMC.tv",
     "Daily Excelsior",
     "EIN News",
     "EurekAlert!",
-    "Euronews",
+    "Euronews.com",
     "Facebook",
-    "Fact.MR",
     "Fortune Business Insights",
     "Frontiers",
     "Future Market Insights",
@@ -23,28 +21,27 @@
     "Harvard Business Review",
     "Hfocus.org",
     "Hospitality Net",
+    "Hotel Online",
     "Katie Couric Media",
     "LINE TODAY",
-    "Market.us",
+    "Market Data Forecast",
     "Matichon Online",
     "MedTech World",
     "Medscape",
     "Nanyang Technological University - NTU Singapore",
+    "Nation Thailand",
     "National Geographic",
     "Nature",
     "Newswise",
-    "Open Magazine",
-    "Ovid",
-    "PBS",
-    "PNAS",
     "PR Newswire",
     "PhocusWire",
-    "Rethinking Clinical Trials",
+    "Pixidia",
+    "STAT",
     "Sage Journals",
     "Sanook",
     "Science Partner Journals",
+    "Science | AAAS",
     "SondhiX",
-    "South China Morning Post",
     "Thai PBS",
     "ThaiPR.NET",
     "ThaiPublica",
@@ -52,33 +49,35 @@
     "Thaipost.net",
     "Thairath",
     "The ASCO Post",
+    "The Atlanta Journal-Constitution",
     "The Coverage",
-    "The Guardian",
-    "The New Indian Express",
+    "The Spectator",
     "The Standard (HK)",
     "The Straits Times",
     "Travel Daily Media",
-    "TravelMole",
     "UC Irvine News",
-    "UIC today",
     "Urban Acres",
     "Vietnam.vn",
-    "WABE",
+    "Whoopsee",
     "Wiley Online Library",
     "Workpoint News",
-    "World Economic Forum",
-    "Yahoo Finance",
+    "bangkokbiznews",
     "ch7.com",
+    "inITALY",
     "komchadluek",
     "newswit",
+    "posttoday",
+    "qz.com",
     "spabusiness.com",
     "spacebar.th",
     "springnews",
     "thansettakij",
+    "thenational.co.za",
     "thepeople",
     "thestandard.co",
     "workpointTODAY",
     "กรมส่งเสริมการค้าระหว่างประเทศ (DITP)",
+    "กระทรวงพาณิชย์",
     "การตลาดวันละตอน",
     "ข่าวสด",
     "นคร เชียงราย",
@@ -89,19 +88,20 @@
     "สำนักสารนิเทศ สำนักงานปลัดกระทรวงสาธารณสุข",
     "อมรินทร์ทีวี ช่อง 34",
     "เดลินิวส์",
+    "เว็บไซต์รัฐบาลไทย",
     "แนวหน้า"
   ],
   "category_counts": {
-    "แพทย์แผนไทย": 19,
-    "ข่าวสุขภาพทั่วไป": 19,
-    "สมุนไพร": 13,
-    "สปา": 12,
+    "แพทย์แผนไทย": 20,
+    "ข่าวสุขภาพทั่วไป": 16,
+    "สมุนไพร": 16,
+    "สปา": 13,
     "เวลเนส": 16,
-    "แพทย์แผนจีน": 20,
-    "ฝังเข็ม": 20,
+    "แพทย์แผนจีน": 24,
+    "ฝังเข็ม": 14,
     "กัญชา / กัญชง": 12,
-    "นวดไทย": 16,
-    "เทคโนโลยีการแพทย์": 3
+    "นวดไทย": 15,
+    "เทคโนโลยีการแพทย์": 4
   },
   "items": [
     {
@@ -129,18 +129,6 @@
       "id": "9ce9606a4a4b1c690b17050e75ecdeae"
     },
     {
-      "title": "เปิดเวที DTAM Digital Hackathon 2026 แข่งพัฒนา AI ต่อยอดภูมิปัญญาไทย - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwOTRqSmk0WjAweVZQNktPUEZQcVRTRDNOeUpQLVVtZmFrSVVBUjIwTFc1MkItS0poallzN3M1LTJtVW5TbzNYUXVjVWlrNjZZVmhwYkY3WQ?oc=5",
-      "source": "Hfocus.org",
-      "category": "ข่าวสุขภาพทั่วไป",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "เปิดเวที DTAM Digital Hackathon 2026 แข่งพัฒนา AI ต่อยอดภูมิปัญญาไทย&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-10-28",
-      "id": "c36c36f43fb1e85381a9dd620e901024"
-    },
-    {
       "title": "5 ความเข้าใจเรื่องสุขภาพและการดูแลตัวเองตามหลักแพทย์แผนไทยโดย หมอแดง Healthy Daisy - thestandard.co",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ta3U5cmU5LWZpTlNFekFuQU85d205Y2gzdHA2SUJ4MGEtcG5xUkNHbTNoZFN0Z2hOTGRkSkE4d0ZnRVlPc2Z4ZmN2QUpFeGFBd0kxRl9NbkdVUzhWb2lSMnFuOUpCcWNOZUZXOUZB?oc=5",
       "source": "thestandard.co",
@@ -151,6 +139,18 @@
       "summary": "5 ความเข้าใจเรื่องสุขภาพและการดูแลตัวเองตามหลักแพทย์แผนไทยโดย หมอแดง Healthy Daisy&nbsp;&nbsp;thestandard.co",
       "date": "2026-10-28",
       "id": "e187d23244faa652cca072809ea226a4"
+    },
+    {
+      "title": "เปิดเวที DTAM Digital Hackathon 2026 แข่งพัฒนา AI ต่อยอดภูมิปัญญาไทย - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwOTRqSmk0WjAweVZQNktPUEZQcVRTRDNOeUpQLVVtZmFrSVVBUjIwTFc1MkItS0poallzN3M1LTJtVW5TbzNYUXVjVWlrNjZZVmhwYkY3WQ?oc=5",
+      "source": "Hfocus.org",
+      "category": "ข่าวสุขภาพทั่วไป",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "เปิดเวที DTAM Digital Hackathon 2026 แข่งพัฒนา AI ต่อยอดภูมิปัญญาไทย&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-10-28",
+      "id": "c36c36f43fb1e85381a9dd620e901024"
     },
     {
       "title": "อั้ม อธิชาติ ลุยงานวิจัย! หวังยกระดับ ’นวัตกรรม‘ หนุน ‘สมุนไพรไทย’ สู่สากลมากขึ้น - ข่าวสด",
@@ -237,18 +237,6 @@
       "id": "499570df483093dce6d132a7dca66bc5"
     },
     {
-      "title": "Traditional Chinese Medicine Formula Shows Ovarian Protection in Rat Study - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3pmZGNyMGtkTU16YjdiQ01tc2VWdzBFZ0xSNGZBZ28xMTdEcTJBUGFkekN5Q0V6ODF3SkpmYklZZXZqLWJOaXJkSDluR1R3R1N2YlhSWXAzQkxYTzBmZDdySFItVlJBM2NVMHl6dEhneHZ4Zkx4cE1WaWhoSzlMTWVVaWNBUGM0V3Utc090X3p3bXUxWFpCamhDbXoyZUZV?oc=5",
-      "source": "Bioengineer.org",
-      "category": "แพทย์แผนจีน",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Traditional Chinese Medicine Formula Shows Ovarian Protection in Rat Study&nbsp;&nbsp;Bioengineer.org",
-      "date": "2026-10-28",
-      "id": "4c8c93b59a13be82ae9d53b2435f86dd"
-    },
-    {
       "title": "Acupuncture fMRI Findings Across the Alzheimer’s Continuum: What a Critical Review Reveals - Bioengineer.org",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTGJlVHo5Z2hTZmRBTVRCQmVPakE4R01lZVN1NXJFRjAyR0JXN1hNeGpIRzVVV1lMOXVOUjUtZUYxajdXZkoyNlFoQXlWTVZ1cTVmcEtkdnF6TGdpNDFXa2NOZUVURXZWZzlNajNpYUJWOENMeTJtWTg3djNTMFFxazVXNnVfd282dHFOd2RZVzZBUzJmME1ZelhDZ3VIVjVrYjNnaHFlcTZPTDM0eERad1JQUQ?oc=5",
       "source": "Bioengineer.org",
@@ -321,18 +309,6 @@
       "id": "535c3cea46b3950c136b2aaf4f7760de"
     },
     {
-      "title": "‘divana’ กางแผนบุกตลาดโลก ดันเวลเนสไทยสู่ธุรกิจหมื่นล้าน จับมือยักษ์ใหญ่โรงแรม-สายการบิน - workpointTODAY",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jS0FiSUNPWVBtZWRTSFJyMFQ3TGtPUkFwUEp4d0ZPaXlGS1ZlcHNaS01oZnc4N1JPbzNGY1VnUEpDY1VZdEFWTlp4TWdpdWFFaVZPWHUwbk9ndw?oc=5",
-      "source": "workpointTODAY",
-      "category": "เวลเนส",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "‘divana’ กางแผนบุกตลาดโลก ดันเวลเนสไทยสู่ธุรกิจหมื่นล้าน จับมือยักษ์ใหญ่โรงแรม-สายการบิน&nbsp;&nbsp;workpointTODAY",
-      "date": "2026-10-27",
-      "id": "d3350b0d610085cf8f75c442a3f260f3"
-    },
-    {
       "title": "Wellness Unveild 2026 - HELLO! Magazine Thailand",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5mSTB3RFVUUWpBNUMxZUFPYnk2cEZ1dzhQaTdYQTNBSGc4d0Y5SEFzWm1FQlF2anZWY1dEazIxQmQyOGtlLVByNWlsZW9DUjVoMzNaX1hUTVUycUFLR2pCN3NIQzNORkFVallQcTQwNGQyZXY4VzdmNw?oc=5",
       "source": "HELLO! Magazine Thailand",
@@ -343,6 +319,18 @@
       "summary": "Wellness Unveild 2026&nbsp;&nbsp;HELLO! Magazine Thailand",
       "date": "2026-10-27",
       "id": "608abad9a1955468a61f9110aeb83dc3"
+    },
+    {
+      "title": "‘divana’ กางแผนบุกตลาดโลก ดันเวลเนสไทยสู่ธุรกิจหมื่นล้าน จับมือยักษ์ใหญ่โรงแรม-สายการบิน - workpointTODAY",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jS0FiSUNPWVBtZWRTSFJyMFQ3TGtPUkFwUEp4d0ZPaXlGS1ZlcHNaS01oZnc4N1JPbzNGY1VnUEpDY1VZdEFWTlp4TWdpdWFFaVZPWHUwbk9ndw?oc=5",
+      "source": "workpointTODAY",
+      "category": "เวลเนส",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "‘divana’ กางแผนบุกตลาดโลก ดันเวลเนสไทยสู่ธุรกิจหมื่นล้าน จับมือยักษ์ใหญ่โรงแรม-สายการบิน&nbsp;&nbsp;workpointTODAY",
+      "date": "2026-10-27",
+      "id": "d3350b0d610085cf8f75c442a3f260f3"
     },
     {
       "title": "สุจิตต์ วงษ์เทศ | ‘ขยะพิษ’ ทำลายปราจีนบุรี ‘เวลเนส’ - Matichon Online",
@@ -357,16 +345,16 @@
       "id": "572f94777dcb37fadf94db36e43f5db4"
     },
     {
-      "title": "Cordyceps Sinensis Market To Witness Strong Growth Trajectory Through 2030 At 9.7% CAGR - EIN News",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMUVIeUxMODZjeDlJTUpjSW02aWI1UEVRejdsQlNEN2FEX3lGSWVzZUtmaURzeUQ3UDlxUkl6ZDlaTXlOb1JPX1AwTFNYNk9jUkVGM00tVmVJSXktbFoxRUFtRDhFaWlMTHZWRFc2LWJlTFl4cjZIajluaHJxa3ZQRDJZOXpkYmtpNHI3T1RPTXQwSV9rQm1TYWttWnoya2pZYXNNWFJXTDctTHVJTWdBQXF1Z1kwRGtqcmtuSVUzU3d0UUdSNHk4?oc=5",
-      "source": "EIN News",
-      "category": "ข่าวสุขภาพทั่วไป",
+      "title": "Thailand is the new destination for wellness and beauty tourism: featuring spas, rituals, and treatments - Whoopsee",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN1hLNFRiemVEcWtjbV96bVd0b05SeHJURUFLMVc4YXB6b2wtd2RpYmNhVUc0ekIzOUliWTd4dW9nTHBCOGxTZE5oUEdyN1NEZ2E1WU4yc2pEYmxUaXJId0RwMEVuV0NKU1FRNEJ5ZnJUZ0EwQnRKR0FRYldhc2w2NXIzbmtvbWNxYWtQcXE2enQxN3Vrb2VtbVc2R3ZuQjBWTmxWUElVXzgzOG5yRnh1Ui1KMU9KT2tqVE9YSHNtTXpBRHc?oc=5",
+      "source": "Whoopsee",
+      "category": "สปา",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Cordyceps Sinensis Market To Witness Strong Growth Trajectory Through 2030 At 9.7% CAGR&nbsp;&nbsp;EIN News",
+      "summary": "Thailand is the new destination for wellness and beauty tourism: featuring spas, rituals, and treatments&nbsp;&nbsp;Whoopsee",
       "date": "2026-10-27",
-      "id": "e7268253b0ac8d41b4ed597e30064324"
+      "id": "be485695690f27dcba2f5eb40d59151a"
     },
     {
       "title": "\"อั้ม อธิชาติ\" ยกระดับนวัตกรรมสมุนไพรไทย ผนึก ม.รังสิต ลงนาม MOU - Sanook",
@@ -477,16 +465,16 @@
       "id": "782406c04fe743d5b7eeb1dcde9936af"
     },
     {
-      "title": "กะเพราไม่ใช่ของใคร! ‘ปองพล’ กางตำราแพทย์โบราณ ปกป้องภูมิปัญญาไทย - แนวหน้า",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Lc0lRWGExVW1RTW14N3BibVdjb191aFB1WnVTajFPVzVHT29lNktRNU9Tejc0OXhualBvQWhOVWdLN0d2aC1sY0pBQklSWURwZ0tn?oc=5",
-      "source": "แนวหน้า",
-      "category": "ข่าวสุขภาพทั่วไป",
-      "region": "ในประเทศ",
+      "title": "Herbal medicine research against Shigella surges, but hard evidence lags behind - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYU1CR0JRTnUwanJMdFlDLUMtSElkT2tLOHBBZk1GUWhLRjB0clRNbTdza3VOOFBtckFtdDhIYl9pYU5NbjNIMDg5bEFMSzZmdEg1cTI5akpPX28wcXFUWERZS1ItQ1A1RkJjZGVVUEF6aUFIbzlzX1cyYURQU0VkRndCd3dZMHJhbWZkVXY0R0FmLVB2LTI1NmltVlE0WFFXVm9XYWlR?oc=5",
+      "source": "Bioengineer.org",
+      "category": "สมุนไพร",
+      "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "กะเพราไม่ใช่ของใคร! ‘ปองพล’ กางตำราแพทย์โบราณ ปกป้องภูมิปัญญาไทย&nbsp;&nbsp;แนวหน้า",
+      "summary": "Herbal medicine research against Shigella surges, but hard evidence lags behind&nbsp;&nbsp;Bioengineer.org",
       "date": "2026-10-24",
-      "id": "f690c7c61beafe19325f21ea9049ccfd"
+      "id": "5f1118d1b5bacef4d4e789d4d38928e3"
     },
     {
       "title": "อนุทิน นำทัพเปิดสงครามยาเสพติด 6 เดือน ตั้งหน่วยสกัดชายแดนเหนือ ควบคุมกัญชาเข้มงวด - นคร เชียงราย",
@@ -499,18 +487,6 @@
       "summary": "อนุทิน นำทัพเปิดสงครามยาเสพติด 6 เดือน ตั้งหน่วยสกัดชายแดนเหนือ ควบคุมกัญชาเข้มงวด&nbsp;&nbsp;นคร เชียงราย",
       "date": "2026-10-23",
       "id": "6dfe3d97a0df13de2e28caf898266e0c"
-    },
-    {
-      "title": "Save health of Keralam spas with thorough law - The New Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZEdRSUExclpJZ05SWFYxZUZ5alNNcVVEQXk4QU9ESEhfQ2Rtb2Q2QXZBdEdWVzhsSV9ucHl4TVRNbnl5N3pjWlF3aXN4bWFVcF83cENQT09UdS1NdTRqcGtKdnc0X3pOOUJrUDBKWmJveTRzOHZpX1JVNlVUQjR4SjllZURITzhJeGw0aXhZS3dGVG5QR080dWdlalc0am1RV2fSAa8BQVVfeXFMTlBtZVQ4LUtkeW1vck56VmVvWGptZVdJVFpsb1Y2bVN6bkp6QzNTNVNXMG9HSzhjNDBSMzBDdUJNUGx2X3Fud2xmTlU0ZTZZMm8yZXdQQlhaNXNkX0c0N3p2MVRTd3FWc2hSVzI5OFM0ZndLZ2RlQzMzQXBYTlFFR1dRNGkzVjg3bTNlUGdnTnE5NjEwaDZuZmlvbHhKbTNRYVduLVNiV0xYT25MR1M2TQ?oc=5",
-      "source": "The New Indian Express",
-      "category": "สปา",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Save health of Keralam spas with thorough law&nbsp;&nbsp;The New Indian Express",
-      "date": "2026-10-23",
-      "id": "2f5b82a1a292a888542ddfa8d1308ea3"
     },
     {
       "title": "ReGen Medical's Focused Energy Wave Technology Sets New Benchmark in Shockwave Therapy Precision - EIN News",
@@ -561,6 +537,18 @@
       "id": "cc198d9d18be946e8079069fe81ffa40"
     },
     {
+      "title": "Wellness Tourism in Italy: 24 Million Visits and Over €5 Billion in 2025 - inITALY",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObzZ5X1NzbXUtWHh1SGJvME9RbXJyT2JUcGlzbEZFanFyR2JibnVReFFEa1ZEVUhOdHFldWswNldvZm5WaDJ1Z2x1aXdTVzlucVg0MlQ5OXZ2bDBhazU1UTdqNExzdHZHdHowUEx3YTVGX1BQal9BajQ5MzRKV1Jvb3dBcVNqY3RIT2NGOU1IX1lsdGhpSzFSVl90UU5vMkxDcFdjMUtPUlF5T2lxWWd3d2ZCMjNjRTZIb1NPTk9TT25sWGs?oc=5",
+      "source": "inITALY",
+      "category": "เวลเนส",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Wellness Tourism in Italy: 24 Million Visits and Over €5 Billion in 2025&nbsp;&nbsp;inITALY",
+      "date": "2026-10-22",
+      "id": "0de9eff41062611972886cd919d2a5eb"
+    },
+    {
       "title": "‘จุลพันธ์’ หารือทูตคูเวต ดันจ้างงานไทยเพิ่ม เน้นช่างฝีมือ-นวดแผนไทย - Matichon Online",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mbEYyZENaX1o1b1ZTNVdTNHoxRkd4czJySEFxY1VWMkNxMDZVV1QxbjBrWnhqRW16YTYtTnJFY2xEYko3RGhTWkpiLUdrMl9YZUxucGVxUlBCQWhyaWg3VXVzQnhDZ2U0OFE?oc=5",
       "source": "Matichon Online",
@@ -571,6 +559,18 @@
       "summary": "‘จุลพันธ์’ หารือทูตคูเวต ดันจ้างงานไทยเพิ่ม เน้นช่างฝีมือ-นวดแผนไทย&nbsp;&nbsp;Matichon Online",
       "date": "2026-10-21",
       "id": "89f051f23fce77d1fb6f3cafef581dc1"
+    },
+    {
+      "title": "Wine Wellness Tourism 2026: Yoga in Vineyards & Spa in French Châteaux - Pixidia",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUmFzR1gyaFM1R3hucUdvc3BibXhIeGpLdi0xa25Td0lya1FZUUliWjgzRnY1YklyTXZJNHZpalJCZ3BTc1lkV3lNTzlhNGg5bmN1bUxpMUhaLXpLZldiT1ROTVVKSzlCc0hucHJFbjZMSW1ZVUFidkZlaHJtejQ1ck5KQlJnWXQ4QlhtTUFB?oc=5",
+      "source": "Pixidia",
+      "category": "สปา",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Wine Wellness Tourism 2026: Yoga in Vineyards & Spa in French Châteaux&nbsp;&nbsp;Pixidia",
+      "date": "2026-10-20",
+      "id": "1785d70917834e419d006492226b0218"
     },
     {
       "title": "สภาการแพทย์แผนไทย เร่งตรวจสอบปมโซเชียลฯ แพร่ภาพการฝังเข็ม - สสจ.พะเยาตรวจสอบเช่นกัน - Hfocus.org",
@@ -609,16 +609,28 @@
       "id": "7e0151f65cab8884bb1b66774d1c14e1"
     },
     {
-      "title": "Wellness Tourism Market Size, Share, Trends 2036 - Future Market Insights",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE44bU81ZGQ0VUNIWlJibVRYNzZPZ3VhVDFaNUpqLW1BQzJQRFJTNXhrYWFYQW1JdFU1Z0tXRW5NY1dsdS1FV0lNamNEZEVKc3BPRmk2bHBpcUxNMUJIX3BjY28zTTZaZkJOVG1UY2hncHlobXBXVTJB?oc=5",
-      "source": "Future Market Insights",
+      "title": "Inside the global surge in mindful wellness tourism - thenational.co.za",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNkpHOUhPUmdOQTZ0S2VLOWUwVHV0dDdxQmxINDJtZzZPRVpfRFRLRVZCOVBSMEdsWWhTOG56SXBWU3h4d2g3LWNFaTNXRHpfX3ktTTVmMnpsNmw0bU00cjBPUHRkUUJhS3Fmdkc1X1lWUDA1OWdfVmNlVDFnWE5CWUNlRjYzZmlab2hYNlhIVllJdUhzV00zT1Vkb2l6WGFV?oc=5",
+      "source": "thenational.co.za",
       "category": "เวลเนส",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Wellness Tourism Market Size, Share, Trends 2036&nbsp;&nbsp;Future Market Insights",
+      "summary": "Inside the global surge in mindful wellness tourism&nbsp;&nbsp;thenational.co.za",
+      "date": "2026-10-16",
+      "id": "39a319bbe3b75bb94912e5763cff9724"
+    },
+    {
+      "title": "Top wellness tourism destinations worth visiting - qz.com",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPUWxmQVN5TXRMZXJjQVN3Ni1SRUd2N1FjdzNIVTZKMWRuUUkzejhaSFFMMWJPc081ZUJFOXNWZDhaVEtmVjcxV0ZJektfV19SRUo1S3JZUQ?oc=5",
+      "source": "qz.com",
+      "category": "เวลเนส",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Top wellness tourism destinations worth visiting&nbsp;&nbsp;qz.com",
       "date": "2026-10-15",
-      "id": "fe26d70a2824678c5aaf5f218c8c4e5d"
+      "id": "7d65305bf83568f35895415552870244"
     },
     {
       "title": "ดัน “Phuket Wellness Routes” ยกนวดไทย-สมุนไพร-สปา ดึงเม็ดเงินลงทุนทั่วโลกเข้าภูเก็ต | การเงินธนาคาร - LINE TODAY",
@@ -631,6 +643,42 @@
       "summary": "ดัน “Phuket Wellness Routes” ยกนวดไทย-สมุนไพร-สปา ดึงเม็ดเงินลงทุนทั่วโลกเข้าภูเก็ต | การเงินธนาคาร&nbsp;&nbsp;LINE TODAY",
       "date": "2026-10-14",
       "id": "fdebafc2f233c4c3298695bd5c562f69"
+    },
+    {
+      "title": "กรมการแพทย์แผนไทยฯ ชู 'Phuket Wellness Routes'เชื่อมธรรมชาติ สปา ชุมชน อาหารสุขภาพ สู่ Global Wellness Destination กระจายรายได้สู่ท้องถิ่น - แนวหน้า",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9VNnBQbnNSYjlSeldCRVptcWpKeFlyVjRHblN3WnBrdEVkeXVZaHZVLUdZOVlMNDVxVkhrRUN1WGV2LWxReWZITGpIVDVtWUZkVk1ZOXZnU1RqNDhjRjlvQ3kyOE9URlJQX2YwRUVR?oc=5",
+      "source": "แนวหน้า",
+      "category": "แพทย์แผนไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "กรมการแพทย์แผนไทยฯ ชู 'Phuket Wellness Routes'เชื่อมธรรมชาติ สปา ชุมชน อาหารสุขภาพ สู่ Global Wellness Destination…",
+      "date": "2026-10-14",
+      "id": "6789805140626b21d8aed705afea7ee6"
+    },
+    {
+      "title": "วัย 62 พลิกตึกเก่า จากขายลอตเตอรี่สู่ธุรกิจสปา รายได้หลักแสนต่อเดือน - posttoday",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4zeW1kRElNSTRDbXh2UnlPbmRCYzFEMjF0dkZUN1hmM2VjVzVSUmNjWTNZMGwxaGlnQVFId05uV0oyTjQzQ1RTMllOV2lfWmJLOVFkVg?oc=5",
+      "source": "posttoday",
+      "category": "สปา",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "วัย 62 พลิกตึกเก่า จากขายลอตเตอรี่สู่ธุรกิจสปา รายได้หลักแสนต่อเดือน&nbsp;&nbsp;posttoday",
+      "date": "2026-10-13",
+      "id": "d765d21fb1ddd409700a61c66d788e92"
+    },
+    {
+      "title": "Herbal Medicinal Products Market Size, Share, Trends 2036 - Future Market Insights",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZmdIRUtxYU9INGRlMkh5Z3Y2Ym5PcjZxZUxsLVV6R3NtXzZiaVMzQlVQa1J1SHhIM1lJX1FCWENmWXJkM1luX3dLYWIzZGhBOXo2NW5DMVBMS0swYUU4MGhvMmRRdElfT2lWZ3Q1eVVaaHpDVl8wNUQyTHh5TVRhMTlvZw?oc=5",
+      "source": "Future Market Insights",
+      "category": "สมุนไพร",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Herbal Medicinal Products Market Size, Share, Trends 2036&nbsp;&nbsp;Future Market Insights",
+      "date": "2026-10-13",
+      "id": "602e1257cb02c67bd952bcad37df3749"
     },
     {
       "title": "จังหวัดสมุทรสงคราม หารือเตรียมความพร้อมจัดงาน \"มหกรรมการแพทย์แผนไทยและการแพทย์พื้นบ้านไทย ระดับภาค ครั้งที่ 19\" - สำนักงานประชาสัมพันธ์จังหวัดสมุทรสงคราม",
@@ -657,6 +705,30 @@
       "id": "cc0551ce1dced702bcd13a65761ce0bb"
     },
     {
+      "title": "Complementary and Alternative Medicine Market Size [2034] - Fortune Business Insights",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQUx0YWtKdzVlbzBVTTlrUW50bVdzcnpYNHhRMEhXakYyQmQzc05YbWVnUjJEcXUzLWxoYkthOXA1T3A3Q2FqeUJtYXRYWTRJWi1DZHNUT0NZVnhJNDZieEh5TDE4M1lSSXlNQ1NIaXRoamswUmJncGprT2lTS3Zvd0duem1EV2tfZ1BnYVF1TGJKdG10cHdv?oc=5",
+      "source": "Fortune Business Insights",
+      "category": "ข่าวสุขภาพทั่วไป",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Complementary and Alternative Medicine Market Size [2034]&nbsp;&nbsp;Fortune Business Insights",
+      "date": "2026-10-12",
+      "id": "eac155eba3ba8b90895273c737679d5f"
+    },
+    {
+      "title": "ในวัยที่หลายคนกำลังวางแผนเกษียณและลดบทบาทจากการทำงาน ‘สรัญญา ถวิลวิทู’ กลับตัดสินใจเริ่มต้นธุรกิจใหม่ด้วยวัย 62 ปี จากชีวิตที่เติบโตมากับธุรกิจจำหน่ายสลากกินแบ่งรัฐบาลของครอบครัว เธอเลือกนำอาคารเก่าอายุราว 60-70 ปี บนถนนตะนาว ย่านพระนคร มาปรับปรุงเป็น Ukiyo Ma - Facebook",
+      "link": "https://news.google.com/rss/articles/CBMilghBVV95cUxPa0s2NUVBeGtWbzh6YUJIeW1nX0NYT1RaSEVIbVVWOWJsaXp1ZWhkUUVGRERYTjlQZl9neG4zXzRqcnh0WEVrdGtFZ3RlYlV0eUdJbDFtM0VZdWh3V3ZfS0VZblQ3MjF0ci16VDdLczhjci1NRHoyQmRGeFZmVEJvSGFTd2xHcTNxTHFGalBjMHdrS2JVTVVVQ0s2ZEM5MXBXVnhJVkRUeWE0RWdQMnNaUmpGSkpmd2oxQkNYMWdxYkVCd1IzZWhyWnY1TlNEQlRTVGMyS1FkREhHMUhqRGVBV20zOVRhLTNXeGxNREhwbUE2dGw5Yk9qQWt0ckhHRGdGbUlrSGlDU2ZBaldHTUtfSVc0bWkxZENxNkhOLThMU0Q1dncyN3c1UUtDcmtRTjhDdE9fOFluNzZVM1p3MnN2ZFF2MkFnenJ0R3ZUM1hsYktTUVI2LXM3ZGFTMFZoR0xnOVlfZFk3MzFlMm80QTFSazlmeU14ZE1ic2dpa3lyT25abVlFOTNxLWVxNUJPVG94V1VwczRpLUgwRC16dXg4NVBaZ3M5QVdPZGpabTJtd19nOHpkRy0wXzloay1RTzZucmVaV3VJWlNoOUZmTUwyODVyd3J4aVdLTnRqQzlBSjBVUmNZdFFWYm1Kd1E5RDk5UmdlckRKVFkxZTZwZFlrRUdmM2JjWkZoNjJlNDNSQ1pIcU0tQ2F0VHdPdXZTRk4xV2tXR2NQc0NKbUt5T2ZtdnlKWV9wQVJRRjJ0TVhYNzJrQVV3RFlra0RzTGhMa0pEZlZza3phcnVGUndyS0Z4Z243cS13M0lpMkExZEZQSUR5TnZxdWVodnU5ZFFvTzBEdk1ySlJuc2R3TjhGVVp1VzN2MG9xVVhwdGpXOTM4Z2ExanBKRFNlREVpOHg5Qm1iQ2NNX2FVQ085bWcxc2s3REhBMllVSWRfS1hGSDVPN3pNOXdqbTNKNnVaTzFld1NjVExMZWFRV1U1YjU0VkpIOWVkSkRvenNqWHVWRV9lRG5uTDNjQWFtRW9GNlBrNTdJTEFTd0pwTktOSDB0eWxpREJlLTBJVFdJWHhrQnpHME9IZUNGVU52ZFpBY19vaVVNWjZDN2dJT2lvZDRTb29qRFVFdWdvYi13SlVqWXprUzM0VnVDSjBJRmRBeEZQZkRTVnFEUndzQU8tdXlVWlhlTnI1TmlRYUhnX1UxRzQ2c01sUXpDcWpYTFhjdEhPZy1NS0w0RFUzeE5QS2s3bmlCelBqNmtmN0JJVWpwMlBlSExGcUJlUXpaLWhMTFZ6SXgtRnJhbkU2Z1NKUXpuYi1SbVRpdno0N2UzamVkX25pQmFIOGI3bnJCeE4tUHg2NEJvY0hnUkhESkhud2NtSGtUMjZkOGs5QQ?oc=5",
+      "source": "Facebook",
+      "category": "ข่าวสุขภาพทั่วไป",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "ในวัยที่หลายคนกำลังวางแผนเกษียณและลดบทบาทจากการทำงาน ‘สรัญญา ถวิลวิทู’ กลับตัดสินใจเริ่มต้นธุรกิจใหม่ด้วยวัย 62 ปี…",
+      "date": "2026-10-11",
+      "id": "c7d6c7e79dd61598df60ed131b149f07"
+    },
+    {
       "title": "อายุ 62 ลงทุนกว่า 10 ล้าน พลิกตึกเก่า 70 ปีจากตลาดลอตเตอรี่สู่สปาพรีเมียม เปิดเบื้องหลัง Ukiyo ธุรกิจที่ยอมคืนทุน 8 ปี แลกกับการสร้างคุณค่าระยะยาว - thestandard.co",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sSldzb1Z1TWFzY3VPNGxJanQ0S2Y5NWtxazFjMW1oV05LellZbWtHVWJQX0RwWXg1aThzWUgwNXdBRTBmX2twV2pfN2twX2VocnBoTTZSUEx3UGJsdm9GaWJ4M0htdw?oc=5",
       "source": "thestandard.co",
@@ -667,6 +739,18 @@
       "summary": "อายุ 62 ลงทุนกว่า 10 ล้าน พลิกตึกเก่า 70 ปีจากตลาดลอตเตอรี่สู่สปาพรีเมียม เปิดเบื้องหลัง Ukiyo ธุรกิจที่ยอมคืนทุน 8 ปี…",
       "date": "2026-10-11",
       "id": "707b74606daaa01b86693993e64ca30a"
+    },
+    {
+      "title": "THANN Wellness Destination ลงทุน 700 ล้าน ปั้นเวลเนสอยุธยา สู่จุดคุ้มทุนปี 70 - posttoday",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OQ05iQ1N5a2dTbzhlUXVFVTJPbndOeXRsdmpFb1R5VjN1ckRiemR4VFVfWWlfMkVLWWJTNzNGdG9QMzVTLWdrN01uQUpweXhTUjY0YUp3?oc=5",
+      "source": "posttoday",
+      "category": "เวลเนส",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "THANN Wellness Destination ลงทุน 700 ล้าน ปั้นเวลเนสอยุธยา สู่จุดคุ้มทุนปี 70&nbsp;&nbsp;posttoday",
+      "date": "2026-10-11",
+      "id": "3555c46d7d4a4ae13f18e6ab98a840d5"
     },
     {
       "title": "St Vincent de Paul: Advancing digitalisation, medical technology and integrated geriatric healthcare - MedTech World",
@@ -715,6 +799,18 @@
       "summary": "IIIM Celebrates 85th CSIR Foundation Day, Focus On Integrative Medicine And Research-Industry Linkages&nbsp;&nbsp;Daily Excelsior",
       "date": "2026-10-05",
       "id": "f8104a9ff8111b38b41436f6366f32d1"
+    },
+    {
+      "title": "ไทย'ฮับเมดิคัล-เวลเนส’โลก เครื่องยนต์เศรษฐกิจใหม่ 10 ปีดัน '5 ฮับสุขภาพ-การแพทย์’ - bangkokbiznews",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rR1BaVzlhakdMVTk4YmhOdTU3djJDR2RkLUw3TUZabkczcW4za0tmS21vS0NXVWxrSGIyY1Jtd2p5WEo2dEdYdVlodllqVUtKalJYcWNBY2t2MXlYYkdQcnFhUk1BeWNxUko4?oc=5",
+      "source": "bangkokbiznews",
+      "category": "เวลเนส",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "ไทย'ฮับเมดิคัล-เวลเนส’โลก เครื่องยนต์เศรษฐกิจใหม่ 10 ปีดัน '5 ฮับสุขภาพ-การแพทย์’&nbsp;&nbsp;bangkokbiznews",
+      "date": "2026-10-04",
+      "id": "90d8aa6ed55bb55f0d1dec76ed3241b8"
     },
     {
       "title": "มูลนิธิกสิกรไทย จับมือคลินิกการแพทย์แผนจีนหัวเฉียว สังกัดมูลนิธิป่อเต็กตึ๊ง และจังหวัดน่าน ร่วมพัฒนาพืชยาน่าน - มิติหุ้น | ชี้ชัดทุกการลงทุน - มิติหุ้น",
@@ -777,16 +873,28 @@
       "id": "21473e7eff1f01070d22c08ddda4f671"
     },
     {
-      "title": "Away and Exclusive: Wellness retreats are the new luxury holidays - Open Magazine",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc3pHY3MxMVNLdVdxUEJaQjB0MmZ6RWxEbFc2Y1hYeUg2eUI1MC1EMUg5a1BydUJfcUE0elJKOHdSeEwyOU1TX1NSa3BCVV84ak9LVkdreFF2emNPV0pwZVktNVdSbWUwdzdVWDBQMUZ6VmdHaUM0Tkd6cU1lTlZ4NGRNYkJQMjhtcFJjQjZmZzVWa2RERVMtWVdyY0NIdnZJdmIwSFhScw?oc=5",
-      "source": "Open Magazine",
+      "title": "Goat Yoga And High Tech Healing: Inside Wyoming's Booming Wellness Tourism Trend - Cowboy State Daily",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZzBhbDVHaldKT01HOUxucnpKejdOVXlKcy1NeExGVjdFUWp2TXRxSUpyRmI4YUoxMXV2eHFGM2RHVzVHUC04OUtwdWVfVkNDSHZ1ODktUjRQNHM2c18tTEZISUJJMTFEbnNtanZiRXM2ZkNjM3JTQ0ltUnN3UG1UREJHU050WWRBMUpJb0g5Q2tWOTZpWHR4a1pWQTFJMTNjSzhjSVdtQVNyY2kyQ3VDZ3lfUDI?oc=5",
+      "source": "Cowboy State Daily",
       "category": "เวลเนส",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Away and Exclusive: Wellness retreats are the new luxury holidays&nbsp;&nbsp;Open Magazine",
-      "date": "2026-09-26",
-      "id": "4c0d1f9b8077883577ae8a56f722e71a"
+      "summary": "Goat Yoga And High Tech Healing: Inside Wyoming's Booming Wellness Tourism Trend&nbsp;&nbsp;Cowboy State Daily",
+      "date": "2026-09-27",
+      "id": "e9bdcfe6552d5bca1f03951256fd7167"
+    },
+    {
+      "title": "Alternative and Complementary Medicine Market Size Forecast 2035 - Business Research Insights",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWVRoMFZZVThMN0RzR201WktzaDFCLW94YlpJTzk2MmYxYWFhYTljRFczY01pWDZNWWhRZlRGMVJKeXhNbXU4T0dpcGlHLVlvZTVXY3ltVTNYMXBvblo2QWwzQUFHWGxDdXM3NWJSTHEwNHFHTWRvdzN5d1lRdW92UG9SeHhDcUk5ODlTUWlwNWlGSURsWGFINjk1WG4tOXdxUHU3a2RrbFBQY1Zf?oc=5",
+      "source": "Business Research Insights",
+      "category": "ข่าวสุขภาพทั่วไป",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Alternative and Complementary Medicine Market Size Forecast 2035&nbsp;&nbsp;Business Research Insights",
+      "date": "2026-09-24",
+      "id": "ec5aa8757abb5a0067a1ad8085549708"
     },
     {
       "title": "ครม. ไฟเขียว กม.ควบคุมกัญชา ใช้ทาง ‘การแพทย์’ เท่านั้น เพิ่มมาตรการลงโทษผู้ฝ่าฝืน - The Coverage",
@@ -799,6 +907,18 @@
       "summary": "ครม. ไฟเขียว กม.ควบคุมกัญชา ใช้ทาง ‘การแพทย์’ เท่านั้น เพิ่มมาตรการลงโทษผู้ฝ่าฝืน&nbsp;&nbsp;The Coverage",
       "date": "2026-09-22",
       "id": "0bab73f397da98a625eb13a0104af008"
+    },
+    {
+      "title": "South Korea puts wellness tourism on statutory footing with new industry legislation - spabusiness.com",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVmM1MU9uTGVHT2RITXZVMDROckpaSV9LaGEzRTAwbEZLNWE4eXBzbThLRmlPQ0VaVk9WY3FEVFpNeDZzdTR4T2MxdkFHR3ExcHVNcUEzYll3b2dIdHFLby1oOV9hQjRqQS01M1BMU00xV3ZpMl8xcmVlRUZUNldTbzU2RURid3hOdzBvbk92ZC1hU0lQaGd2d3JIR1VJal9uWlk4MzlfMEM1S0N5eDhuOXRxOXpRR2lILTZ0OEZrNHF6bXR1cHU4Mk9QcVdWdw?oc=5",
+      "source": "spabusiness.com",
+      "category": "สปา",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "South Korea puts wellness tourism on statutory footing with new industry legislation&nbsp;&nbsp;spabusiness.com",
+      "date": "2026-09-22",
+      "id": "7fb4a09459a34ffa19476555e2e79830"
     },
     {
       "title": "ชูแนวทางแพทย์แผนจีน ผสานแผนปัจจุบันสู้อัลไซเมอร์ ย้ำ! ไม่ควรหยุดยาเอง - Hfocus.org",
@@ -825,6 +945,18 @@
       "id": "6f5a91be62214546bfcd1dd00a13281a"
     },
     {
+      "title": "Traditional Chinese Medicine (TCM) Market Size & Forecast 2035 - Business Research Insights",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTUYwdUh1aGhUdW9weVQ0ZzdVWFllQkd1OGZadTRNQVpaS0xxZWRDLXRULVpBcHhlanI1VTczakF1aWVoek5PSndjd055ZWYyaTktalVqamZ1MUFKZWpUZDNfdWs1a2xVRHhfbXJydDNuT29kWUcyN0lESWJuN0YtUGNEVmxFOU5fUnVUemFNZzF5M2FSM21HNzV4ZTVqNEppZlBPNA?oc=5",
+      "source": "Business Research Insights",
+      "category": "แพทย์แผนจีน",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Traditional Chinese Medicine (TCM) Market Size & Forecast 2035&nbsp;&nbsp;Business Research Insights",
+      "date": "2026-09-18",
+      "id": "f56d9420d800fa9890dd777c315565ba"
+    },
+    {
       "title": "Development and evaluation of a dental nurse-led acupuncture service for myogenous temporomandibular disorder - Nature",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QM01zeWc2dGJoc3A3Vko0NUVfOUdITzB6MkVnV2JnYVBQUmhMRlRNS1dCTTNXNmNNbzY4Q01FSGRMLTV0TUV3cTBmRnNKVVktNHAwN2R5SFR0SHJ3Umc?oc=5",
       "source": "Nature",
@@ -835,18 +967,6 @@
       "summary": "Development and evaluation of a dental nurse-led acupuncture service for myogenous temporomandibular disorder&nbsp;&nbsp;Nature",
       "date": "2026-09-18",
       "id": "1221e09d79f9e892f708ed2a300b8012"
-    },
-    {
-      "title": "สธ. ชูจุดแข็งสุขภาพไทย รพ. JCI กว่า 60 แห่ง เวลเนสกว่า 17,000 แห่ง ดันไทยสู่ Medical Investment Hub - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1tdEFDZVNfdXJaTTMxTnU4SDZ5ZUZqNXZZcE1GSzdVUjZ3ZUVpVllxWk9Ba3VwaVV0OFBlLVl4TUtGbU5JYnVzRUcxY3dMNHFwUFFXa0NZdw?oc=5",
-      "source": "Hfocus.org",
-      "category": "เวลเนส",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "สธ. ชูจุดแข็งสุขภาพไทย รพ. JCI กว่า 60 แห่ง เวลเนสกว่า 17,000 แห่ง ดันไทยสู่ Medical Investment Hub&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-09-17",
-      "id": "7fb249527ceb47db78d2ecee1ef81e20"
     },
     {
       "title": "โอกาสของธุรกิจบริการสปาและสินค้าสปาไทยในสหรัฐอเมริกา - กรมส่งเสริมการค้าระหว่างประเทศ (DITP)",
@@ -861,16 +981,16 @@
       "id": "d42dbb22c5d52dcde0af2a63647c8dd9"
     },
     {
-      "title": "Ch7HD. . DSD Wellness จ.เชียงใหม่ : ยกระดับฝีมือแรงงาน อุตสาหกรรมบริการสุขภาพ | หนทางพารวย . ดูรายการ หนทางพารวย ย้อนหลังได้ที่ : https://www.bugaboo.tv/th/variety/honthangpharuai/ . ติดตามรายการ หนทางพารวย ทุกวันเสาร์-อาทิตย์ เวลา 06.45-07.00 น. ทาง #ช่อง7 - Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi_AZBVV95cUxNQlFTazBoVC1lMWxEWmNEQ1RRX3Y0SjlfdEMtQXNGcmVfekY3ZXdkQm1kMmN5Z2lpdkFka3hNZ3EzWllQczNjc0s1TE85ZURFaG8wb2oxR3Bsc3B4NkRtN3hDV0ZMZ2IxYTZqbEV0ODQ5Qzh5dFRvRTd6Z21hbTJ4QXphVU4wTFBkQVhaQi16U3FWa3NhdUZCX290T1FCbkJ6bkZodW5tS0RhYlk3Tjd1Y0ZmdzdDYWxPVXJGTVdwOWQxS1VGYldjN1FFa29xT1JEdW4zLVJQdXZObkdiNGNUenh2el9lekNqNERYaGFhQ1VXQWVYZXVMMFB6QmJkYzhmcjU3Z0tzajc1YVN4VGxsNlk4NmR4dHdIQldqV0NIeTBwWDBoWjl0b1lEWFFkQU5wODdUY0NvODVVR3E4MUljTG4teE1NVDNjSXhDZ05WMnJWaGNBRHc4Ti1mc25hQWp3UzRtUHE2dDQ0ZDluT1F4ZFNkM0V2X3MzS29WN1pkWVdXVkh6bHQwVlRsTjlBTi1wZWpNWTAwUXZzV2VIY2FscTB2NjRaUHRoSHFHM29WNm1pNjJHREk5em5FY3B2LVpCRm4xcmxlajFfbUZMQkR3OWptOGEtLVppRFFOZlFIdUc4eE5WYVdFRi1LTkdnNllOVFprc3I3UVEtdkQ3OW1zNEs0OVpjb2tMM0dNdE1RdTUweWhNRmMzekFXVzU3ckNNUjFHMHFJOTRac2pjMl9sa1VnRnk5cmFoTVhlc0Utd0NUaEZoNHhfQ0hMeTNNazBBckpjbU1jZGUyd3NLNWhfOUNfQ0lzOTlyUm8zUkZwb1V2eDdIRlc4bkVDV19scm5YVENsdFVFMG14c2ZvNHNndDd5SEtfbTdQRWQ2ZzVIYUJnSEFTa21id09wTzlNdEdxRm0wSG11VTNJejdVMXNBc1RZaTB2ZmNTSEFFazRkSTVKOEtaa3lHemVHNmNHbXBKbURGMDJOZEh5QXV6TkE2aDF2YVJ0SmhyQ0hMZERSczJpeXRNRXl6bzFHbWV5YVgwQTdyRTI3OVQ3MUZ1Z3ZXUFZPckNvSC1GV052MWtpWkpBbHQ0ZkVLYS0yUWVKRFM2UVVXOFZLNnV0dmR1UjVGLXFja2FzN1RDdnZhSjBIdGFkNkYyZDRWRHVnZ0k1aVFyNE90ZGVPLXU2dDZU?oc=5",
-      "source": "Facebook",
-      "category": "เวลเนส",
-      "region": "ในประเทศ",
+      "title": "Spa Industry Trends 2026: Medical Spas, Longevity & Spa Tourism - Hotel Online",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRndBaTdYMExRdWo5dkh4Z2pkWVBIbThzVFNaSDhOWmZ3MlE0SnVNTUQ2eFVyRlg3YXgzUG5wRmk4QnZ5ZVhmNHA3WF9FdW12U1c1NnZMRGF5TmhHYmdsaVN1ckcybGZQVWNGQVNZcndfeXB5MlRpZUVocno5VG01NWUzUHNiWlRFM2hzSmpkakpZbW1YVnduVg?oc=5",
+      "source": "Hotel Online",
+      "category": "สปา",
+      "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Ch7HD. . DSD Wellness จ.เชียงใหม่ : ยกระดับฝีมือแรงงาน อุตสาหกรรมบริการสุขภาพ | หนทางพารวย . ดูรายการ หนทางพารวย ย้อนหลังได้ที่ :…",
-      "date": "2026-09-12",
-      "id": "95c718b8d8b961ac2014b1355921c2b6"
+      "summary": "Spa Industry Trends 2026: Medical Spas, Longevity & Spa Tourism&nbsp;&nbsp;Hotel Online",
+      "date": "2026-09-10",
+      "id": "1a35bb6202dddf872ca45767642e9549"
     },
     {
       "title": "เปิดฉากแล้ว “มหกรรมนวดไทยและสุขภาพนานาชาติ 2569” ผนึก 10 องค์กรจาก 8 ประเทศ เดินหน้ายกระดับนวดไทยสู่เวทีสากล - เดลินิวส์",
@@ -897,6 +1017,18 @@
       "id": "16f3be4f21f348b85423e9a708da5a71"
     },
     {
+      "title": "Spa weekends: Where to go in Europe for a relaxing wellness escape - Euronews.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRTVQNjI3NE5LajJQcU1oaTFndlZTS05wZUdBVjJNQ1ZqWXQwRjhpUTJGQzhhdngwVmlMZGQ1RlhoU01RQ1J1Y241b2pZN1ZLSUtHX19sOU82UTdlOXg1QmozeFg1ZUplVkdscVdBQllSMjNUdGd2WnJaSzg1MTk4aGdXUHdHT01ydUlhVG8xR1Qza2dLdHhMRzFXbDlkNUNzeFpR?oc=5",
+      "source": "Euronews.com",
+      "category": "สปา",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Spa weekends: Where to go in Europe for a relaxing wellness escape&nbsp;&nbsp;Euronews.com",
+      "date": "2026-09-01",
+      "id": "be0d2d31a6885f222116a12214f08a9d"
+    },
+    {
       "title": "Unite Us Names Greg Fitzgerald Chief Technology Officer to Accelerate Progress Toward Integrated Health and Community Care - Business Wire",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQb01JdHA1NXItTy1WSmpjbXVQVVotODVHYmJpQ0IyeldsX3Zyc2dDbVlfbTdvcjd2cl9aV2paaExoSmRZaEg2TEIzMERWUGtBRzJDY19QbWwxMV9QLVhjMzFGNFpfVnZGS29ueHIycG5Dek1DWjNQVWo3SEdzN2lhSzZhVFVHejVEZFZYcnlYT0kzanJjdUpPYVBRZDJaYmIzQ0RaOVgxMFhlZmRROWt2bjRhZ0J3RDJjX0RLZU5VZnFCaHBWNkJOUnZFWm5HNVl1ZXFqZExiZWVUWFVjT1ZMZ1pIek9tVG4wd0JTd1NsZWFFbVAxdGJuR1hvVTRWOGRWbUdNc3pOTG91OGc?oc=5",
       "source": "Business Wire",
@@ -919,30 +1051,6 @@
       "summary": "นับถอยหลังสู่ “มหกรรมนวดไทยและสุขภาพนานาชาติ 2569” ยกระดับนวดไทยสู่เวทีสากล&nbsp;&nbsp;spacebar.th",
       "date": "2026-08-25",
       "id": "bf8285dc0b6fb889b9fbeb2eff3805d5"
-    },
-    {
-      "title": "มหกรรมนวดไทยฯ2569 เงินสะพัดในงานกว่า 75 ล้าน เตรียมจัด GWS 2026 ภูเก็ต - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0ZGdueFZFTUNrLUUtVk1KNi1TN2xSbmpMTFhDOUZGd213Nl9tWHNuVDItd3hER2tlRTBvakg5ZlFERXdnWk9tSEdDdnZlNldpRS1vb3Jlcw?oc=5",
-      "source": "Hfocus.org",
-      "category": "นวดไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "มหกรรมนวดไทยฯ2569 เงินสะพัดในงานกว่า 75 ล้าน เตรียมจัด GWS 2026 ภูเก็ต&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-08-23",
-      "id": "27e51a2007a5ff6e9257ed0da22f4f20"
-    },
-    {
-      "title": "กรมการแพทย์แผนไทยฯ จัดพิธีบวงสรวง ประดิษฐานพระรูป “หมอพร-หมอคง” - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PYms4Z0lUcFZsNkNBMnlBV041YkxtcmNYSWFySWFLQXE4cmFnYzJwVmNLNEtMSDh3RmNYVzVWY01SazlzQzYwYkgxQU1mWE5oWFlwUjNNcw?oc=5",
-      "source": "Hfocus.org",
-      "category": "แพทย์แผนไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "กรมการแพทย์แผนไทยฯ จัดพิธีบวงสรวง ประดิษฐานพระรูป “หมอพร-หมอคง”&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-08-19",
-      "id": "8c530f4dd48b2094b4adbb3cdd835a6b"
     },
     {
       "title": "มหกรรมนวดไทยและเวลเนสแห่งชาติ 2026 จัดเต็ม 9 โซนพิเศษ มีบริการนวดฟรี 20-22 ส.ค.นี้ - thansettakij",
@@ -993,28 +1101,16 @@
       "id": "ef82fc251d821351c51e3658c82d50e7"
     },
     {
-      "title": "สธ. ปลุกพลัง “นวดไทย” สู่เศรษฐกิจโลก เปิดมหกรรมเวลเนสครั้งแรก ชิงตำแหน่ง Global Wellness Hub - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rbmVBeXE2V09uOUxRek5vaW8tRk5rRmwyUEtwMGJSTi1nQXpCbU4xTXBBTnJXVnpCcmdHVEQtOGtody0xV0poMlFGbDZhVFRlQ0M2OHdsdw?oc=5",
-      "source": "Hfocus.org",
+      "title": "สธ.เตรียมจัดมหกรรมใหญ่ ‘นวดไทย-เวลเนสแห่งชาติ 2569’ ครั้งแรกของประเทศ 20-22 ส.ค.นี้ - The Coverage",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PRzdibjg5Mi1xLUVjd0lycjAyaGFNTVZiVTdkZ3JwemhZb3hxUV9CSG9RNkhlNEZaVi04WDhoQVlxcVJFeDNMZTkza21tREc5Y1E2V2ZnOVR0MVk?oc=5",
+      "source": "The Coverage",
       "category": "นวดไทย",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "สธ. ปลุกพลัง “นวดไทย” สู่เศรษฐกิจโลก เปิดมหกรรมเวลเนสครั้งแรก ชิงตำแหน่ง Global Wellness Hub&nbsp;&nbsp;Hfocus.org",
+      "summary": "สธ.เตรียมจัดมหกรรมใหญ่ ‘นวดไทย-เวลเนสแห่งชาติ 2569’ ครั้งแรกของประเทศ 20-22 ส.ค.นี้&nbsp;&nbsp;The Coverage",
       "date": "2026-08-14",
-      "id": "9892e3913ef46a01126c1ccc3909b897"
-    },
-    {
-      "title": "Wellness conference Being Thailand will tackle spa, wellness and healthcare - spabusiness.com",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUhicWJxczRSY2FvR09pT0taVlVydS1IRFZ6NWItUS1OVHpLM2dVMnBkRXJSeDdsR0hWS1JaZV93UzBrOEM5aWNMMkNTczlJSEF0Uk4xRmFxVkRPdVpMakxMUDFiTTRkbWtTb3ZMMFd2eUlrTUhkc2lUM0xNSmVGblpMRFNmaTZodU9TR0FOMU5Td0V4cXJ0cU43elY2TGNVVkkweWxtelV2TW1wMFNYd2VaS3U?oc=5",
-      "source": "spabusiness.com",
-      "category": "สปา",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Wellness conference Being Thailand will tackle spa, wellness and healthcare&nbsp;&nbsp;spabusiness.com",
-      "date": "2026-08-12",
-      "id": "d3bdb83632333832603b40e15b29624d"
+      "id": "c5ed51f18f1cb8be9a77b6f157d4dd61"
     },
     {
       "title": "Why Women Are Choosing Wellness Over Medicine - Katie Couric Media",
@@ -1113,6 +1209,30 @@
       "id": "5d382146eacb8ca0631e4f5ecb68574d"
     },
     {
+      "title": "เปิดลานแอโรบิก \"Herban Era Move\" เชื่อมสมุนไพรไทยสู่ไลฟ์สไตล์คนเมือง สร้างตลาดใหม่ให้ผู้ประกอบการไทย - กระทรวงพาณิชย์",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YaFAzOEpRYnVXWlNsSjdVUldWS2pXRHFvWDkzaUFzUzdUWXNIazhhN24yZGpNOUc0TThFXzRDMmJfdjUyeVRLQzVVNFdkV19Ebldua3N6MThRMFBEeW5pNGdvN1VJdXdXaW12QzQzYw?oc=5",
+      "source": "กระทรวงพาณิชย์",
+      "category": "สมุนไพร",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "เปิดลานแอโรบิก \"Herban Era Move\" เชื่อมสมุนไพรไทยสู่ไลฟ์สไตล์คนเมือง สร้างตลาดใหม่ให้ผู้ประกอบการไทย&nbsp;&nbsp;กระทรวงพาณิชย์",
+      "date": "2026-08-02",
+      "id": "b2c1b00473f8c219cf41156a910c69dc"
+    },
+    {
+      "title": "How the multi-billion-dollar wellness industry is putting us at risk - The Spectator",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaWI4TDVyQkRmMWQ3Y3NWbFJXUFhWbGoyOUVCWEoxXzU3YTRsemFWX1ZvQzc3R0k4T3B0MGdvdTBwTC05S2xCMDhwZzJJcHRuNkcxMnBNLWNRN3lqbjJtNVRkbXMwX2tCYVdodnBCTlphaWFSR2REZFVZZE5zZGV5d2FsM3phLThmX2hzLUxpMXBZVnp1T3ZUUHhzRmFwYkZu?oc=5",
+      "source": "The Spectator",
+      "category": "เวลเนส",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "How the multi-billion-dollar wellness industry is putting us at risk&nbsp;&nbsp;The Spectator",
+      "date": "2026-08-01",
+      "id": "af9f1d5164ac2d967c3a7126510f6475"
+    },
+    {
       "title": "เปิดหลักสูตร TOP 3 มหาวิทยาลัยจีนชั้นนำด้านแพทย์แผนจีน - HELLO! Magazine Thailand",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DS0V3UlZiVlBzeUxMODJJbnFheDBaZjl0YjRBcXV5aTlLOHVaUG9ua2ZsNHdrMFE0Y2tBOU1hbEFVajVqeS1VUEJ4cTljbjJkMDhONXZmMkdmUkJZMDcwTERUTdIBaEFVX3lxTE01X0EwcEN1WEpEQ1ZETTNUSEpORzZla1pTc0R5d3VCZkh6ZXNpdTF0TXhjUXY3bzRrN1VBUkpvY0kxMTA3cUZGdDkzRzdLdXdGd2lKdjJ6VTFtcHpWMm8zTGRDd2ZUa3d1?oc=5",
       "source": "HELLO! Magazine Thailand",
@@ -1123,6 +1243,18 @@
       "summary": "เปิดหลักสูตร TOP 3 มหาวิทยาลัยจีนชั้นนำด้านแพทย์แผนจีน&nbsp;&nbsp;HELLO! Magazine Thailand",
       "date": "2026-07-31",
       "id": "8ce78938f2ace92e809b2dbc88f7a224"
+    },
+    {
+      "title": "Thailand promotes turmeric as model herb for global wellness market - Nation Thailand",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mNWdIU0dXcGoxd1JIQWplN1h2bWpGdGNZS3pWUEh3ODBBZ2NXb0FQY1FTNldtWERUTEFCcXR3WGpwVlAwMzl3a19zZERCcEpxNjl4Mm1PbTc5UVE3and0UUpCZjV2UQ?oc=5",
+      "source": "Nation Thailand",
+      "category": "เวลเนส",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Thailand promotes turmeric as model herb for global wellness market&nbsp;&nbsp;Nation Thailand",
+      "date": "2026-07-31",
+      "id": "d01ce14f183106b1d0fdcd622924566d"
     },
     {
       "title": "Unlocking the potential of traditional Chinese medicine - Nature",
@@ -1149,28 +1281,28 @@
       "id": "dfc2b42ddcdb05703a72cbc742d6d661"
     },
     {
-      "title": "Wellness tourism boom creates new opportunities for hotel spa operators in the Middle East - Arabian Business",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeWVwSUdqUmlUX1FvUWYzcXdrd1BIcEhhbkxTSmFOTEUtV05Zby1oMUhLNHo0QmRKQjdUTG5iMlVYcVVuWVZZY282OThhZFdMY2d0QjJKUVNweS02Ulp2a29FbGlhUVFyTmtIdEQwajZGcWJMQTNVdk5admJNTFI0XzROY3g3MlpuVGNKUXRHem5fRWdMUEhpcWZCc3JTS2JmeUhoWXo0ZDJHUGRkLUZqNFY2ZHNGbG5lTndqV0dKNmlET3JmYzZYYQ?oc=5",
-      "source": "Arabian Business",
+      "title": "Inspections uncover violations at Georgia med spas, IV clinics - The Atlanta Journal-Constitution",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTlpYRnJnd3d0bnF5MnpudjJxY0VIWXRfckwxLTV3V2ZDQ0M0TzVOdzI4ZjE3TVItUUtGejM0MW9EcmhCQk8ydzVXTWxqRzlrQjBtQnlwLURZY2piSFZ1N203THFxV1M2amNSNjMwNGRjc2lGaEZqTzBjZ01HWms0MFJDcFpvSnA1bWhnSy1rQ3VaaGdjQ0FQcXY2OA?oc=5",
+      "source": "The Atlanta Journal-Constitution",
       "category": "สปา",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Wellness tourism boom creates new opportunities for hotel spa operators in the Middle East&nbsp;&nbsp;Arabian Business",
-      "date": "2026-07-24",
-      "id": "be1f4e76c8f01e6375a5321691fa5964"
+      "summary": "Inspections uncover violations at Georgia med spas, IV clinics&nbsp;&nbsp;The Atlanta Journal-Constitution",
+      "date": "2026-07-29",
+      "id": "c25147c16d49763fc600d0b510d8ea84"
     },
     {
-      "title": "ราชกิจจาฯ ประกาศเพิ่ม ‘พยาบาล-แพทย์แผนจีน’ มีสิทธิรับเงินประจำตำแหน่ง - The Coverage",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MUFZ1bV96aDFLdUR1QjVEOWxmb1VEOUtMTGxYdHRPOXlfWjlILXQ0dGk0RkwzRTRWZEFQcWxlbXdyRk9kTUNEV0hERUhwRDVjdVNJUjZQdmtiQ3M?oc=5",
-      "source": "The Coverage",
-      "category": "แพทย์แผนจีน",
+      "title": "ยุทธศาสตร์ 5 ปี กรมการแพทย์แผนไทยฯ ยกระดับ Wellness & Longevity Hub - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBFNGEyRjBrM2NWQlphaXhFbFNkdWhMZTQwd2pLcldJeXczM3JCbWc3bTM5MFAtc1Z3eGJjVmJxUDdRQ2JqWFA2NTc2ZEtTS28wYndOOHgzUQ?oc=5",
+      "source": "Hfocus.org",
+      "category": "แพทย์แผนไทย",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "ราชกิจจาฯ ประกาศเพิ่ม ‘พยาบาล-แพทย์แผนจีน’ มีสิทธิรับเงินประจำตำแหน่ง&nbsp;&nbsp;The Coverage",
-      "date": "2026-07-20",
-      "id": "ae3beaf1c289e0dfb26420ca7253267c"
+      "summary": "ยุทธศาสตร์ 5 ปี กรมการแพทย์แผนไทยฯ ยกระดับ Wellness & Longevity Hub&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-07-23",
+      "id": "f66a8b63630a3610060fbfb8427c8a62"
     },
     {
       "title": "ก.พ. เพิ่มสายงาน \"พยาบาล-แพทย์แผนจีน\" รับสิทธิเงินประจำตำแหน่ง ระดับชำนาญการ-ชำนาญการพิเศษ - Hfocus.org",
@@ -1221,16 +1353,16 @@
       "id": "7a08a8e2a76fda002a4459a9902f7ec7"
     },
     {
-      "title": "Acupuncture-related therapy for sudden sensorineural hearing loss: clinical efficacy and central mechanistic insights - Frontiers",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdHp3dFRYWmtXZFNwdDRXMDhtZWNfLVpTNUMxWDY5N3Zjb2ZFUVBXNWRYTnNfQy1OSDFXMElVVWNZWk5kWXNKdlpFcl9uTWNZNUMxaXM5TUpfWmg0cDhFUHhvTHNEcl9ma1JWbHY4S0VUOHlkRU11WFNVNnJIS3U0b0pYS1R5T2hZSHVJc1N5V1Q?oc=5",
-      "source": "Frontiers",
-      "category": "ฝังเข็ม",
+      "title": "Beyond the lab: rapid mass spectrometry techniques charted for traditional Chinese medicine analysis - EurekAlert!",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBUaEUxaWxHbUZiRUpPM0RVWXh3bVN0SlU4UGpIZlJPSmswVWJyLVktYmxKU01neE92RnVCd0dHQk1yUG92bnZ3eHl6QkpnOU5QWlBSeTBtYXVjWGRV?oc=5",
+      "source": "EurekAlert!",
+      "category": "แพทย์แผนจีน",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Acupuncture-related therapy for sudden sensorineural hearing loss: clinical efficacy and central mechanistic insights&nbsp;&nbsp;Frontiers",
-      "date": "2026-07-13",
-      "id": "531c0858b4efce7b1fd3820d82224d68"
+      "summary": "Beyond the lab: rapid mass spectrometry techniques charted for traditional Chinese medicine analysis&nbsp;&nbsp;EurekAlert!",
+      "date": "2026-07-15",
+      "id": "6b2f96fcf07922338d9828551361b07e"
     },
     {
       "title": "สร้างประวัติศาสตร์! ไทยผนึก 9 สมาคมนานาชาติ จัดใหญ่ \"International NUAD THAI & Wellness Festival 2026\" เปิดเวทีชิงถ้วยพระราชทานฯ พร้อมดัน \"นวดไทย\" สู่ซอฟต์พาวเวอร์ระดับโลก - thepeople",
@@ -1267,6 +1399,18 @@
       "summary": "ชี้ทางรอด \"สมุนไพรไทย\" ต้องสร้างความยั่งยืนตั้งแต่แหล่งปลูก ชูไทยได้เปรียบความหลากหลายทางชีวภาพ&nbsp;&nbsp;Hfocus.org",
       "date": "2026-07-09",
       "id": "6a783f7183203a8cb13834690aa362f2"
+    },
+    {
+      "title": "Artificial intelligence in traditional Chinese medicine: unraveling herbal medicine’s mechanisms - EurekAlert!",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zX1d6M3BkU29DMEI3M2ZFQmNnUUVuczhKTFRUclpGbHVfdHU4b0F6LTBhZmlTWDg3N3R2cE0xdG5kaG5NQ2wzdmVNU3VjZHJzcDlPcThBWU15Q0FL?oc=5",
+      "source": "EurekAlert!",
+      "category": "แพทย์แผนจีน",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Artificial intelligence in traditional Chinese medicine: unraveling herbal medicine’s mechanisms&nbsp;&nbsp;EurekAlert!",
+      "date": "2026-07-09",
+      "id": "9b5fee6702d6b2f449aa1c4ee5931eb2"
     },
     {
       "title": "POLITICS: ‘พัฒนา’ ยัน นโยบายรัฐ - ภูมิใจไทย เดินหน้ากัญชาทางการแพทย์เท่านั้น เตรียมคลอด พ.ร.บ. กัญชา - กัญชง คุมเข้มตั้งแต่การปลูก - โทษหนัก เตือนพวกลักลอบขน ปลายทางหลายประเทศยังเป็น \"ยาเสพติด\" เสี่ยงคุก ยอมรับมีเล็ดลอด - ใช้ใบอนุญาตปลอม พร้อมลุยล้างบางร้านเถื่อน- - Facebook",
@@ -1317,18 +1461,6 @@
       "id": "1f676b0a7f1031f8790c8e582820ad10"
     },
     {
-      "title": "ไทยขาดแคลน 'เทอราปิส' กว่า 70,000 คน เร่งปั้นกำลังคน รับ 'เวลเนสอีโคโนมี' อัปรายได้หลักแสน . เมื่อวันที่ 3 กรกฎาคม 2569 ที่โรงแรม เมอเวนพิค บีดีเอ็มเอส เวลเนส รีสอร์ท กรุงเทพ พิธีลงนามบันทึกความเข้าใจ (MOU) ความร่วมมือ Thai Wellness Therapist Program เพื่อยกระดับวิชาชีพ - Facebook",
-      "link": "https://news.google.com/rss/articles/CBMipwdBVV95cUxQaVJqLWY4dWN6WnRobVAtY1ZDREVWenZxNlhGa29USThhaTJEa0tHLURmNEwyMFM3UXIwRHMxZkJyb2JSb19POFNfaFlmRVlOYkJYOU81aVBDdm1fcDJZRnNwem9BdDh1VzdkaWhXU3p5RHZ0QTdmZGlsZ1lycm1ud1FlZlFXVmdPQk5UVXhaZUFKMENCVnV5RGprajN6NWRfaEZ5WVd3d0RTYV9DNDJIRXRqb2dnTnZHSFdvX0lmVWRZclB5d0N3UVFVQWtGYXMzSTd1bVRsVGs3WjByaHY5Z2Z4dFYyZjQzRE5FSy13M2hsRGxOTkJtdm1pQ1RXQnlnUkUzdUM0YnFzMUNyanltM1QtejcxVVptcHJNanBUa1dHMlV6RzkzUUt6Rm9qR0Z6VFBQSWFXeTlkd0pzeEp4NFhnQl9xZ3Y0OVV0ME5zTWVkcEdXVFdScllQSDZpLW1iZEt2RUJPSHZOSnNpdlJOY3A5NUI4UC1jV3JVeXppTUFaNkRfYktoSEM4VXpWeXhVS0tUa20tdzZYczVNeWNsdC1HdXZQNWZwRHJraWZUTlBHUk5MeDBoLThFTHl0NWpKZHlIMHBONnl3akdBQnVaM3hMdTRMZnpKS3Fmb2FRMS1jLTQ1MzNNTFo3eVl4QXNKZWRKWnRFQWRUU0pVa2RmUDJ6MWNpeE1xWkg2OU1NR01PLUROcEd3d1RwZjVxZHRlTDJ0QWFFdHdSZFdkUUVrUUNxV3ExR1hDVHZna1RjSVEzd2tuWC1taXZFM1ZjcV9fWVg3c3hITzZ6YzhSSWd0bjQ0ekZTbWxIMWktclRaSUlXUkNWNE1NYm84YVg0dDJrXzZCb1Nmck1VVnV2V1F4Wlh0REVGOVFhM2xrWERCTzVpSF9wN1pUYmFjVkV0d0puSmNlZnNFczNaaWl1S0ZfV1FHZjNRMl8tNlJ6azVuSVM5WW5UNldFUFlWaHBaM1BqWFIyd3JDSDBESU4wakNhVXZ2Nl90T28xUzRHR0ROWm9oWEVyekRLbFFHM1Joa1RXTTlhTFl2WHhudzlJdUhCS0NJWDM3UWc0MmRjc1d1UFl0UTBLNmtaa3RLS3JPdkNGaEdXV0FHZHdHU1VMTG5zalBOZnFDaVZjVUJCNy1ydk1VTFhUQ1R2emdOQnllSzZJSnpYNkVjS3hnTzhJYXNvaTBSQzRPZ2JJMUw4UER3ZEtTQlBrSDlNY2VYTVVpTGRWN3pIalFpSQ?oc=5",
-      "source": "Facebook",
-      "category": "เวลเนส",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ไทยขาดแคลน 'เทอราปิส' กว่า 70,000 คน เร่งปั้นกำลังคน รับ 'เวลเนสอีโคโนมี' อัปรายได้หลักแสน . เมื่อวันที่ 3 กรกฎาคม 2569 ที่โรงแรม เมอเวนพิค…",
-      "date": "2026-07-03",
-      "id": "4d85f41276a25215aa943ba585ad40db"
-    },
-    {
       "title": "กรมการแพทย์แผนไทยฯ ผนึกกำลังจุฬาฯ-บริษัท ผลิตภัณฑ์สมุนไพรไทย ลงนาม MOU ยกระดับสมุนไพร - Hfocus.org",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9wQmIxS3FCdHVJbkRXcW1ZUHVDN2tLUmFXbjdPWmVyalUtT2UxT28wdnBBVVVORnVwZm9henZzb0d5QWZCS2gzZGx1blpjYUZhbWlaSU1OVQ?oc=5",
       "source": "Hfocus.org",
@@ -1363,6 +1495,18 @@
       "summary": "กรมแพทย์แผนไทย-สปสช.เปิดสิทธิบัตรทอง “ฝังเข็ม” ฟื้นฟูหลอดเลือดสมองฟรี!&nbsp;&nbsp;Hfocus.org",
       "date": "2026-07-01",
       "id": "b6fffe6ff88bd7c68a4e6267bbd39b48"
+    },
+    {
+      "title": "Europe Herbal Supplements Market Size and Analysis, 2034 - Market Data Forecast",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQzBYRzBZd3pIQnFrR0Y3OHhzUXNLZTI5TFplS1QyWmxOR25TbnZGZjRLN2tiNm94eG1xYUdrYUFxUUhwVlhLSWloeHEyUlFabmo4V21uWnRmaXpYdVdyTVJqV2l0MnhVWnlLNzJqVjJrWllUSkVDdGJaRE8wbzF0N24zd3VjUHk4SWc?oc=5",
+      "source": "Market Data Forecast",
+      "category": "สมุนไพร",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Europe Herbal Supplements Market Size and Analysis, 2034&nbsp;&nbsp;Market Data Forecast",
+      "date": "2026-07-01",
+      "id": "c974f1c795ddd1f2160fdb1ff8d61c10"
     },
     {
       "title": "ครม.ไฟเขียว ‘แพทย์แผนจีน’ และ ‘นักวิชาการพยาบาล’ มีสิทธิได้เงินประจำตำแหน่ง - The Coverage",
@@ -1437,18 +1581,6 @@
       "id": "696200c30bd9ab8568b9fc023380d1e1"
     },
     {
-      "title": "Wellness Tourism Market Size, Share, Demand | CAGR Of 9.1% - Market.us",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1kZ0VGcTJBemNLc3hNTEVVb1NES2NJSDNYU1FmTVREdlZzU1NLTEs1bHN5R0JmZXFfTGhITzNxZUxxZEYzUWgzUEY5SGw4VVZwUHFOSDE4dUVzdVBTUUE?oc=5",
-      "source": "Market.us",
-      "category": "เวลเนส",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Wellness Tourism Market Size, Share, Demand | CAGR Of 9.1%&nbsp;&nbsp;Market.us",
-      "date": "2026-06-23",
-      "id": "375afa610390d83a97733334624ff8a7"
-    },
-    {
       "title": "จัดระเบียบ “กัญชาทางการแพทย์” เผยผลงาน 1 เดือน ตรวจร้านกัญชากว่า 1.2 พันแห่ง - Hfocus.org",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ia0RsVnplajUxenV6cG9INkpBVVRqNk1IMGFKU0NMenlCZm96NDFqOXpzSF9VNGQ3aENNWTdISVFTWVhMUURjTmVUWEduOHlrTlZiaVktQQ?oc=5",
       "source": "Hfocus.org",
@@ -1461,9 +1593,9 @@
       "id": "930cb3af3ce1e0bf34023583243e85cd"
     },
     {
-      "title": "รัฐบาลเดินหน้าจัดระเบียบ “กัญชาทางการแพทย์” เผยผลงาน 1 เดือน ประชาชนโทรปรึกษา 200 สาย พร้อมแจ้งเบาะแสการกระทำผิด 73 เรื่อง ตรวจร้านกัญชาแล้ว กว่า 1,200 ร้านค้าทั่วประเทศ - Thaigov",
+      "title": "รัฐบาลเดินหน้าจัดระเบียบ “กัญชาทางการแพทย์” เผยผลงาน 1 เดือน ประชาชนโทรปรึกษา 200 สาย พร้อมแจ้งเบาะแสการกระทำผิด 73 เรื่อง ตรวจร้านกัญชาแล้ว กว่า 1,200 ร้านค้าทั่วประเทศ - เว็บไซต์รัฐบาลไทย",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9IbUpVTkt0Z2VqZ3lzRDdYamhyb0FWeUF6OV9iel90MVZENjEwODlXN0dRNVVHYU9oV052YU9kMWlPRmhqTFRFLVhQT1BPUQ?oc=5",
-      "source": "Thaigov",
+      "source": "เว็บไซต์รัฐบาลไทย",
       "category": "กัญชา / กัญชง",
       "region": "ในประเทศ",
       "topic_page": null,
@@ -1485,16 +1617,16 @@
       "id": "653262a360ebd08ff5c9206919c22e48"
     },
     {
-      "title": "An investigation into alternative medicine raises questions about oversight in Georgia - WABE",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTzZEWkgzZnY3RklmQWNrZ0tqdE1NZ2pvUmpZWHJ6TVNCcWZuQ3JVdkczX1pPUURBazRQaEo3QnRyaGtLSWxTQXA4WmpxdVRwMWNQT3AxSnNlWU9sMWZ4NGlVc0FlVk16YXY1VWI1Smo3bnBoUmk2ZjZHbkJiNUF4MVVXbFhSang0WFRxbmFvNTh2UlJRMUxSdUJacE1jMzJYWUx3dnNIZURjRk1U?oc=5",
-      "source": "WABE",
+      "title": "Alternative medicine clinics sell hope for defeating disease, aging – often at high cost - The Atlanta Journal-Constitution",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd3ZtaTJGckk3enpLNVEwUVY0ZzRxVkk1eGVTWmhaVGtJSUJyUHdfMnpnTDl6YWpIME1OZGNycVZQdGlWOEo4SkNMRDBhaFppX1hqOWJlbDRnaThCcmxBdUlKdEZIUXpCc1ZaWTU4UXBwbTB3aU04VVJ5SUFzZEJXRmZBaUxUVGVWRVY5bjYtLUZZOWc0?oc=5",
+      "source": "The Atlanta Journal-Constitution",
       "category": "ข่าวสุขภาพทั่วไป",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "An investigation into alternative medicine raises questions about oversight in Georgia&nbsp;&nbsp;WABE",
+      "summary": "Alternative medicine clinics sell hope for defeating disease, aging – often at high cost&nbsp;&nbsp;The Atlanta Journal-Constitution",
       "date": "2026-06-08",
-      "id": "b9e0db72a3b4a5ce801cec35952d53ff"
+      "id": "b177bbd6013ec5bb9b9836e185e5369d"
     },
     {
       "title": "ต้นแบบ ‘คลินิกการแพทย์แผนจีน’ แบบผสมผสานระดับมหาวิทยาลัย - มหาวิทยาลัยธรรมศาสตร์",
@@ -1519,6 +1651,18 @@
       "summary": "Neuroplastic Mechanisms of Acupuncture in Post-Stroke Motor Recovery: A Randomized Multimodal MRI Trial&nbsp;&nbsp;Wiley Online Library",
       "date": "2026-06-03",
       "id": "2d6189cfdbc164fd1e371ea55a478cc6"
+    },
+    {
+      "title": "ThaiPublica Channel ‘SNPS’ สร้างสารสกัดสมุนไพรไทยมูลค่าสูง ด้วยมาตรฐานวิทยาศาสตร์ มั่นใจ JUMP+ ช่วยต่อยอด S-curve ใหม่ - ThaiPublica",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uRU04LWdQai0xOFNkTllJY1MxZ3o4NnBPX3NaS1ItbjZJUTBYS3RpT3VqVy1WOWczX3FpZU54ODJRQ3RKanJORTV0RWFXLVI4Z0hfeTFYQ0NESU1jaEhVMl96M1NaR3N3Mno3NEltOFIxU0tMUDh4Q0tZTQ?oc=5",
+      "source": "ThaiPublica",
+      "category": "สมุนไพร",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "ThaiPublica Channel ‘SNPS’ สร้างสารสกัดสมุนไพรไทยมูลค่าสูง ด้วยมาตรฐานวิทยาศาสตร์ มั่นใจ JUMP+ ช่วยต่อยอด S-curve…",
+      "date": "2026-06-02",
+      "id": "9967bd9f7890f67ae479d0fcfe84b505"
     },
     {
       "title": "เผยผล \"อบรมกัญชาทางการแพทย์ออนไลน์\" ผ่านเกณฑ์เกือบ 79% เดินหน้าสร้างมาตรฐานบุคลากรสู่สากล - Hfocus.org",
@@ -1557,6 +1701,18 @@
       "id": "3c89b478ec4773903b036e5075f08844"
     },
     {
+      "title": "สธ.ไฟเขียว 58 อัตรา ดัน “นักวิชาการสาธารณสุข” เปลี่ยนสายสู่ “แพทย์แผนจีน” - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE92ZkJGbHE0ZmNqVS1STzhib0U1elh0VHdELUpjNXl4T2NBUm9QVDgxZ2ZjLXpNdVh1amdLNWpxT0c0TWpUMVdtWU1NT1djY2dISkt0QVZQbw?oc=5",
+      "source": "Hfocus.org",
+      "category": "แพทย์แผนจีน",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "สธ.ไฟเขียว 58 อัตรา ดัน “นักวิชาการสาธารณสุข” เปลี่ยนสายสู่ “แพทย์แผนจีน”&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-05-20",
+      "id": "69c255afa9d29d708d6cb5269baf8b74"
+    },
+    {
       "title": "Wellness tourism hits $894B, with more growth ahead - PhocusWire",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVmFrempxOGxrM3FWaHBTMFJzZmVLcXJjQmpoWXN3ZF9fcEEzTHZSMld0S3JILU05UlBhOUxYb2RscEZnbkdOZ2VoM2dueEx2VzdJOFZpNWdHaVB0aXJJbTFOWmItclNVY3RuTjBVTnhySmFVSGxKMmFpZVJjc3BDbTI1eW5VUQ?oc=5",
       "source": "PhocusWire",
@@ -1581,16 +1737,16 @@
       "id": "690ac66ccf100826240a7aee4fff7f25"
     },
     {
-      "title": "Wellness tourism hits $894 bn and the growth is not over, tells Phocuswright - TravelMole",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZkF5Z09ObHJHZ0M2VUJxRmlnTXRwZWRTQWhmREVTRUF2T3JBMG1kNUEtME44aUZSY2FtcWpla01IUm91YXlSdV9pYVY3SnRzQnRvLTVVSV9CcFlSU3ZPR0Nzb1pWc0NzcmkxTzB2SnNNRXlhSkxySjF6N1NBXzNPWWU3LVBNZUFFZTZHS2JYMDl5Ulh1VXJqWFNCaUNMZ1hyZUkwMg?oc=5",
-      "source": "TravelMole",
-      "category": "เวลเนส",
+      "title": "A triaxial benchmark for assessing responses from large language models in traditional Chinese medicine - Nature",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjelFMY1lKOFFaZU93THpGbm9hUlhWdUpPa21za0RyVW9BX2FnQW9FSUhWOFFQNm1rTjktY2d4QkZWWklmNTJDcnVqQ2FuZFFHUjZ4Qm1NM2VyWmw3eERB?oc=5",
+      "source": "Nature",
+      "category": "แพทย์แผนจีน",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Wellness tourism hits $894 bn and the growth is not over, tells Phocuswright&nbsp;&nbsp;TravelMole",
-      "date": "2026-05-15",
-      "id": "cf81b0f1e1c33521df6343d6e9da9563"
+      "summary": "A triaxial benchmark for assessing responses from large language models in traditional Chinese medicine&nbsp;&nbsp;Nature",
+      "date": "2026-05-12",
+      "id": "fe251b1ba6f78c9c09d7ae07f727f4db"
     },
     {
       "title": "Acupuncture for Nocturia in Survivors of Prostate Cancer - The ASCO Post",
@@ -1629,6 +1785,30 @@
       "id": "b101bfebb882a20102dd3466f8acac5f"
     },
     {
+      "title": "Public perceptions and engagement with Traditional Chinese Medicine on Japanese social media (2010–2025): a text mining approach - Frontiers",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTzdHTVl6b2tEeFRYVldHUTA5c2FyMlVhVWxvclNteUtUNDJHN3Bkd3UwZEFRaWhZcVRjckMyc3cyaUw2aldKUVR4SmNXTjJkRmRlRi1oMWhYNHlQY3FvcDNxajk1SjR6Y2hxQ2lkYWZ1SEUxMWVWVmpaVkJlaVFiM1dQN2tBMXZrTURGNlBtbFJNTERrZlE?oc=5",
+      "source": "Frontiers",
+      "category": "แพทย์แผนจีน",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Public perceptions and engagement with Traditional Chinese Medicine on Japanese social media (2010–2025): a text mining…",
+      "date": "2026-04-27",
+      "id": "236d75ed70b1ed7b1771809283aa152f"
+    },
+    {
+      "title": "Integrative medicine practitioner and wife of acting U.S. attorney general appointed to NIH advisory council - STAT",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZGo3VFc4LVZlVmtfcUpkWGVxb011b0ZuQ1BaN0pocldYRGJjUldjci1yUXRnaXlJYWFQT3RmQWZTeS04SEFMSTRXYVBRT2RFc2JZaXRCMzRvOW1SWVVvZGZFT2UzZkR0M0k1NHR3QWxab0VGYVg3VjJBTXZiclhPMldjYWhRRlptdWlqRw?oc=5",
+      "source": "STAT",
+      "category": "เทคโนโลยีการแพทย์",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Integrative medicine practitioner and wife of acting U.S. attorney general appointed to NIH advisory council&nbsp;&nbsp;STAT",
+      "date": "2026-04-26",
+      "id": "52e77de6ec18cb1e6ed9ec8ba1559abb"
+    },
+    {
       "title": "Herbal Medicine Market Size to Reach $433.7 Billion by 2033 at 8.8% CAGR, Reports Allied Market Research - PR Newswire",
       "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQczNmZ2t2SWdQQ0ExQW1QZTJUTDRYSU1vYTM2ZHdhS3ZPMzZDQXVGT3BmU1NpZFdrbkxkdHVhRXR1LTBvSTBtNVpHN3JYYjdiUGh5ZmtkOW5QanJ1a0YwY2MtdlFHMm0zZHhiUTd4cGVIZXR2UTVpQXhQRlk5T2F0Qm1nNVJSWEdNZDVNdWJTc2RSTnNpZzdzdzR3UzJ6UDA2Mi1Pa0hxQjU2OTNPVFItdFY1ZlBjcFdONG5GbW0zanJUUVo3VDVvOFVRUUJLU19xMWpfUEVjT2RwaWpPSjBxVEdvUzQ2TU1TSkFkdUln?oc=5",
       "source": "PR Newswire",
@@ -1641,16 +1821,16 @@
       "id": "090ec80ce5724bcd39c880ce35bac5d9"
     },
     {
-      "title": "Seeking rest and relaxation? Bulgaria taps into the wellness trend as spa tourism rises 15% - Euronews",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ3hMSGIwTV9zVEtucVVVbnVoMW1pTmE5bHJnUllRX2ZWSnZObXZ1ZXg3YmY1YlVqYUJBaGszUzAyMWxKQkd6N2pPazNIV040QU5lSy13YjN0YkhfQngwSkEwT0pxaVpMd3A4UHV0M2UzR3ZoVm95REgyRXJ6a2hnd1puQTdMb3JGOGpEQlRGZHBJazlhTTFycU1aSFQ5cTBpMG45QUVPYUlza2poZVBQT3U0ckNBajRNTlF3YmxuU2FaWEU?oc=5",
-      "source": "Euronews",
-      "category": "สปา",
+      "title": "HKU-incubated AilsynBio signs collaboration agreement with Dong-E E-Jiao Integrating AI with traditional Chinese medicine to enhance biopharmaceutical innovation - EurekAlert!",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9tbVd1R2hfZF9pZU9DYUVYOTJoMzE4NU56RGJXbzF4NDRRU1FqY3dpZDdDMmkxdnN0cjlhUUxBVExqcm5ZdTNwdThaRTl6QTJoNUlvZXQ5NHdBY1pL?oc=5",
+      "source": "EurekAlert!",
+      "category": "แพทย์แผนจีน",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Seeking rest and relaxation? Bulgaria taps into the wellness trend as spa tourism rises 15%&nbsp;&nbsp;Euronews",
-      "date": "2026-04-16",
-      "id": "46baf42ed57d697870c4ee5ba4ab656c"
+      "summary": "HKU-incubated AilsynBio signs collaboration agreement with Dong-E E-Jiao Integrating AI with traditional Chinese medicine to enhance…",
+      "date": "2026-04-14",
+      "id": "3d87d650e53969ef198d643771846c1d"
     },
     {
       "title": "Artificial Intelligence in Traditional Chinese Medicine: Unraveling Herbal Medicine’s Mechanisms - Science Partner Journals",
@@ -1663,18 +1843,6 @@
       "summary": "Artificial Intelligence in Traditional Chinese Medicine: Unraveling Herbal Medicine’s Mechanisms&nbsp;&nbsp;Science Partner Journals",
       "date": "2026-04-12",
       "id": "1fa2fad6efbca940443654f059f1b30f"
-    },
-    {
-      "title": "Foreigners flock to China spas to enjoy unique baths amid wellness tourism rise - South China Morning Post",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOV3NlSEh5eTlFd1djSEtCZEVLbDdIcEhBMFlUXzItODBDcFB3U014ZlNxdVQtQzhRSVF6QUIxa3Vid092N0tTWDNibk9GVjhIUWUyREZ4cWRJc0M1YW5fUGdTRjZOTy1ra0Nuc21ieXpTYVpabnM4R01YNEZyRlBjV0E0UkNQZk8wbGgyczhld2F4Tlo0T1h5UDVObmFRLVNtUGZoSjF5Yzdab2FxbloxUVlvRlJWZjRFZ0NqeEVEbDVsOC1xR085NkpyNnMzN19WTl9JQURB0gHWAUFVX3lxTE9FWWJNSnFPWWJ5SDlvMWxkSm5MTTAzVHBOcktxUm1fb2ptRlJVVFdFcDhVNkplNWtQZjlOcGVSQ041UlRzR3U1aGdtVnNSNy04bmVwUU9valZQUV8tWkxKdlduY2g5Ni1uaWpiS3VtLTc4SGVXOUFQTE92UndvVElfTmx1ZTVZWWZjNXA1LXVzbHZkQkRtRWNYSjlCaGMtWDMtQ0hrR3F6YUtUYXJhMjNfNmozbi1TQnR0cFBvc3p3TXFLZ0xUcFNNVmEtdjBEMjV1WXlBZUE?oc=5",
-      "source": "South China Morning Post",
-      "category": "สปา",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Foreigners flock to China spas to enjoy unique baths amid wellness tourism rise&nbsp;&nbsp;South China Morning Post",
-      "date": "2026-04-10",
-      "id": "1cb0f2ce60c33a2686cdbcfdd4280b1a"
     },
     {
       "title": "How Integrated Wearable Technologies Are Shaping the Next Era of Health Care Innovation - Harvard Business Review",
@@ -1713,196 +1881,28 @@
       "id": "d4233c483a487f2cc0ea7d24907cd766"
     },
     {
-      "title": "What’s the science behind acupuncture? - PNAS",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJVFVWR3ppa2RjbTF4dExPTHlnWnhFNzQtckhvdzZwaUlfWDBRZE1RMTl6WkZGMHNZTU9CanVvNkVnUlZ3RXpvMkxaQWtXZFNLdnBpSjNsNnMzYW93?oc=5",
-      "source": "PNAS",
-      "category": "ฝังเข็ม",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "What’s the science behind acupuncture?&nbsp;&nbsp;PNAS",
-      "date": "2026-03-04",
-      "id": "a2d586fb320235ad4e4b59316bfc4be3"
-    },
-    {
-      "title": "Can acupuncture help ease debilitating and persistent chronic pain? - UIC today",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV01zbjIzV1RFLUhPVjJRd3NjdXZIbFhUamhmNmZEV2wtc0RJeTZ3RTdMTjRoalVhcndGcHVWNWQ1Q3N4Wjdkc0pHQWRDXzZTalBrWVlWN1FndTA2QmZTbi13UVhIcHFQaHktcm5Ydm9mV3lVQ2JWbVgycW0tX0FhV3BWRy1iUnNVUWJaSC1pZHJhajQ?oc=5",
-      "source": "UIC today",
-      "category": "ฝังเข็ม",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Can acupuncture help ease debilitating and persistent chronic pain?&nbsp;&nbsp;UIC today",
-      "date": "2026-03-03",
-      "id": "0202413634d2dd10d91c9ebf93298b26"
-    },
-    {
-      "title": "สภาอุตฯ เสนอรัฐบาลใหม่ 5 ข้อยกระดับสมุนไพรไทยจาก ‘ภูมิปัญญา’ สู่ ‘Luxury Wellness' มาตรฐานโลก - ThaiPublica",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV2oycXp3VWo5ZFJXRzN0RlVQSjBnSG1hdTFvTVE0aXpiamRObUhvQzg0ZGZhYi1Ca0ZYUDAyc3hpRlNTejJQcVA2WEZIUGplSXZHZ2JhY3VESWstcE1pcnlCejlPb2lRRTV4UUVjSWVaaUg5WVkyRzQtUUJYcWhyUw?oc=5",
-      "source": "ThaiPublica",
-      "category": "สมุนไพร",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "สภาอุตฯ เสนอรัฐบาลใหม่ 5 ข้อยกระดับสมุนไพรไทยจาก ‘ภูมิปัญญา’ สู่ ‘Luxury Wellness' มาตรฐานโลก&nbsp;&nbsp;ThaiPublica",
-      "date": "2026-02-12",
-      "id": "15e248fb65ee0cf6fc5e77c6d7afdd6a"
-    },
-    {
-      "title": "Complementary and Alternative Medicine Market to Reach Over US$ 1,282.70 Billion by 2033 Driven by Rising Chronic Disease Burden and Preference for Natural Therapies | Astute Analytica - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdnR1bkxRQVBNdXlNM1BUVlZhMkEzRHE5bHAzNTRmWF9TNW8tUTNXczJSZ2FXd0xLd3BDenAya1RSRURZRzhEU3NkeGhtajhoNjhyZTliU3JRRE13alBEUWZNLXhnNXdMVDN3cGZ2MEVOODdFZmttanhCWjNVelFJRE5qcnN5ejVxVmE3bUVTS01IbU96N0Vmcw?oc=5",
-      "source": "Yahoo Finance",
-      "category": "ข่าวสุขภาพทั่วไป",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Complementary and Alternative Medicine Market to Reach Over US$ 1,282.70 Billion by 2033 Driven by Rising Chronic Disease Burden and…",
-      "date": "2026-02-09",
-      "id": "7e1f4ac515e41c597e0df49eb104c685"
-    },
-    {
-      "title": "ช็อก! พบแม่สุดงมงายใช้เข็มแทงลูกวัย 10 เดือนกว่า 600 แผล อ้างเป็นการ “ฝังเข็ม” รักษาโรค - เดลินิวส์",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxMzFWVEc4aTZrYTQ2NzhObG9BYjQtSXNKLXhEZGlGdWVFTV9jRkZLWlFwTXg4bUpmLXk0dDdzd2dBd3NwMVlRcmhuek0xbnUwamRR?oc=5",
-      "source": "เดลินิวส์",
-      "category": "ฝังเข็ม",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ช็อก! พบแม่สุดงมงายใช้เข็มแทงลูกวัย 10 เดือนกว่า 600 แผล อ้างเป็นการ “ฝังเข็ม” รักษาโรค&nbsp;&nbsp;เดลินิวส์",
-      "date": "2026-01-30",
-      "id": "3f1f0c64642a02945003ee3cafa6f7b6"
-    },
-    {
-      "title": "Japan Herbal Medicine Market Size, Share, Growth, Forecast, 2034 - Fortune Business Insights",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWVdOSXlOSXJCVWpmS29Kc05jZVlQVHZ3VXBNMnc1c3BoMzU0NFZmVmswWkhYTXhxOWkzMWVWV1QyWDc5WGJyN3RpU0tuSndXWW5td3VJNkVYNkJTMjlrSTAzT0hyVmptU0xTYnczX0EzN3lZMExKb2tZNXY2SHZmeA?oc=5",
-      "source": "Fortune Business Insights",
-      "category": "สมุนไพร",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Japan Herbal Medicine Market Size, Share, Growth, Forecast, 2034&nbsp;&nbsp;Fortune Business Insights",
-      "date": "2026-01-28",
-      "id": "95321e8d9d7f2f9583ea119dc0b0be22"
-    },
-    {
-      "title": "January 12, 2026: Enhanced Acupuncture Strategy Found to Be Cost-Saving in Older Adults With Chronic Low Back Pain - Rethinking Clinical Trials",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSnRGalRmREp1U0szbTdHcVFyaWI0b3YtdzMydG9IZG1TOUJDUWV4UnMwckcteXVfajVoWlpCbnhScEJIaEhNcDVJa1dDN3FBbl9VcENaeUlqSGNhX1F3SEFpSExzbDZjaHhmd3NqUy0yRENKNVZfV29BaGROSTRNLWlOcWF6VWFXWDU5dTkzbUJsWl9uczVxQUhTd3VxTDQ3SHQyQWdZM2s3Tk9GdDlWZlR1S0Jta01BdHc0NkR5X1VYRmgwdFJJdmRWUnJNc1J2dFRtSkV3d0tKWG1hRklmZlRwZTRHMk9VUDJJ?oc=5",
-      "source": "Rethinking Clinical Trials",
-      "category": "ฝังเข็ม",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "January 12, 2026: Enhanced Acupuncture Strategy Found to Be Cost-Saving in Older Adults With Chronic Low Back Pain&nbsp;&nbsp;Rethinking…",
-      "date": "2026-01-12",
-      "id": "791431612d7e0e8c4e19a3c0aafb99ba"
-    },
-    {
-      "title": "‘A potential treasure trove’: World Health Organization to explore benefits of traditional medicines - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbXgwc1pvR3RtdU1KbUhnYjRQVDQtMDhOVXBTOHVOM0g4TlNnM1hUNXFZd1Rjc3h3aF95Y0locU5Rb055SjlFcWo3eWNIc2UtMU92YVZNcGtUX1luUE41ekVuV3dlSUxwZ0VaS29TRXUxNjJjelRIb2Z6LWtGTFBxc0pQdnhPY1BuTlJmSHhlaEw3OG9OSHZfZWI0Z24wNzNaX0pRSWFGdWxQUF94ZFNNOGx2ODBHNk9jeGR6RWl0dkdsdTEteURmNE1sMHRuS3J2?oc=5",
-      "source": "The Guardian",
-      "category": "ข่าวสุขภาพทั่วไป",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "‘A potential treasure trove’: World Health Organization to explore benefits of traditional medicines&nbsp;&nbsp;The Guardian",
-      "date": "2025-12-20",
-      "id": "9d49291277190bb9ebc51a5faa28465b"
-    },
-    {
-      "title": "Integration of traditional, complementary, and... : Acupuncture and Herbal Medicine - Ovid",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRHk1M1BnNzBaOFZZcW5ERkdqUUlIYmhDdVN2RU81WVNoZHRoQmxqR3F2QVJmU19lY25WWFNCMmFPSjAtWjBCTVo4TjFEZlR4WWVWQVdHTVkzR3NUckFVNGlkeFMzcURaV3V4ckNiaWpFWU5Ydk43dDFFYVd6NnJ1eXdVMXNMTi1fekxtdlNFNlpmYUhmX2MzRVVaVlRBYzlYdi1ha2FHV09FVEtqaGN1VXVpejZNQS1EZHpkcm9tOVVqZw?oc=5",
-      "source": "Ovid",
-      "category": "ฝังเข็ม",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Integration of traditional, complementary, and... : Acupuncture and Herbal Medicine&nbsp;&nbsp;Ovid",
-      "date": "2025-12-11",
-      "id": "2585fca259be919b89dfe9b87f6cc36a"
-    },
-    {
-      "title": "Traditional chinese medicine in Malaysia: A brief historical overview of education and research - Ovid",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVVY2RnQ0MVVyMV91UjBzclZNRmYzRUJPUzFwbGhTaUNUb204TFh6VzBnMGlGTXg0dzZtLUdrVlVmQ2w0Zmp3Ym5OUXVNbWd0RDN4aVExTUxydTZEMGtXczFMMWxpUTlnTzQ4LUVOaWZDeWhJQ3J6bnJubktRNmVPVkM0T1VISkYxbl9YTldINExtNGhsRXN3YmM1aDFUWmdZZ3BRd1JVWGx2eUVLYkZmaDhldUh3dXJlc3NCZWxsVQ?oc=5",
-      "source": "Ovid",
+      "title": "Artificial intelligence and synthetic biology in traditional Chinese medicine: revolutionizing public health applications - Frontiers",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSXFOd3lPOE01T3p0RjVCWjRoa3cwcHA5cXcwc3VkWXc5MTBFM3oteHZrRHdENk9hQVhOU3BSRklHa2VndGY4Q0FDSnpjcWk2WDU1ZFBiaHVCWTVyN05wa3VYZ091UklxYWlvMC1ZZE1GYm9PMGkzY1UtMTAwc0IzTUxveWFobGMxTVhlNFB5b0lfdHEt?oc=5",
+      "source": "Frontiers",
       "category": "แพทย์แผนจีน",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Traditional chinese medicine in Malaysia: A brief historical overview of education and research&nbsp;&nbsp;Ovid",
-      "date": "2025-12-11",
-      "id": "74ba2aeb1950be543a8021eb7f84f986"
+      "summary": "Artificial intelligence and synthetic biology in traditional Chinese medicine: revolutionizing public health…",
+      "date": "2026-03-19",
+      "id": "2bc1c42b1dc0cb2a5b20bf12a820b12d"
     },
     {
-      "title": "The 9 Biggest Wellness Travel Trends of 2026 - Condé Nast Traveler",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdlQydnh3RzV4elRQcTRycE5HZkRKRWhGSVE3bkRGU19KNUdQWEFrTmFHUXVOenQ3LWpISVZTSHBNRnZXZ1pDbXJoam9hNEVpUUFEX0ljLXd6N19xM2p5T1VxRmV2MjNQay1uMzVLTUx1X1ZWa25jN3V6NTBHekV0RQ?oc=5",
-      "source": "Condé Nast Traveler",
-      "category": "เวลเนส",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "The 9 Biggest Wellness Travel Trends of 2026&nbsp;&nbsp;Condé Nast Traveler",
-      "date": "2025-11-27",
-      "id": "c1a2fe446654cc9bc72c588052797faf"
-    },
-    {
-      "title": "Medicinal Herbs Industry Analysis in the UK | Global Market Analysis Report - 2035 - Fact.MR",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZmVfY0JqZGNKMzd3eGJFb0dSaTFyYkRQdUN1b3ZqTy1wbzNyUW16Zi1lTDFUZ3ZWeWcyd1VFR09PbGtUVmNVMFdsdDktUkI3MkpNbnFGNHc1WlJqMUhMcmdtcmc0LXVYRE8yU0RpMTlpRzZhVFVQSDg0MkN2MWhyVDdqQ2Q?oc=5",
-      "source": "Fact.MR",
+      "title": "China demands evidence that traditional medicine injections really work - Science | AAAS",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaklaTmdKSVB5UWZXcFNfMm41Q25fdzUtRk9QN01PQmYxR1VwOUVjYV9wenVjV1ctUjI5Rl9TZk9lZTh4U2FDZDh3ekNGWEs5SmJteUxpaTN2OTYtWnAzampzRWVUejJBckJMS205ZHpmcjg2Nk1xbENQemRTb1lHTTdTSktES2tQWlllYnA2X3lpeUYzMDM0RlpBVHFQbDZNZUlyQUMtb2djdw?oc=5",
+      "source": "Science | AAAS",
       "category": "ข่าวสุขภาพทั่วไป",
       "region": "ต่างประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "Medicinal Herbs Industry Analysis in the UK | Global Market Analysis Report - 2035&nbsp;&nbsp;Fact.MR",
-      "date": "2025-11-26",
-      "id": "f70edc0d8b1dc4cae6ea2dadaa562fc5"
-    },
-    {
-      "title": "The current situation and factors influencing the use of traditional Chinese medicine therapies among patients with chronic disease in china: a cross-sectional study - Nature",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3TmhWendBa1FNVHFWMXFSWjdwdWg2WUlzM0s1NlVxb3F5ZF9lWV9Ea1NrUENtOVh3d3FhR1lnMzVOcTVxcjJQWExMNVVaWUdPUUFTYW96bEVYR25vdGdN?oc=5",
-      "source": "Nature",
-      "category": "แพทย์แผนจีน",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "The current situation and factors influencing the use of traditional Chinese medicine therapies among patients with chronic disease in…",
-      "date": "2025-08-22",
-      "id": "b5e73ca22b85d7aa6b3e768a950814d4"
-    },
-    {
-      "title": "7 ways AI is transforming healthcare - World Economic Forum",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLUswcTR0TldTX1ZULVNZVlIxZk5sMUtNcHo0RDVCRllKVGxMQ2xQYWswX1FILTI3TThieGt2NXduV2xYejVXT3B0NmoxdnhaeE9rNGlwQWxWb29iT295U0ktMHV5ZkVsdHdpS2loVC1CVUJ5aUNvXzYyMTlGQUNoc3NOaGF0R000cWdEV0ZaN3ZLYWs4THc?oc=5",
-      "source": "World Economic Forum",
-      "category": "ข่าวสุขภาพทั่วไป",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "7 ways AI is transforming healthcare&nbsp;&nbsp;World Economic Forum",
-      "date": "2025-08-13",
-      "id": "c739a86c39f2a33a76a5933922385174"
-    },
-    {
-      "title": "Traditional Medicine Market Size to Hit USD 359.37 by 2032 at Robust 7.7% CAGR | Coherent Market Insights - BioSpace",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVnJISmJyQ2dsZmdoN1JIZWtaZ3ItWHdia2Vkam54YTU5aEFHZ0hCSTBZeXkxTTZFeHpWLWc5aXhXUV9BTE83MDJBY0thdHVfdmlEVDY4eHRMSHU5UnNJd0phT2pXTGNRTFpTSVhzZEgyV0NqNm11cVJFRUlrdTRGbEFnNjV4c28wRU41anlqQlhGZWFlZkhIZGNiaGZ5bERUVDlvVnJwNjJCMENxblk1elBrX3p4LWVOczFOelUtLS10VWhIdVd6Wm9qdzFmeUVvWHdXTFFfblZaZw?oc=5",
-      "source": "BioSpace",
-      "category": "สปา",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Traditional Medicine Market Size to Hit USD 359.37 by 2032 at Robust 7.7% CAGR | Coherent Market Insights&nbsp;&nbsp;BioSpace",
-      "date": "2025-07-10",
-      "id": "35844395a36334d8f8feb9db1f39bed1"
-    },
-    {
-      "title": "RFK Jr. aide attacks U.S. health system as corrupt while running company that promotes alternatives - PBS",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaDI0dEMtRzZlOHhJc2hMT1hNdXAxNWRJb0plVnBHM1NQQmgydUNPcXlyLU16MjV5VGpqOGRwa0FNcDFhVldvZ0dxVTZLQTRid0hlRk83ZHVMV08wSjZFT2U5TXlkTWhZWG8zU2Y4UjlnZWU0YjBrZzFQSXg0a1l0eXFQbHVSVWR0QlFLVXpqUk1pVmt3b2dfNFZwbWtZXzNjVUNOYUxkYUpXMnVFMTEwTmhKUTNPcjF5bnluOWU1MEtROVdsOTVwd3R0cURnQdIB0wFBVV95cUxNRFgxMGFoZDNNRHM0djB3aklFdHMzcVU1X19TaFdVdjRzdW84X1h3M3hvSWk5VXBKNUdvSFl2WkN1YUJDX3ozMTliakhHVWNVMzZsdnlwRWloVzdhUzdIem83d2lOMnZ5cXN1OHBlUE92UGJZWjBFb0g4NVRnbXZIQ01xck1maXpjRUlTUE5yaFZIbTk4VlJEZ0tLSEZyRnlVMG5UNFhIckpncHNoNXdyYndLVWZCWXdnSnJTdEdGRGN3a2tkVUVWZWNBT0tfWTUwa1ow?oc=5",
-      "source": "PBS",
-      "category": "ข่าวสุขภาพทั่วไป",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "RFK Jr. aide attacks U.S. health system as corrupt while running company that promotes alternatives&nbsp;&nbsp;PBS",
-      "date": "2025-06-10",
-      "id": "44e508fda7d4d623585a9d7a8b858f56"
+      "summary": "China demands evidence that traditional medicine injections really work&nbsp;&nbsp;Science | AAAS",
+      "date": "2026-03-18",
+      "id": "1c691cfb7b5637cb48c509da4c5c83b4"
     }
   ]
 }
