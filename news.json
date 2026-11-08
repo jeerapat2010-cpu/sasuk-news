@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-07T23:36:30.646325Z",
+  "updated_at": "2026-11-08T05:17:19.216090Z",
   "total_items": 150,
-  "source_count": 93,
+  "source_count": 91,
   "sources": [
     "9News",
     "ANTARA News",
     "American Spa",
     "Arabian Business",
+    "BMJ Global Health",
     "BioSpace",
     "Bioengineer.org",
     "Brain & Behavior Research Foundation",
     "Business Research Insights",
     "Condé Nast Traveler",
-    "Cureus",
     "DMC.tv",
     "Duke School of Medicine",
     "Euronews.com",
@@ -54,7 +54,6 @@
     "TNN Thailand",
     "Techsauce",
     "Thai PBS",
-    "ThaiPR.NET",
     "ThaiPublica",
     "Thaipost.net",
     "Thansettakij",
@@ -62,24 +61,23 @@
     "The Guardian",
     "The Sun Malaysia",
     "The Walrus",
-    "TheReporterAsia",
     "TravelMole",
     "UC San Diego Today",
     "Vietnam+ (VietnamPlus)",
     "World Economic Forum",
     "bangkokbiznews",
-    "digitimes",
     "kapook.com",
     "newswit",
     "pptvhd36.com",
     "qz.com",
     "spabusiness.com",
+    "thailandplus",
     "thairath.co.th",
     "thansettakij",
+    "thecoverage.info",
     "thestandard.co",
     "vietnamnews.vn",
     "www.thairath.co.th",
-    "www.topnews.co.th",
     "กรมส่งเสริมการค้าระหว่างประเทศ (DITP)",
     "กระทรวงพาณิชย์",
     "กระทรวงแรงงาน",
@@ -98,13 +96,13 @@
     "แนวหน้า"
   ],
   "category_counts": {
-    "กัญชา / กัญชง": 13,
-    "ข่าวสุขภาพทั่วไป": 19,
-    "ฝังเข็ม": 17,
-    "เวลเนส": 21,
-    "แพทย์แผนจีน": 22,
-    "แพทย์แผนไทย": 18,
-    "นวดไทย": 14,
+    "กัญชา / กัญชง": 11,
+    "ข่าวสุขภาพทั่วไป": 17,
+    "ฝังเข็ม": 18,
+    "เวลเนส": 22,
+    "แพทย์แผนจีน": 24,
+    "แพทย์แผนไทย": 19,
+    "นวดไทย": 13,
     "สปา": 12,
     "สมุนไพร": 13,
     "เทคโนโลยีการแพทย์": 1
@@ -147,18 +145,6 @@
       "id": "2685d66d4dcc6cf86878f5d1b77e3052"
     },
     {
-      "title": "Motor Cortex Plasticity Links Depression Severity to Acupuncture Response - Bioengineer.org",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOXRjdDgyQ3BpNmlXNWJBXzdIVVJET1o3RmJrM3RzaUJjbWZDa3RzQVMzaUlkcER3NTlLTWlhb1EyNDJoMHdYY1pQMm5BSjctS1JPQzVwMjlFeEQ4NEZXc2YzLXc4ZmNJUTllbnBOcGRfRTB5dW5fVjJ6SHRsdEZtQ2NLd2RtVDloSE10VFA4QTBSelFJeXZHR05DMVBWWGs?oc=5",
-      "source": "Bioengineer.org",
-      "category": "ฝังเข็ม",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Motor Cortex Plasticity Links Depression Severity to Acupuncture Response&nbsp;&nbsp;Bioengineer.org",
-      "date": "2026-11-07",
-      "id": "dab2079cf86c83ccaf23e87e0265a347"
-    },
-    {
       "title": "Acupuncture Shows Promise for Healthy Ageing in Cancer Survivorship Review - Bioengineer.org",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQkZFd19NcW9wNlhMazBoNGdoRVU4QTNDYzNsRDdCQWliUTNHdGczTE53M2YyRi00VmRaNlNBMDY5Zk1QbzBwR0lKX09FdTZ5dDVyU3hHT3FFSHdoUlhUa3NCc0FoUXBXVkpXenRUMXVlSlFTWTVjZkdqZGlrNHJUdGhKNWNLV0dLNGZ3YkJNMC14SWM5SVZDSjRBUlIwdGxl?oc=5",
       "source": "Bioengineer.org",
@@ -171,6 +157,18 @@
       "id": "87c14fcf49beee0bfe93f6cc2f48bf12"
     },
     {
+      "title": "Motor Cortex Plasticity Links Depression Severity to Acupuncture Response - Bioengineer.org",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOXRjdDgyQ3BpNmlXNWJBXzdIVVJET1o3RmJrM3RzaUJjbWZDa3RzQVMzaUlkcER3NTlLTWlhb1EyNDJoMHdYY1pQMm5BSjctS1JPQzVwMjlFeEQ4NEZXc2YzLXc4ZmNJUTllbnBOcGRfRTB5dW5fVjJ6SHRsdEZtQ2NLd2RtVDloSE10VFA4QTBSelFJeXZHR05DMVBWWGs?oc=5",
+      "source": "Bioengineer.org",
+      "category": "ฝังเข็ม",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Motor Cortex Plasticity Links Depression Severity to Acupuncture Response&nbsp;&nbsp;Bioengineer.org",
+      "date": "2026-11-07",
+      "id": "dab2079cf86c83ccaf23e87e0265a347"
+    },
+    {
       "title": "Electroacupuncture Linked to Reduced Heart Injury in Animal Models - Bioengineer.org",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb1VFUTMxY0tHNmJHS2IzSFkxX1RQTV9xT3lPcjdXV0RSRDlRbk1hS1FTM1BTbHFTUjk1eE83QVp6ekNGU0JGX3B3Mzk1d0lETDM5eG1wTnhkN1Y0YVRBWklocU1mamdqV1FJeXVRV0VINzI2dlhaT0JUajJpVzVER2pMTWlsSGszaHltZ1RCelUwdkV4bmc?oc=5",
       "source": "Bioengineer.org",
@@ -181,18 +179,6 @@
       "summary": "Electroacupuncture Linked to Reduced Heart Injury in Animal Models&nbsp;&nbsp;Bioengineer.org",
       "date": "2026-11-07",
       "id": "f98d7a178b3395369e79c374419db0f7"
-    },
-    {
-      "title": "ม.หัวเฉียวฯ เปิดตัวอธิการบดีคนที่ 7 ชูธงใช้ AI พลิกโฉมการศึกษา ปั้นฮับนวัตกรรมสุขภาพไทย-จีนสู่ระดับอาเซียน - www.topnews.co.th",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzb2p3Ry1PZFFWak1faVpMSGlxU3BtcFFDR1FRUlhxY1c0dmVNQUlFTmI4X0k5MDhTM0tYTWtyN2xLTU54b3REYkJhWFIzVGc?oc=5",
-      "source": "www.topnews.co.th",
-      "category": "ข่าวสุขภาพทั่วไป",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ม.หัวเฉียวฯ เปิดตัวอธิการบดีคนที่ 7 ชูธงใช้ AI พลิกโฉมการศึกษา ปั้นฮับนวัตกรรมสุขภาพไทย-จีนสู่ระดับอาเซียน&nbsp;&nbsp;www.topnews.co.th",
-      "date": "2026-11-06",
-      "id": "5a7a98d34f5ba43b36368b2844355f3a"
     },
     {
       "title": "รัฐบาลลุยตรวจเข้มร้านกัญชา ย้ำคุมการใช้เพื่อการแพทย์ ไม่หนุนใช้เพื่อสันทนาการ - www.thairath.co.th",
@@ -303,18 +289,6 @@
       "id": "3797412263df24f3a5196b3de015c21c"
     },
     {
-      "title": "ภูเก็ตปักธง Global Wellness Hub! ประกาศความพร้อมจัดประชุมสากล GWS 2026 รับผู้นำสุขภาพทั่วโลก - ThaiPR.NET",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRSWJJa1FUcklkTVJiN2xOaGUyb3VXVFpXRWg1eF9JUFp2MklBVFJ2ZjhzVVlPUVJKcWxSajcwcE9FM0R4MFNaYV9Dc0FXckE?oc=5",
-      "source": "ThaiPR.NET",
-      "category": "เวลเนส",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ภูเก็ตปักธง Global Wellness Hub! ประกาศความพร้อมจัดประชุมสากล GWS 2026 รับผู้นำสุขภาพทั่วโลก&nbsp;&nbsp;ThaiPR.NET",
-      "date": "2026-11-05",
-      "id": "d1ec66b362e01baae15c3598167ad651"
-    },
-    {
       "title": "สธ. เผยความพร้อมโค้งสุดท้าย GWS 2026 รับผู้นำเวลเนสทั่วโลกที่ภูเก็ต ชูแนวคิด ‘Health for Wealth’ - เดลินิวส์",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9wQ3VQbWlHUU1RUHlzeGY5SXNVTmp0aHY0dmMwN1JKRmNCbjF4dk9CVE0tRzcwNUN0WjM1cnpfalFCUnZTcHlLV2wxYTA4c3VRS1Vj?oc=5",
       "source": "เดลินิวส์",
@@ -339,18 +313,6 @@
       "id": "ac9c0edf6b9be7519aaf5d352e5ef4fe"
     },
     {
-      "title": "Can Wearable Health Devices Reflect Traditional Chinese Medicine Concepts? - digitimes",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSkJlNGZzVFk2bF84bzJHVEZQc2hNWUdTQmpzNDVWZnhWZmd4RER2ZUgzQkZuWFNiQmNTanpNZi1jRXJCRGZxQ3FXR2NxbkZsVzZKSEo0bmNwd01XR3cyZUVGNGZ2Y2pTbDBnQnNuaTh5N282MmdqYjBIX3RQSTd6Zjh4OE1PYmZmT3p5aFhDZjl6Zw?oc=5",
-      "source": "digitimes",
-      "category": "แพทย์แผนจีน",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Can Wearable Health Devices Reflect Traditional Chinese Medicine Concepts?&nbsp;&nbsp;digitimes",
-      "date": "2026-11-05",
-      "id": "6b272a1bb36e062eee2af507fa00ff55"
-    },
-    {
       "title": "กรมแพทย์แผนไทยฯ คุมเข้มร้านกัญชา 12,279 แห่ง พักใช้-เพิกถอนใบอนุญาต ฝ่าฝืนซ้ำเจอโทษหนัก - Hfocus.org",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8ya00tQXBDRlgzSXVtRjBtRXBkdXh3R05qRXNRNGp2VnpCQW9OSFB5MThQeFB4dkZBTXlKYXBXVy1UYTVtd3lSMmRQdFVqQjRDNW56VHRnRQ?oc=5",
       "source": "Hfocus.org",
@@ -361,6 +323,30 @@
       "summary": "กรมแพทย์แผนไทยฯ คุมเข้มร้านกัญชา 12,279 แห่ง พักใช้-เพิกถอนใบอนุญาต ฝ่าฝืนซ้ำเจอโทษหนัก&nbsp;&nbsp;Hfocus.org",
       "date": "2026-11-04",
       "id": "2704e7d98ef89e5eb0ae9b2f362b567a"
+    },
+    {
+      "title": "นายกฯ แต่งตั้ง 'บอร์ด Wellness แห่งชาติ' ดันไทย 'ดินแดนแห่งชีวิตและสุขภาวะ' - bangkokbiznews",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tX2ZyWWYyenlvR2R6N1BSUnM0S0VCWkh4Y3NsOEE0dEhmV044LU1oVFNROTBDRkY2MjFtSWMwbW4xalZELWFMbXNUNDFRYmJzSS1FNkUzV0t6eGI4UkpjTWtlTG1kNFk?oc=5",
+      "source": "bangkokbiznews",
+      "category": "เวลเนส",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "นายกฯ แต่งตั้ง 'บอร์ด Wellness แห่งชาติ' ดันไทย 'ดินแดนแห่งชีวิตและสุขภาวะ'&nbsp;&nbsp;bangkokbiznews",
+      "date": "2026-11-04",
+      "id": "b5fac66fc66640b3854f25933557078b"
+    },
+    {
+      "title": "ภูเก็ต ปักธงเวลเนส ฮับ ประกาศความพร้อมจัดประชุมสากล GWS 2026 รับผู้นำสุขภาพทั่วโลก - Matichon Online",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mWi1Zd0pEZzlpd0IwaGdEaHU5WFZsY1Fvd1NoSU1kQzFraWExRkZyU1JaVEJ0aVVfN2hnMWJ5VVNQaVk3Skc5QXRQbGJDeUVCY1dlSktnZ1dHNUZRTXJZU0pRa0VncHlhVTVFX1FmSl8?oc=5",
+      "source": "Matichon Online",
+      "category": "เวลเนส",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "ภูเก็ต ปักธงเวลเนส ฮับ ประกาศความพร้อมจัดประชุมสากล GWS 2026 รับผู้นำสุขภาพทั่วโลก&nbsp;&nbsp;Matichon Online",
+      "date": "2026-11-04",
+      "id": "f27d207d3796728ba9a1b3d9939a55e3"
     },
     {
       "title": "Why So Many People Are Ditching Their Morning Workout for 10 Minutes of Qigong and What the Research Says - Kansas City Star",
@@ -397,18 +383,6 @@
       "summary": "Indonesia, WHO bolster herbal medicine control to tap economic benefit&nbsp;&nbsp;ANTARA News",
       "date": "2026-11-04",
       "id": "914a07db522ec569cf58471959976f15"
-    },
-    {
-      "title": "Yoga, Naturopathy, and Lifestyle Interventions in Parkinson’s Disease: A Narrative Review of Evidence and Safety - Cureus",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPS1RmdmFwS3VZckpZMlVtb1NQQzhieXFZaE14NVpYdEN1Y2h4UjYzUW5rSzJ3RWpmYU4wV1lyYjJ2VW9INVZfYTNXblB0SzR6UWozdW5rbC1GdmFhelRaVjZqMk9OMkZNR200Ym5sYkFTVUoxUWdpTUVEZXMwbHBpbnl3dlZVWllMRHJUQWN2VklaSnJMV1RvWGtvUnp5MU11UlJrbzRxTngwc0FRYXczVWxkQ2FHalBwdmhYZTFtZG5ncktIa3VIZTJ3Rk5aRHQ1aVhoamxsbkh6UXY1eTVIbw?oc=5",
-      "source": "Cureus",
-      "category": "ข่าวสุขภาพทั่วไป",
-      "region": "ต่างประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "Yoga, Naturopathy, and Lifestyle Interventions in Parkinson’s Disease: A Narrative Review of Evidence and Safety&nbsp;&nbsp;Cureus",
-      "date": "2026-11-04",
-      "id": "49db54419fa584be4c0c48cd3f406a82"
     },
     {
       "title": "งานไทยเที่ยวไทย ครั้งที่ 80 พร้อมไทยเที่ยวนอกและเวลเนส ทราเวลแฟร์ รวมโปรเที่ยวจุใจ - kapook.com",
@@ -471,18 +445,6 @@
       "id": "8f3ee5b4ee9a1bb20358be0b69f03e67"
     },
     {
-      "title": "ONSENS จับมือ SAN ปั้น “The Sense of Songkhla” ผสานโนราห์สู่สปาร่วมสมัย - TheReporterAsia",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GTkVXSzRGcmw1RWFFZlUwTThZc2NkWEc2OVVfUlVXdXN6LVlvOWpfUFpka3ZZOXk4MkNVaEVDTFZJZWdjRm9iQmdxeG5vRWtXeXFDNjI3NW1aNTNFRVhiQ1dONmxLLXhraC1PZlEzaTUzMEVU?oc=5",
-      "source": "TheReporterAsia",
-      "category": "สปา",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ONSENS จับมือ SAN ปั้น “The Sense of Songkhla” ผสานโนราห์สู่สปาร่วมสมัย&nbsp;&nbsp;TheReporterAsia",
-      "date": "2026-11-02",
-      "id": "dc3d87a88d8a5884152eefa8769fdbdc"
-    },
-    {
       "title": "กรมการแพทย์แผนไทยฯ จัดประชุม 29-30 ต.ค.นี้! รับมือ “สะเก็ดเงิน” ชูยาปรุงเฉพาะรายดูแลผู้ป่วย - Hfocus.org",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBrY3A0QmxkenduY0QwRzBfSGUtZC00MHl2M2pMNTBsSWRiRlF6Q0MwWXAzbUgtUmVINzRTZzVXV3RKVFZLZi0yYjIyUk5ub1M2Y0VpUTlwRQ?oc=5",
       "source": "Hfocus.org",
@@ -531,6 +493,18 @@
       "id": "dee0583af8a96dfc1f62faac35c8a792"
     },
     {
+      "title": "สภาการแพทย์แผนไทย เร่งตรวจสอบปมโซเชียลฯ แพร่ภาพการฝังเข็ม - สสจ.พะเยาตรวจสอบเช่นกัน - Hfocus.org",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56RldLN3l4M0s4LTFEQ05Gb3hxeFpFYUNKM2QwNjdtZTVFeU93ZUtJUExIN3pGUk5nMTZaazg4MEkxRzNXZV9KU2k4YnFlYXZoNmVhMlBsZw?oc=5",
+      "source": "Hfocus.org",
+      "category": "ฝังเข็ม",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "สภาการแพทย์แผนไทย เร่งตรวจสอบปมโซเชียลฯ แพร่ภาพการฝังเข็ม - สสจ.พะเยาตรวจสอบเช่นกัน&nbsp;&nbsp;Hfocus.org",
+      "date": "2026-10-16",
+      "id": "3b46411c033d0cda3dc5e6be7ccf1f36"
+    },
+    {
       "title": "สธ. เพิ่ม ‘แพทย์แผนจีน-เวชสถิติ’ ให้ ‘นับอายุงานต่อเนื่อง’ เพื่อรับ ‘เบี้ยเลี้ยงเหมาจ่าย’ ได้ - The Coverage",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DWFdPSkFBajlkN3gxZlVTNmo3eUxiblp5M0xDWnBlbW5DdGx6dGFGcUZoWlVQNzlyOXBXcXV0bGJPR3ZvT3FScGR3ZDZtNS1CYVVqU1B4R2Zhdk0?oc=5",
       "source": "The Coverage",
@@ -553,18 +527,6 @@
       "summary": "สธ.ปรับเกณฑ์เบี้ยเลี้ยงเหมาจ่าย เพิ่ม 3 ตำแหน่ง ‘แพทย์แผนจีน–เวชสถิติ’ ให้นับอายุงานต่อเนื่อง&nbsp;&nbsp;Hfocus.org",
       "date": "2026-10-16",
       "id": "7e0151f65cab8884bb1b66774d1c14e1"
-    },
-    {
-      "title": "สภาการแพทย์แผนไทย เร่งตรวจสอบปมโซเชียลฯ แพร่ภาพการฝังเข็ม - สสจ.พะเยาตรวจสอบเช่นกัน - Hfocus.org",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56RldLN3l4M0s4LTFEQ05Gb3hxeFpFYUNKM2QwNjdtZTVFeU93ZUtJUExIN3pGUk5nMTZaazg4MEkxRzNXZV9KU2k4YnFlYXZoNmVhMlBsZw?oc=5",
-      "source": "Hfocus.org",
-      "category": "ฝังเข็ม",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "สภาการแพทย์แผนไทย เร่งตรวจสอบปมโซเชียลฯ แพร่ภาพการฝังเข็ม - สสจ.พะเยาตรวจสอบเช่นกัน&nbsp;&nbsp;Hfocus.org",
-      "date": "2026-10-16",
-      "id": "3b46411c033d0cda3dc5e6be7ccf1f36"
     },
     {
       "title": "Wellness Tourism Market Size, Share, Trends 2036 - Future Market Insights",
@@ -723,6 +685,18 @@
       "id": "0bab73f397da98a625eb13a0104af008"
     },
     {
+      "title": "กรมการแพทย์แผนไทยฯ ชู 4 แนวทางแพทย์แผนจีน ผสานแผนปัจจุบันสู้ภัยอัลไซเมอร์ผู้สูงอายุ รับวันอัลไซเมอร์โลก - thailandplus",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5ieDFlZi1MUjJmX1lVeGVYZXdaazBzbjRQVDFickMwN29iV2ZoeDJrY1huaHBIcW94bG44Ui1tVkFvekcyTDB2WEFwZDV3b19WLWtDR180SQ?oc=5",
+      "source": "thailandplus",
+      "category": "แพทย์แผนจีน",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "กรมการแพทย์แผนไทยฯ ชู 4 แนวทางแพทย์แผนจีน ผสานแผนปัจจุบันสู้ภัยอัลไซเมอร์ผู้สูงอายุ รับวันอัลไซเมอร์โลก&nbsp;&nbsp;thailandplus",
+      "date": "2026-09-21",
+      "id": "6f87648e6a8e3161ce7a6d5814a4e880"
+    },
+    {
       "title": "วัดภาวนาโกย่า จัดปฏิบัติธรรม ณ ร้านนวดแผนไทยนพรัตน์ : ข่าวพระพุทธศาสนา - DMC.tv",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tXzlOQS0yYjZzSW9tdS1MclAzT1lsQ2hyT1hJVkFZQk1FN2plcEltS2k2cDRaYXpoMmtSZVJJMk5uRWpYRnlxQ0ZjRWt1VEZSOEFza1h3?oc=5",
       "source": "DMC.tv",
@@ -733,6 +707,18 @@
       "summary": "วัดภาวนาโกย่า จัดปฏิบัติธรรม ณ ร้านนวดแผนไทยนพรัตน์ : ข่าวพระพุทธศาสนา&nbsp;&nbsp;DMC.tv",
       "date": "2026-09-18",
       "id": "6f5a91be62214546bfcd1dd00a13281a"
+    },
+    {
+      "title": "บอร์ด สปสช. หนุนนำร่อง ‘ตำรับยาแผนไทย’ มุ่งยกระดับการรักษา ‘โรคสะเก็ดเงิน’ - The Coverage",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QQTQ2TnU3SXRFMm9NSEFIR2RPc29EZmlSSmtqaElnYUNVNlhOTkJFY0kyMjl4R2hSYjhPSDRUNFJmbF9LMTV2Ty13TUphdzZnR0k2ek90MmZXd00?oc=5",
+      "source": "The Coverage",
+      "category": "แพทย์แผนไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "บอร์ด สปสช. หนุนนำร่อง ‘ตำรับยาแผนไทย’ มุ่งยกระดับการรักษา ‘โรคสะเก็ดเงิน’&nbsp;&nbsp;The Coverage",
+      "date": "2026-09-13",
+      "id": "3ecf9298028c4e3839ef11e4ccc4fbaa"
     },
     {
       "title": "กานซูชูศักยภาพการแพทย์แผนจีน เปิดทางไทย-จีนต่อยอดอุตสาหกรรมสมุนไพร - เดลินิวส์",
@@ -915,6 +901,18 @@
       "id": "b93568a98586d56841b63c4ced97021c"
     },
     {
+      "title": "ราชกิจจาฯ ประกาศเพิ่ม ‘พยาบาล-แพทย์แผนจีน’ มีสิทธิรับเงินประจำตำแหน่ง - thecoverage.info",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MUFZ1bV96aDFLdUR1QjVEOWxmb1VEOUtMTGxYdHRPOXlfWjlILXQ0dGk0RkwzRTRWZEFQcWxlbXdyRk9kTUNEV0hERUhwRDVjdVNJUjZQdmtiQ3M?oc=5",
+      "source": "thecoverage.info",
+      "category": "แพทย์แผนจีน",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "ราชกิจจาฯ ประกาศเพิ่ม ‘พยาบาล-แพทย์แผนจีน’ มีสิทธิรับเงินประจำตำแหน่ง&nbsp;&nbsp;thecoverage.info",
+      "date": "2026-07-20",
+      "id": "ae3beaf1c289e0dfb26420ca7253267c"
+    },
+    {
       "title": "\"พยาบาล-แพทย์แผนจีน\"เฮ รับเงินประจำตำแหน่ง ก.พ.ประกาศ-มีผลแล้ว - thansettakij",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9mME5fZFhlX0FmQUtfNGtoSGViMkdFX2dTZmNrdmp4dHVPcFhVd05tX0pZb3VCWXFnQ0lEMzRfaGZHTFBjTVJtYlI1elJ1YmtzYTYxNnltckotWkFK?oc=5",
       "source": "thansettakij",
@@ -925,6 +923,18 @@
       "summary": "\"พยาบาล-แพทย์แผนจีน\"เฮ รับเงินประจำตำแหน่ง ก.พ.ประกาศ-มีผลแล้ว&nbsp;&nbsp;thansettakij",
       "date": "2026-07-19",
       "id": "ec0117233059130b900cf541f5525bf9"
+    },
+    {
+      "title": "กางแผน 5 ปี ปักหมุด ‘เวลเนส-สปาไทย’ ดันขึ้นติด Top 5 เอเชีย - thansettakij",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JTFk1Tm5MT2ZnbU1HY0ZsLUNJQUdONS1fRWE0eFF6OS0zT3BoR1VYTU94Z2RaaWVHYUJVNnpBSVdpWVBqRHQ5TDVQTndMRFBGTjlCeGlzZUVINFRkUXZNa19FMVRldEpOcHc?oc=5",
+      "source": "thansettakij",
+      "category": "สปา",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "กางแผน 5 ปี ปักหมุด ‘เวลเนส-สปาไทย’ ดันขึ้นติด Top 5 เอเชีย&nbsp;&nbsp;thansettakij",
+      "date": "2026-07-16",
+      "id": "4fb7f978164b97dcb4b461badfac1677"
     },
     {
       "title": "กรมแพทย์แผนไทยเคุมเข้ม 'กัญชาทางการแพทย์' ก่อนชงร่าง พ.ร.บ.เสนอรัฐบาล 24 ก.ค.นี้ - สำนักข่าวอิศรา",
@@ -1083,6 +1093,18 @@
       "id": "375afa610390d83a97733334624ff8a7"
     },
     {
+      "title": "กรมแพทย์แผนไทยฯ ออกแนวทาง เพิ่มโทษ ‘ร้านกัญชา’ ฝ่าฝืนประกาศฯ ทำผิดซ้ำเพิกถอนทันที - The Coverage",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96SnRzU1VobnIwRDNHY2RkRG9XQ1BQaVJXNF9ILWxhcFhUWmxMaDF4bjhrSUFudC1YTlpJNnVnRDB3N3I3NUwzSmNIQ3RBZjFTdUhwdFhTZkZqZ2M?oc=5",
+      "source": "The Coverage",
+      "category": "แพทย์แผนไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "กรมแพทย์แผนไทยฯ ออกแนวทาง เพิ่มโทษ ‘ร้านกัญชา’ ฝ่าฝืนประกาศฯ ทำผิดซ้ำเพิกถอนทันที&nbsp;&nbsp;The Coverage",
+      "date": "2026-06-22",
+      "id": "09048c2703eeb8bec140df96cd7ff01a"
+    },
+    {
       "title": "ตลาดสปาไทย 70,000 ล้านบาท จะพลิกเกมธุรกิจ เด่นบริการไม่พอ ต้องเก่งบริหาร-การเงิน - Marketeer Online",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4SHBIOEZsOF9FWDk3bkRvY3ItUmtoWnlDMUpCUGFDQ2JsLWdlRUlnbXRYTVFnRFE2Ymlya3I1MU44MDFKLTVsU2dTbFFIQ3lrbXJrVA?oc=5",
       "source": "Marketeer Online",
@@ -1141,6 +1163,18 @@
       "summary": "ปลุก Soft Power ไทย เจาะไลฟ์สไตล์คนเมือง ดัน “สมุนไพร” สู่ตลาดสุขภาพโลก&nbsp;&nbsp;Thai PBS",
       "date": "2026-06-11",
       "id": "c9fee7cbcc44d76914b2ff437bbc7997"
+    },
+    {
+      "title": "บัตรทอง ปี 69 เพิ่มงบ 'แพทย์แผนไทย' เท่าตัว นวด-พอกเข่า- ฝังเข็มฟรี - bangkokbiznews",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uNVQwU3hFSEUtYTZjckVZRVBEMktXQThrN2FKejdfVmswQ2NlcU5Yb0o2bG1qOFRfdkhiSlBNcTZ5SHlfbHA3TUZYajFVTEtTRnRIRThfaWZicEIydVVsSnlnbHFvUQ?oc=5",
+      "source": "bangkokbiznews",
+      "category": "ฝังเข็ม",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "บัตรทอง ปี 69 เพิ่มงบ 'แพทย์แผนไทย' เท่าตัว นวด-พอกเข่า- ฝังเข็มฟรี&nbsp;&nbsp;bangkokbiznews",
+      "date": "2026-06-08",
+      "id": "1f42a9bec0e9ac6649315f68436df70c"
     },
     {
       "title": "ต้นแบบ ‘คลินิกการแพทย์แผนจีน’ แบบผสมผสานระดับมหาวิทยาลัย - มหาวิทยาลัยธรรมศาสตร์",
@@ -1239,6 +1273,18 @@
       "id": "690ac66ccf100826240a7aee4fff7f25"
     },
     {
+      "title": "กรมการแพทย์แผนไทยฯ ยกระดับคุมเข้ม “กัญชาทางการแพทย์” ปรับโฉมร้านจำหน่ายกัญชาสู่สถานพยาบาล สร้างความเชื่อมั่นความปลอดภัยทั่วประเทศ - สำนัก สารนิเทศ",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSVDh2MDFBSUQ5Z0F3SW9ncGYySF9zZHhWdGo3dnFwemFjYnRieGM5TlA5dG12bkxrRzNtRDg1Q3NOM3A2ODRmN1VzV2xYTG9DVGliT25FRFRYUQ?oc=5",
+      "source": "สำนัก สารนิเทศ",
+      "category": "แพทย์แผนไทย",
+      "region": "ในประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "กรมการแพทย์แผนไทยฯ ยกระดับคุมเข้ม “กัญชาทางการแพทย์” ปรับโฉมร้านจำหน่ายกัญชาสู่สถานพยาบาล…",
+      "date": "2026-05-15",
+      "id": "6b6fe680726ba2550eff802932e7bd3b"
+    },
+    {
       "title": "Wellness tourism hits $894 bn and the growth is not over, tells Phocuswright - TravelMole",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZkF5Z09ObHJHZ0M2VUJxRmlnTXRwZWRTQWhmREVTRUF2T3JBMG1kNUEtME44aUZSY2FtcWpla01IUm91YXlSdV9pYVY3SnRzQnRvLTVVSV9CcFlSU3ZPR0Nzb1pWc0NzcmkxTzB2SnNNRXlhSkxySjF6N1NBXzNPWWU3LVBNZUFFZTZHS2JYMDl5Ulh1VXJqWFNCaUNMZ1hyZUkwMg?oc=5",
       "source": "TravelMole",
@@ -1249,30 +1295,6 @@
       "summary": "Wellness tourism hits $894 bn and the growth is not over, tells Phocuswright&nbsp;&nbsp;TravelMole",
       "date": "2026-05-15",
       "id": "cf81b0f1e1c33521df6343d6e9da9563"
-    },
-    {
-      "title": "กรมการแพทย์แผนไทยฯ เตรียมเสนอ ร่าง พ.ร.บ.กัญชา กัญชง เข้า ครม.เดือน ก.ค.นี้ - Thai PBS",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBNU9lcmpoTmljVUZkb0xGQ1ZJaVJNSmUwMGlfRnROczdUNmJjQ1U5eHlCQzNDbW10ODlqSWNSQmxEQmhaZWwxRWV5SU13Zy1HRWRqOHNsZjE?oc=5",
-      "source": "Thai PBS",
-      "category": "แพทย์แผนไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "กรมการแพทย์แผนไทยฯ เตรียมเสนอ ร่าง พ.ร.บ.กัญชา กัญชง เข้า ครม.เดือน ก.ค.นี้&nbsp;&nbsp;Thai PBS",
-      "date": "2026-05-14",
-      "id": "0e273d9bf28c544a28bfb5d2627136de"
-    },
-    {
-      "title": "ยกระดับคุมเข้ม “กัญชาทางการแพทย์” ปรับโฉมร้านขายกัญชาสู่สถานพยาบาล - pptvhd36.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbnNlRzJCbmlMcWZiX1BTcC1jdVRtMTl0M3R1WjhsOGlNbFk1RU1zcDlYVmhISGdUNk9SeUNabWNZbGdldnRLSTk2VmVpaHliNms2WkFLa0RJNU5EczA3NlB2VVlLLXF3LU5BVFVySGluQ3lOUEI4VFhDUHNVeW5ZSF9ZWkxrRW5lXzRMTjNFSG55OWphOEE?oc=5",
-      "source": "pptvhd36.com",
-      "category": "กัญชา / กัญชง",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ยกระดับคุมเข้ม “กัญชาทางการแพทย์” ปรับโฉมร้านขายกัญชาสู่สถานพยาบาล&nbsp;&nbsp;pptvhd36.com",
-      "date": "2026-05-14",
-      "id": "13c260dd67b3766152eedaa301ed8631"
     },
     {
       "title": "เลิกบุหรี่ด้วยการแพทย์แผนไทย ใคร ๆ ก็ทำได้ - สำนักงานกองทุนสนับสนุนการสร้างเสริมสุขภาพ",
@@ -1309,18 +1331,6 @@
       "summary": "The economics of digitally integrated wellness services in heritage regions&nbsp;&nbsp;Frontiers",
       "date": "2026-05-05",
       "id": "4ef788c9992323890991872acfc61f6b"
-    },
-    {
-      "title": "เปิดศูนย์การแพทย์แผนไทยฯ ‘เขต 6’ เพิ่มทางเลือกเข้าถึงรักษา ให้ 8 จว. ‘ภาคตะวันออก’ - The Coverage",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZTTlhX2VBcGhRQ3lvVDRCMWVIR0UzTjVoWXNHQXhkS1A1MFNjSXBuY2VtazNWaUpGT0FVRUZCRzFqcGVwNTJKQWRxNnFXQ1Q2N0hHbzRiNDNCcUk?oc=5",
-      "source": "The Coverage",
-      "category": "แพทย์แผนไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "เปิดศูนย์การแพทย์แผนไทยฯ ‘เขต 6’ เพิ่มทางเลือกเข้าถึงรักษา ให้ 8 จว. ‘ภาคตะวันออก’&nbsp;&nbsp;The Coverage",
-      "date": "2026-04-27",
-      "id": "ed2aca1ac2ec2bab29484e7d9a45871d"
     },
     {
       "title": "Integrative medicine practitioner and wife of acting U.S. attorney general appointed to NIH advisory council - STAT",
@@ -1395,16 +1405,16 @@
       "id": "1cb0f2ce60c33a2686cdbcfdd4280b1a"
     },
     {
-      "title": "แพทย์แผนไทยมุ่งสู่มาตรฐานโลก หลังรับรหัสสากล ‘Namespace’ สร้างผลดี 4 มิติในระบบสุขภาพ - The Coverage",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5tUndtMjFpR2hWWTc0MjVUSE40eTBYZEZENWZhclFsTHlOZl9jR21WODVGVkkyTjlnWS1kalY3d1FnLUczck9TZ2djNGlVTkM0eEhSWFB2QTFjQ0k?oc=5",
+      "title": "งานวิจัยชี้ ‘32 ยาสมุนไพรไทย’ คุณภาพเทียบ ‘ยาแผนปัจจุบัน’ กรมแพทย์แผนไทยฯ - สปสช. หนุนใช้ - The Coverage",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45d0o0UWF0NmU3clVIZUREV2kzVDdMMGotQnFPdXBjQmtkek5TZXhVMndmRENLNGktcXZOOTB1MVBGM0pMaXBqU2RxZ3Y2cklnaWRFOGgyWFF1TGM?oc=5",
       "source": "The Coverage",
       "category": "แพทย์แผนไทย",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "แพทย์แผนไทยมุ่งสู่มาตรฐานโลก หลังรับรหัสสากล ‘Namespace’ สร้างผลดี 4 มิติในระบบสุขภาพ&nbsp;&nbsp;The Coverage",
-      "date": "2026-04-04",
-      "id": "00b220938b36eaf06ad0a1e4dc4dfecd"
+      "summary": "งานวิจัยชี้ ‘32 ยาสมุนไพรไทย’ คุณภาพเทียบ ‘ยาแผนปัจจุบัน’ กรมแพทย์แผนไทยฯ - สปสช. หนุนใช้&nbsp;&nbsp;The Coverage",
+      "date": "2026-04-09",
+      "id": "b92bde23e97f20e453670a4bc0f37d38"
     },
     {
       "title": "'ร้านขายกัญชา'ลดฮวบเหลือแค่ 3,000 แห่ง สธ. มุ่งทางการแพทย์เต็มรูปแบบ - bangkokbiznews",
@@ -1431,16 +1441,16 @@
       "id": "d4233c483a487f2cc0ea7d24907cd766"
     },
     {
-      "title": "ดัน 99 สมุนไพรไทย ขึ้น “Positive List” หนุนเศรษฐกิจสุขภาพโตไวและยั่งยืน . สำนักงานคณะกรรมการอาหารและยา (อย.) เพิ่มรายการผลิตภัณฑ์มาตรฐาน หรือ “Positive List” อีก 99 รายการ ครอบคลุมยาแผนไทย ผลิตภัณฑ์เสริมสุขภาพ และเวชสำอาง เพื่อให้ผู้ประกอบการโดยเฉพาะรายย่อยสา - Facebook",
-      "link": "https://news.google.com/rss/articles/CBMi1AZBVV95cUxOZDAtaDVQaXBaTmFQZW4tel82bmt0MjFCNUllVno5bXdneGtCb3c5aDJVUm9WTkVEQldFcjJzYjlvYjVBMmZsZWJTdGFRNGFtWlVibEpXY0dKdm1vUWRGd19ZY1lpeU9FWm1WQ1ozQlE0aHlGTmtWdDgzV25hanlEZHNuRkpwTy1YbXNONU9pWGFXZ0p4bGVfeVUtbkFKclpEbmZNOVhHaVBRSHlVMWpBSUxxVXFSSEZCNkpiLUJzb1FzRWg1UDRqTU5RQzI2OTRFNVVtbE9iZHBIZ3RtMGt6T0FkNzlJZ210QXFxUFQ4RTdLUHA0SGZJV01EeWpoOHVheE1SejVDZEtvdHcyT2ZPclVYUU96VERvY2VGWG00ejNZUTRnZnRZZ0FCa3JYTTRmaTA4Tm5xaG16X0cydXZLUVpDYjZjZi1lTzFPdzlQbzBVV2dzZEwwRzJLWTZWYXI1MnhvS2RkU2hfaWVkMHpjd0p4OV9zM0FvOXhscmtER3dWaXZEdHJHTks5NE1xMHVGbXgyZEkyTnVVVXl4YVRfbFhaUDdsNlpBWl9MS3A0MjNGeHZBc0FVbUQ0Y3dsdE5fSVZGUG11VFRlNzJHQTk3VkRzUVJoTXV1amNfLWE5NzFGOHRNRnpYbEgwNm5fVTBheVFoVXZVcU9wZTh5QkVrUnBibi0xNzNLVk9HQmV0TUlHV2FWUDY1a2RHUWlJa1Nod1QxR1ZGUVc0MklzUmtaNF9kY0dabi0xbVdJTlNRRDhBUjRhOWhJVEhtckhqWlN4V0NXdTdjUVdpU293Q3pIMWVBVk5pUmdNbmdfRkdpeXF2bDBvOHI0aXQwRXJiZzFaSlZtREtoVF9pQUNuNGtCendtd2xhVVJtUHMwZnBvQ3NZc0RaZnNqRHU5dGQ5WjVtdXA2Y0tpQy1vR3VhN25tSjFleVM4cG9mR1FnenZNSDNSZkx2MWdaSzVEQlNpb0tiOEJselhDbHNhNk41amQtV0pRVXl1R1dVOGVIX2lTcmhpVmJQaF9KdjAtaGdfV3BBMUxTQXlBVnpiVWxBSGFpb05mMnhfajVycFpTTHhnUW5sUnRSdWx5SGhydHU4cVJ4Z0VsbHdtb0J3SEpJRFBMOGRpNng?oc=5",
-      "source": "Facebook",
+      "title": "กรมการแพทย์แผนไทยฯ เดินหน้าอบรมผู้ปฏิบัติงานประจำสถานที่ให้บริการกัญชาทางการแพทย์ - สำนัก สารนิเทศ",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oaXY5RlA5bWFxODdUT2dHTDFkWlI2YzJ1Y2cwaDk2c2ZGTUZNNloxeHgzWDRBeW5WYWtxMXFTd3dYM195U21ZR3FWeURzMmNwX3NibDlCRGJBUQ?oc=5",
+      "source": "สำนัก สารนิเทศ",
       "category": "แพทย์แผนไทย",
       "region": "ในประเทศ",
       "topic_page": null,
       "image": null,
-      "summary": "ดัน 99 สมุนไพรไทย ขึ้น “Positive List” หนุนเศรษฐกิจสุขภาพโตไวและยั่งยืน . สำนักงานคณะกรรมการอาหารและยา (อย.) เพิ่มรายการผลิตภัณฑ์มาตรฐาน…",
-      "date": "2026-02-22",
-      "id": "e7be9074b9c39dce2eb7f690e1d39a76"
+      "summary": "กรมการแพทย์แผนไทยฯ เดินหน้าอบรมผู้ปฏิบัติงานประจำสถานที่ให้บริการกัญชาทางการแพทย์&nbsp;&nbsp;สำนัก สารนิเทศ",
+      "date": "2026-03-20",
+      "id": "136a8178d2928e7ff8afe16a2086ce70"
     },
     {
       "title": "จีนเผยการค้าวัตถุดิบสมุนไพรแพทย์แผนจีนปี 2025 ไทยครองแหล่งนำเข้าอันดับหนึ่ง - กรมส่งเสริมการค้าระหว่างประเทศ (DITP)",
@@ -1563,18 +1573,6 @@
       "id": "d54b5212b4cb698325ba282babdf625d"
     },
     {
-      "title": "ด่วน!รับสมัคร 'หญิงไทย 25 อัตรา' ทำงานนวดแผนไทยในมาเลเซีย - bangkokbiznews",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uV1ppNHppYmtxYVBMTzV1WEhnMTZfQzNrUFo1c0Zsem5sT1FpV0VfeldxazZ4dmhjOEE3VEVWajV2VUwteUd3aGpoN2w3NGN1d3cxdDQ1MzZubFFTMUhZaUh3?oc=5",
-      "source": "bangkokbiznews",
-      "category": "นวดไทย",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "ด่วน!รับสมัคร 'หญิงไทย 25 อัตรา' ทำงานนวดแผนไทยในมาเลเซีย&nbsp;&nbsp;bangkokbiznews",
-      "date": "2025-12-01",
-      "id": "4b543931b41f418098b7b0214d87860e"
-    },
-    {
       "title": "The 9 Biggest Wellness Travel Trends of 2026 - Condé Nast Traveler",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdlQydnh3RzV4elRQcTRycE5HZkRKRWhGSVE3bkRGU19KNUdQWEFrTmFHUXVOenQ3LWpISVZTSHBNRnZXZ1pDbXJoam9hNEVpUUFEX0ljLXd6N19xM2p5T1VxRmV2MjNQay1uMzVLTUx1X1ZWa25jN3V6NTBHekV0RQ?oc=5",
       "source": "Condé Nast Traveler",
@@ -1669,18 +1667,6 @@
       "summary": "7 ways AI is transforming healthcare&nbsp;&nbsp;World Economic Forum",
       "date": "2025-08-13",
       "id": "c739a86c39f2a33a76a5933922385174"
-    },
-    {
-      "title": "เช็ก 5 กลุ่มอาการใช้กัญชารักษาได้ สธ.ติวเข้มแพทย์ออกใบสั่งยา - Policy Watch",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ncGZ2d2VJMnFyNFpTbjhDdXNLX2pheHJZSnlfWUE2MmptRFYzYTFuUnVua0w2ckpaS0I0NkpJNzd2RlMtMVJGZU1ROGJBaG42cmlJcXhPdHVqMkMwZWxr?oc=5",
-      "source": "Policy Watch",
-      "category": "กัญชา / กัญชง",
-      "region": "ในประเทศ",
-      "topic_page": null,
-      "image": null,
-      "summary": "เช็ก 5 กลุ่มอาการใช้กัญชารักษาได้ สธ.ติวเข้มแพทย์ออกใบสั่งยา&nbsp;&nbsp;Policy Watch",
-      "date": "2025-07-21",
-      "id": "f82f321dac04de3417d8f97ee9263199"
     },
     {
       "title": "‘นวดไทย’ โอกาสทองตลาดโลก ทำงานได้ทุกที่เกิดขึ้นได้จริงหรือแค่ฝัน? . ปัจจุบัน “นวดไทยและสปา” เป็นอาชีพที่มีความต้องการทั่วโลก ทั้งในไทยและต่างประเทศ ในต่างประเทศไทย ไม่ได้เรียกว่า Thai Massage แต่เรียกว่า Nuad Thai ซึ่งนวดไทยได้รับการขึ้นทะเบียนจากยูเนสโกเป็นตัวแท - Facebook",
@@ -1861,6 +1847,18 @@
       "summary": "Possible opportunities and challenges for traditional Chinese medicine research in 2035&nbsp;&nbsp;Frontiers",
       "date": "2024-06-21",
       "id": "ae45e14544899bd429abb42aa0551972"
+    },
+    {
+      "title": "Useful or not? The discussion of traditional Chinese medicine to treat COVID-19 on a Chinese social networking site - BMJ Global Health",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Vb0lUZUdSWGtuOGRsSHRVLTd2X19oNGhCTHlpc2JDRzRHZ0xHM1R0d05TT3VEdDJ4aE9ySVVTU0ttVWVNQ3FuSzdpNWp1bTg?oc=5",
+      "source": "BMJ Global Health",
+      "category": "แพทย์แผนจีน",
+      "region": "ต่างประเทศ",
+      "topic_page": null,
+      "image": null,
+      "summary": "Useful or not? The discussion of traditional Chinese medicine to treat COVID-19 on a Chinese social networking site&nbsp;&nbsp;BMJ Global…",
+      "date": "2024-06-10",
+      "id": "3f714c95484828f26971f9878cad272e"
     },
     {
       "title": "แพทย์แผนไทยและแพทย์ทางเลือก อีกหนึ่งทางเลือกเพื่อสุขภาพ พร้อมให้บริการทั้ง 11 รพ. ในสังกัดกทม. (9 ก.พ 67) นายชัชชาติ สิทธิพันธุ์ ผู้ว่าราชการกรุงเทพมหานคร เข้าเยี่ยมกลุ่มงานการแพทย์แผนไทยและการแพทย์ทางเลือก พร้อมรับบริการฝังเข็ม ณ โรงพยาบาลกลาง เขตป้อมปราบศัต - Facebook",
